@@ -20,9 +20,7 @@
     z-index: 1;
 }
 
-.dropdown:hover .dropdown-menu {
-    display: block;
-}
+
 
 
 
@@ -107,6 +105,10 @@ li {
         overflow: hidden;
 
 }
+.footer-2{
+    margin-left: 1em;
+}
+
 .location{
    
 }
@@ -954,6 +956,8 @@ display: none;
 
 /* Optional: Set a maximum height for the carousel on mobile view */
 @media (max-width: 767px) {
+
+
     #testimonialCarousel {
         max-height: 400px; /* 
         
@@ -984,7 +988,7 @@ display: none;
         position: relative;
     padding: 12px 1px;
     font-size: 21px;
-    margin: 0 1px;
+
     text-transform: uppercase;
     color: #605432;
     outline: none;
@@ -1022,3 +1026,301 @@ display: none;
 display: none;
 }
 }
+/* Media Query for Mobile View Only */
+@media only screen and (max-width: 431px) {
+    .carousel-item {
+        height: 135vh;
+        width: 100%;
+    }
+    .carousel-img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;    }
+
+
+    .text-container {
+        position: absolute;
+        top: 23%;
+        left: 45%;
+        transform: translate(-50%, -50%);   
+        width: 100%;
+        
+    }
+
+    .quote-form {
+        width: 90%;
+        max-width: 600px; /* Adjust the maximum width as needed */
+        margin: auto;
+        padding: 20px;
+        background-color: #ffffff94;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        order: 2; /* Set the order to 2 to move the form below the text */
+     margin-top: 25em;
+
+    }
+    .carousel-bottom-shape {
+    display: none;
+    }
+
+    .v-shape {
+display: none;
+    }
+    .carousel-text{
+      
+        font-size: 214px;
+    }
+    .carousel-description {
+        font-size: 16px;
+        color: #fff; /* Adjust text color if needed */
+        margin-top: 0px; /* Adjust top margin as needed */
+        padding-bottom: 0em;
+    
+    }
+    .text-container h1{
+        font-size: 3em;
+    }
+    .logo{
+        width: 7.5em;
+    }
+
+
+}
+/* Media Query for Mobile View Only */
+@media only screen and (max-width: 481px) {
+    .carousel-item {
+        height: 117vh;
+        width: 100%;
+    }
+    .carousel-img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;    }
+
+
+    .text-container {
+        position: absolute;
+        top: 23%;
+        left: 45%;
+        transform: translate(-50%, -50%);   
+        width: 100%;
+    }
+
+    .quote-form {
+        width: 90%;
+        max-width: 600px; /* Adjust the maximum width as needed */
+        margin: auto;
+        padding: 20px;
+        background-color: #ffffff94;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        order: 2; /* Set the order to 2 to move the form below the text */
+     margin-top: 25em;
+
+    }
+    .carousel-bottom-shape {
+    display: none;
+    }
+
+    .v-shape {
+display: none;
+    }
+    .carousel-text{
+      
+        font-size: 214px;
+    }
+    .carousel-description {
+        font-size: 16px;
+        color: #fff; /* Adjust text color if needed */
+        margin-top: 0px; /* Adjust top margin as needed */
+      
+    
+    }
+    .text-container h1{
+        font-size: 3em;
+    }
+    .logo{
+        width: 7.5em;
+    }
+
+
+}
+/* Media Query for Mobile View Only */
+@media only screen and (max-width: 361px) {
+    .carousel-item {
+        height: 100vh;
+        width: 100%;
+    }
+    .carousel-img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;    }
+
+
+    .text-container {
+        position: absolute;
+        top: 23%;
+        left: 45%;
+        transform: translate(-50%, -50%);   
+        width: 100%;
+    }
+
+    .quote-form {
+        width: 90%;
+        max-width: 600px; /* Adjust the maximum width as needed */
+        margin: auto;
+        padding: 20px;
+        background-color: #ffffff94;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        order: 2; /* Set the order to 2 to move the form below the text */
+     margin-top: 25em;
+     height: 50%;
+
+    }
+    .carousel-bottom-shape {
+    display: none;
+    }
+
+    .v-shape {
+display: none;
+    }
+    .carousel-text{
+      
+        font-size: 214px;
+    }
+    .carousel-description {
+        font-size: 16px;
+        color: #fff; /* Adjust text color if needed */
+        margin-top: 0px; /* Adjust top margin as needed */
+    
+    }
+    .text-container h1{
+        font-size: 3em;
+    }
+    .logo{
+        width: 7.5em;
+    }
+
+
+}
+/* Media Query for Mobile View Only */
+@media only screen and (max-width: 376px) {
+    .carousel-item {
+        height: 140vh;
+        width: 100%;
+    }
+    .carousel-img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;    }
+
+
+    .text-container {
+        position: absolute;
+        top: 23%;
+        left: 45%;
+        transform: translate(-50%, -50%);   
+        width: 100%;
+    }
+
+    .quote-form {
+        width: 90%;
+        max-width: 600px; /* Adjust the maximum width as needed */
+        margin: auto;
+        padding: 20px;
+        background-color: #ffffff94;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        order: 2; /* Set the order to 2 to move the form below the text */
+     margin-top: 25em;
+
+    }
+    .carousel-bottom-shape {
+    display: none;
+    }
+
+    .v-shape {
+display: none;
+    }
+    .carousel-text{
+      
+        font-size: 214px;
+    }
+    .carousel-description {
+        font-size: 16px;
+        color: #fff; /* Adjust text color if needed */
+        margin-top: 0px; /* Adjust top margin as needed */
+      
+    
+    }
+    .text-container h1{
+        font-size: 3em;
+    }
+    .logo{
+        width: 7.5em;
+    }
+
+
+}
+/* Media Query for Mobile View Only */
+@media only screen and (max-width: 322px) {
+    .carousel-item {
+        height: 150vh;
+        width: 100%;
+    }
+    .carousel-img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;    }
+
+
+    .text-container {
+        position: absolute;
+        top: 23%;
+        left: 45%;
+        transform: translate(-50%, -50%);   
+        width: 100%;
+    }
+
+    .quote-form {
+        width: 90%;
+        max-width: 600px; /* Adjust the maximum width as needed */
+        margin: auto;
+        padding: 20px;
+        background-color: #ffffff94;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        order: 2; /* Set the order to 2 to move the form below the text */
+     margin-top: 32em;
+     height: 40%;
+
+    }
+    .carousel-bottom-shape {
+    display: none;
+    }
+
+    .v-shape {
+display: none;
+    }
+    .carousel-text{
+      
+        font-size: 214px;
+    }
+    .carousel-description {
+        font-size: 16px;
+        color: #fff; /* Adjust text color if needed */
+        margin-top: 0px; /* Adjust top margin as needed */
+      
+    
+    }
+    .text-container h1{
+        font-size: 3em;
+    }
+    .logo{
+        width: 6.5em;
+    }
+
+
+}
+

@@ -54,6 +54,8 @@
         portfolioIsotope.isotope({filter: $(this).data('filter')});
     });
 
+    
+
 
     // Testimonials carousel
     $(".testimonial-carousel").owlCarousel({
@@ -71,3 +73,4 @@
 
     
 })(jQuery);
+
