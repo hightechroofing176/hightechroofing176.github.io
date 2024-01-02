@@ -1146,6 +1146,65 @@ display: none;
 
 }
 /* Media Query for Mobile View Only */
+@media only screen and (max-width: 391px) {
+    .carousel-item {
+        height: 145vh;
+        width: 100%;
+    }
+    .carousel-img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;    }
+
+
+    .text-container {
+        position: absolute;
+        top: 23%;
+        left: 45%;
+        transform: translate(-50%, -50%);   
+        width: 100%;
+    }
+
+    .quote-form {
+        width: 90%;
+        max-width: 600px; /* Adjust the maximum width as needed */
+        margin: auto;
+        padding: 20px;
+        background-color: #ffffff94;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        order: 2; /* Set the order to 2 to move the form below the text */
+     margin-top: 25em;
+
+    }
+    .carousel-bottom-shape {
+    display: none;
+    }
+
+    .v-shape {
+display: none;
+    }
+    .carousel-text{
+      
+        font-size: 214px;
+    }
+    .carousel-description {
+        font-size: 16px;
+        color: #fff; /* Adjust text color if needed */
+        margin-top: 0px; /* Adjust top margin as needed */
+      
+    
+    }
+    .text-container h1{
+        font-size: 3em;
+    }
+    .logo{
+        width: 7.5em;
+    }
+
+
+}
+/* Media Query for Mobile View Only */
 @media only screen and (max-width: 361px) {
     .carousel-item {
         height: 100vh;
