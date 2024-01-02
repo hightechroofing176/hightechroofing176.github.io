@@ -1150,7 +1150,7 @@ display: none;
 /* Media Query for Mobile View Only */
 @media only screen and (max-width: 420px) {
     .carousel-item {
-        height: 145vh;
+        height: 135vh;
         width: 100%;
     }
     .carousel-img{
@@ -1386,3 +1386,11 @@ display: none;
 
 }
 
+.footer-link{
+    color: #B0B9AE;
+    text-decoration: underline;
+}
+.footer-link:hover{
+    color: #757575;
+    text-decoration: underline;
+}
