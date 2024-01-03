@@ -1176,7 +1176,7 @@ display: none;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         order: 2; /* Set the order to 2 to move the form below the text */
-     margin-top: 25em;
+     margin-top: 28em;
 
     }
     .carousel-bottom-shape {
