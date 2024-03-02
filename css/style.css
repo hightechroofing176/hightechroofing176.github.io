@@ -115,6 +115,16 @@ li {
   text-decoration: underline;
   cursor: pointer;
 }
+.topbar-link{
+  color: #777777;
+  text-decoration: underline;
+  transition: ease-in-out .15s;
+}
+.topbar-link:hover{
+  color: #777777;
+  text-decoration: underline;
+  cursor: pointer;
+}
 
 .footer .btn.btn-link::before {
     position: relative;
@@ -881,7 +891,7 @@ width: 58.8%;
 /* Media Query for Mobile View Only */
 @media only screen and (max-width: 575px) {
     .carousel-item {
-        height: 115vh;
+        height: 120vh;
         width: 100%;
     }
     .carousel-img{
@@ -906,7 +916,8 @@ width: 58.8%;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         order: 2; /* Set the order to 2 to move the form below the text */
-     margin-top: 29em;
+     margin-top: 31em;
+     height: 40%;
 
     }
     .carousel-bottom-shape {
@@ -942,7 +953,7 @@ display: none;
 
     
 }
-@media only screen and (max-width: 385px) {
+@media only screen and (max-width: 382px) {
     .carousel-item {
         height: 135vh;
         width: 100%;
