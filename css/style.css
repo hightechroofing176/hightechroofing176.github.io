@@ -2301,12 +2301,12 @@ background-position: top;
 
   
   .navbar-brand {
-    padding-left: .7em;
+    padding-left: 1em;
     }
     .logo-text{
       font-family: "Roboto Slab", serif;
       font-weight: 600;
-      font-size: .16em;
+      font-size: 1.01em;
       white-space: nowrap; /* Prevent line breaks */
 
       color: #160106;
@@ -2314,8 +2314,8 @@ background-position: top;
     
     .logo{
       width: 5.1em ;
-      margin-bottom: 1.35em;
-      margin-left: -17%;
+      margin-bottom: 1.45em;
+      margin-left: -16%;
     }
     .carousel-item {
       position: absolute;
@@ -2413,6 +2413,6 @@ background-position: top;
 }
 
 .appointment {
-  height: 120vh;
+  height: 140vh;
 }
 }
