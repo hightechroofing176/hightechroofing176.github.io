@@ -2067,7 +2067,7 @@ background-position: top;
       .carousel-item {
         position: absolute;
         width: 100%;
-        height: 110vh;
+        height: 90vh;
         object-fit: cover;
     }
     .v-shape-fill {
@@ -2297,3 +2297,5 @@ background-position: top;
   font-family: "Roboto Slab", serif;
   font-weight: 600;
 }
+
+
