@@ -2313,7 +2313,7 @@ background-position: top;
 }
 
 
-@media (min-width: 410px) {
+@media (max-width: 570px) {
 
   
   .navbar-brand {
