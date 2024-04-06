@@ -2438,3 +2438,173 @@ background-position: top;
     height: 120vh;
   }
 }
+@media (min-width: 1000px) and (max-width: 1065px) {
+  .logo-text {
+    font-family: "Roboto Slab", serif;
+    font-weight: 600;
+    font-size: 1em;
+    color: #160106;
+  }
+  
+  .logo {
+    width: 7em;
+    margin-left: -13%;
+    margin-bottom: 1em;
+  }
+  
+  .logo-text .second-line {
+    display: block; /* Display the second line on smaller screens */
+  }
+  
+  .navbar .navbar-nav .nav-link {
+    margin-right: 30px;
+    padding: 30px 0px 0px 0;
+    color: #160106;
+    font-size: 15px;
+    text-transform: uppercase;
+    outline: none;
+    font-family: "Roboto Slab", serif;
+    font-weight: 600;
+  }
+  
+  .navbar-brand {
+    padding-left: .95em;
+  }
+  
+  .btn-colour-nav {
+    position: relative; /* Position relative to allow absolute positioning of the border */
+    background: rgb(237, 65, 43);
+    background: linear-gradient(90deg, rgba(237, 65, 43, 1) 71%, rgba(205, 51, 31, 1) 100%);
+    color: #fff;
+    padding: .5em 2.4em;
+    margin-left: 0em;
+    border-radius: .21em;
+    font-size: 16px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 600 !important;
+  }
+  
+  .btn-colour-nav::after {
+    display: none;
+  }
+  
+}
+@media (min-width: 1065px) and (max-width: 1185px) {
+  .logo-text {
+    font-family: "Roboto Slab", serif;
+    font-weight: 600;
+    font-size: 1em;
+    color: #160106;
+  }
+  
+  .logo {
+    width: 7em;
+    margin-left: -13%;
+    margin-bottom: 1em;
+  }
+  
+  .logo-text .second-line {
+    display: block; /* Display the second line on smaller screens */
+  }
+  
+  .navbar .navbar-nav .nav-link {
+    margin-right: 30px;
+    padding: 30px 0px 0px 0;
+    color: #160106;
+    font-size: 15px;
+    text-transform: uppercase;
+    outline: none;
+    font-family: "Roboto Slab", serif;
+    font-weight: 600;
+  }
+  
+  .navbar-brand {
+    padding-left: .95em;
+  }
+  
+  .btn-colour-nav {
+    position: relative; /* Position relative to allow absolute positioning of the border */
+    background: rgb(237, 65, 43);
+    background: linear-gradient(90deg, rgba(237, 65, 43, 1) 71%, rgba(205, 51, 31, 1) 100%);
+    color: #fff;
+    padding: .5em 2.4em;
+    margin-left: 0em;
+    border-radius: .21em;
+    font-size: 16px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 600 !important;
+  }
+  
+  .btn-colour-nav::after {
+    content: '';
+    position: absolute;
+    top: -12%;
+    left: -3.9%;
+    width: 108%;
+    height: 125%;
+    border: 2px solid #410505; /* Border properties */
+    border-radius: .21em;
+    box-sizing: border-box; /* Ensure border width is included in the element's total width and height */
+    pointer-events: none; /* Ensure the border does not interfere with clicking the button */   }
+  
+
+  
+}
+@media (min-width: 1186px) and (max-width: 1290px) {
+  .logo-text {
+    font-family: "Roboto Slab", serif;
+    font-weight: 600;
+    font-size: 1em;
+    color: #160106;
+  }
+  
+  .logo {
+    width: 7em;
+    margin-left: -13%;
+    margin-bottom: .75em;
+  }
+  
+  .logo-text .second-line {
+  }
+  
+  .navbar .navbar-nav .nav-link {
+    margin-right: 30px;
+    padding: 30px 0px 0px 0;
+    color: #160106;
+    font-size: 17px;
+    text-transform: uppercase;
+    outline: none;
+    font-family: "Roboto Slab", serif;
+    font-weight: 600;
+  }
+  
+  .navbar-brand {
+    padding-left: .95em;
+  }
+  
+  .btn-colour-nav {
+    position: relative; /* Position relative to allow absolute positioning of the border */
+    background: rgb(237, 65, 43);
+    background: linear-gradient(90deg, rgba(237, 65, 43, 1) 71%, rgba(205, 51, 31, 1) 100%);
+    color: #fff;
+    padding: .5em 2.4em;
+    margin-left: 0em;
+    border-radius: .21em;
+    font-size: 18px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 600 !important;
+  }
+  
+  .btn-colour-nav::after {
+    content: '';
+    position: absolute;
+    top: -11%;
+    left: -3.9%;
+    width: 108%;
+    height: 125%;
+    border: 2px solid #410505; /* Border properties */
+    border-radius: .21em;
+    box-sizing: border-box; /* Ensure border width is included in the element's total width and height */
+    pointer-events: none; /* Ensure the border does not interfere with clicking the button */   }
+  
+}
