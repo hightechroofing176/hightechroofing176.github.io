@@ -1573,6 +1573,13 @@ background-color: #eaebec;
 iconify-icon.rate {
   color: #F2B821;
 }
+.about-page-link{
+  font-family: "Roboto Slab", serif;
+  font-weight: 600;
+  color: #160106;      font-size: 22px;
+
+  text-decoration: underline;
+}
 
 .swiper-pagination-bullet {
   background: var(--swiper-pagination-bullet-inactive-color, var(--bs-light));
@@ -1756,109 +1763,7 @@ background-position: top;
     margin-right: 5%;
   background-position: top;
   min-height: 45vh;
-}}
-@media (max-width: 567px) {
-
-  
-  .navbar-brand {
-    padding-left: .7em;
-    }
-    .logo-text{
-      font-family: "Roboto Slab", serif;
-      font-weight: 600;
-      font-size: 1.1em;
-      color: #160106;
-    }  
-    
-    .logo{
-      width: 4.05em ;
-      margin-bottom: .85em;
-      margin-left: -10%;
-    }
-    .carousel-item {
-      position: absolute;
-      width: 100%;
-      height: 75vh;
-      object-fit: cover;
-  }
-  .v-shape-fill {
-    position: absolute;
-    top:   705px; /* Adjust the distance from the bottom as needed */
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%; /* Adjust the width of the shape */
-    height: auto; /* Allow the height to adjust proportionally */
-    z-index: 2;
-  }
-  .text-container{
-    width: 90%;
-    align-items: center;
-
-    text-align: center;
-  }
-.phone-number {
-  position: absolute;
-  top: 50%;
-  left: 55px; /* Adjust the left position of the phone number */
-  transform: translateY(-50%);
-  color: white;
-  font-size: 16px;
-  font-weight: bold;
 }
-.phone-icon {
-  position: absolute;
-  top: 50%;
-  left: 20px; /* Adjust the left position of the phone icon */
-  transform: translateY(-50%);
-  color: white;
-  font-size: 20px;
-}
-.slanted-topbar::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 60%; /* Starting from the end of the red section */
-  width: 60%; /* 1/5 of the width */
-  height: 100%;
-  background-color: black; /* Black color */
-  transform-origin: top right;
-  transform: skewX(-30deg); /* Skew the section to create slant */
-}
-.get-quote .i1 {
-  margin-left: 10px; /* Add spacing between text and icon */
-  font-size: 20px;
-}
-
-.get-quote .i2 {
-  display: none;}
-.white-line {
-  position: absolute;
-  top: 0;
-  left: 60%; /* Starting from the end of the red section */
-  width: 6px; /* Width of the white line */
-  height: 100%;
-  background-color: white; /* White color */
-  z-index: 1; /* Ensure the white line appears above the black section */
-  transform-origin: top right;
-  transform: skewX(-30deg); /* Apply the same slant as the black section */
-}
-.get-quote {
-  position: absolute;
-  top: 50%;
-  left: 71%; /* Place in the middle of the black section */
-  color: white;
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
-  font-family: "Roboto Slab", serif;
-
-  z-index: 2; /* Ensure the text appears above the white line */
-}
-.font-size-p{
-  font-size: 14px;
-  margin: 0 1.5em .75em 0;
-}
-
   }.text-container{
     width: 50%;
     align-items: center;
