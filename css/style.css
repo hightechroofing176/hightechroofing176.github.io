@@ -2272,13 +2272,7 @@ display: none;
   }
 
   .v-shape-fill {
-    position: absolute;
-    top: 895px; /* Adjust the distance from the bottom as needed */
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%; /* Adjust the width of the shape */
-    height: auto; /* Allow the height to adjust proportionally */
-    z-index: 2;
+display: none;
   }
 
   .text-container {
@@ -2356,11 +2350,7 @@ display: none;
     margin: 0 1.5em .75em 0;
   }
   .v-shape-fill-mobile {
-    position: absolute;
-    top:   10px; /* Adjust the distance from the bottom as needed */
-    width: 100%; /* Adjust the width of the shape */
-    height: auto; /* Allow the height to adjust proportionally */
-    z-index: 2;
+display: none;
   }
 
   .navbar-brand {
@@ -2372,6 +2362,22 @@ display: none;
   .logo-text .second-line {
     display: block; /* Display the second line on smaller screens */
   }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 3rem;
+    height: 3rem;
+    background-color: #160106;
+    border: 15px solid #160106;
+    border-radius: 3.5rem;
+    margin-top: 28em;
+  
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+      width: 16%;
+     
+    }
 
   .appointment {
     height: 120vh;
