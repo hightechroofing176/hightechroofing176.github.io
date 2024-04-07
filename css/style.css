@@ -2092,16 +2092,16 @@ background-position: top;
       .logo-text{
         font-family: "Roboto Slab", serif;
         font-weight: 600;
-        font-size: .8em;
+        font-size: .65em;
         white-space: nowrap; /* Prevent line breaks */
 
         color: #160106;
       }  
       
       .logo{
-        width: 4.71em ;
+        width: 4.51em ;
         margin-bottom: 1.35em;
-        margin-left: -17%;
+        margin-left: -18%;
       }
       .carousel-item {
         position: absolute;
@@ -2226,13 +2226,13 @@ background-position: top;
   .logo-text {
     font-family: "Roboto Slab", serif;
     font-weight: 600;
-    font-size: 1em;
+    font-size: .89em;
     white-space: nowrap; /* Prevent line breaks */
     color: #160106;
   }
 
   .logo {
-    width: 5.5em;
+    width: 5.2em;
     margin-bottom: 1.45em;
     margin-left: -17%;
   }
