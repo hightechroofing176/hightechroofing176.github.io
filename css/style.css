@@ -389,6 +389,11 @@
   text-decoration: underline;
   text-transform: capitalize;
 }
+.contact-link:hover{
+  color: #ED412B;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
 
 
   
@@ -590,8 +595,28 @@
     text-transform: capitalize;
     transition: .3s;
 }
+.footer-link:hover {
+  font-family: "Roboto Slab", serif;
+  font-weight: 600;
+    padding: 0 10px;
+    text-align: left;
+    color: #999999;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+}
 
 .footer-link2{
+  font-family: "Roboto Slab", serif;
+  font-weight: 600;
+    padding: 0 0px;
+    text-align: left;
+    color: #999999;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+}
+.footer-link2:hover{
   font-family: "Roboto Slab", serif;
   font-weight: 600;
     padding: 0 0px;
@@ -1575,6 +1600,13 @@ iconify-icon.rate {
   color: #F2B821;
 }
 .about-page-link{
+  font-family: "Roboto Slab", serif;
+  font-weight: 600;
+  color: #160106;      font-size: 22px;
+
+  text-decoration: underline;
+}
+.about-page-link:hover{
   font-family: "Roboto Slab", serif;
   font-weight: 600;
   color: #160106;      font-size: 22px;
