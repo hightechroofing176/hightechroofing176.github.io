@@ -1958,16 +1958,16 @@ background-position: top;
       .logo-text{
         font-family: "Roboto Slab", serif;
         font-weight: 600;
-        font-size: .79em;
+        font-size: .72em;
         white-space: nowrap; /* Prevent line breaks */
 
         color: #160106;
       }  
       
       .logo{
-        width: 5.1em ;
+        width: 4.7em ;
         margin-bottom: 1.35em;
-        margin-left: -17%;
+        margin-left: -19%;
       }
       .carousel-item {
         position: absolute;
