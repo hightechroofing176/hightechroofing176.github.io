@@ -2068,11 +2068,7 @@ display: none;
     height: 145vh;
   }
   .v-shape-fill-mobile {
-    position: absolute;
-    top:   -100px; /* Adjust the distance from the bottom as needed */
-    width: 100%; /* Adjust the width of the shape */
-    height: auto; /* Allow the height to adjust proportionally */
-    z-index: 2;
+display: none;
   }
 }
   @media (max-width: 365px) {
