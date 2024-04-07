@@ -2246,7 +2246,7 @@ background-position: top;
 
   .v-shape-fill {
     position: absolute;
-    top: 705px; /* Adjust the distance from the bottom as needed */
+    top: 895px; /* Adjust the distance from the bottom as needed */
     left: 50%;
     transform: translateX(-50%);
     width: 100%; /* Adjust the width of the shape */
@@ -2327,6 +2327,13 @@ background-position: top;
   .font-size-p {
     font-size: 14px;
     margin: 0 1.5em .75em 0;
+  }
+  .v-shape-fill-mobile {
+    position: absolute;
+    top:   10px; /* Adjust the distance from the bottom as needed */
+    width: 100%; /* Adjust the width of the shape */
+    height: auto; /* Allow the height to adjust proportionally */
+    z-index: 2;
   }
 
   .navbar-brand {
