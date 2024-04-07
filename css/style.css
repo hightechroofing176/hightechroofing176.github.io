@@ -1927,7 +1927,22 @@ display: none;
     align-items: center;
   }
 
+  .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 3rem;
+  height: 3rem;
+  background-color: #160106;
+  border: 15px solid #160106;
+  border-radius: 3.5rem;
+  margin-top: 28em;
 
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 16%;
+   
+  }
 
   .logo-text .second-line {
     display: block; /* Display the second line on smaller screens */
@@ -2196,7 +2211,22 @@ display: none;
     align-items: center;
   }
 
+  .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 3rem;
+  height: 3rem;
+  background-color: #160106;
+  border: 15px solid #160106;
+  border-radius: 3.5rem;
+  margin-top: 28em;
 
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 16%;
+   
+  }
 
   .logo-text .second-line {
     display: block; /* Display the second line on smaller screens */
