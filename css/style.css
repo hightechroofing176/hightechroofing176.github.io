@@ -1976,13 +1976,8 @@ background-position: top;
         object-fit: cover;
     }
     .v-shape-fill {
-      position: absolute;
-      top:   705px; /* Adjust the distance from the bottom as needed */
-      left: 50%;
-      transform: translateX(-50%);
-      width: 100%; /* Adjust the width of the shape */
-      height: auto; /* Allow the height to adjust proportionally */
-      z-index: 2;
+      display: none;
+
     }
     .text-container{
       width: 90%;
@@ -2110,20 +2105,11 @@ background-position: top;
         object-fit: cover;
     }
     .v-shape-fill {
-      position: absolute;
-      top:   705px; /* Adjust the distance from the bottom as needed */
-      left: 150%;
-      transform: translateX(-50%);
-      width: 100%; /* Adjust the width of the shape */
-      height: auto; /* Allow the height to adjust proportionally */
-      z-index: 2;
+      display: none;
+
     }
     .v-shape-fill-mobile {
-      position: absolute;
-      top:   -30px; /* Adjust the distance from the bottom as needed */
-      width: 100%; /* Adjust the width of the shape */
-      height: auto; /* Allow the height to adjust proportionally */
-      z-index: 2;
+  display: none;
     }
     .text-container{
       width: 90%;
