@@ -2218,7 +2218,7 @@ background-position: top;
 }
 
 
-@media (min-width: 413px) and (max-width: 570px) {
+@media (min-width: 406px) and (max-width: 570px) {
 
   .navbar-brand {
     padding-left: .7em;
