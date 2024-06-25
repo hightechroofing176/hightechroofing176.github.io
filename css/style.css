@@ -3388,7 +3388,7 @@ letter-spacing: .75px;
 
   /* Service PAGE HEADER1*/
   .service-page-header {
-    background: linear-gradient(90deg, rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, 0.3449754901960784) 100%),
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.3449754901960784) 100%),
     url(../img/carousel-1.jpg) center center no-repeat;
     height: 300px !important;
   }
@@ -6859,7 +6859,7 @@ letter-spacing: .75px;
 
   /* Service PAGE HEADER1*/
   .service-page-header {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.3449754901960784) 100%),
+    background: linear-gradient(90deg, rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, 0.3449754901960784) 100%),
     url(../img/carousel-1.jpg) center center no-repeat;
     height: 300px !important;
   }
