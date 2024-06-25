@@ -3348,6 +3348,9 @@ letter-spacing: .75px;
   .services-image5{
     height: 330px !important;
     width: 100%;  }
+  .services-image6{
+    height: 330px !important;
+    width: 100%;  }
   .about-text{
     margin-top: -3.5em;
   }
@@ -4506,6 +4509,9 @@ letter-spacing: .75px;
   .services-image5{
     height: 330px !important;
     width: 100%;  }
+  .services-image6{
+    height: 330px !important;
+    width: 100%;  }
   .about-text{
     margin-top: -3.5em;
   }
@@ -5660,6 +5666,9 @@ letter-spacing: .75px;
     height: 330px !important;
     width: 100%;  }
   .services-image5{
+    height: 330px !important;
+    width: 100%;  }
+  .services-image6{
     height: 330px !important;
     width: 100%;  }
   .about-text{
@@ -6821,6 +6830,9 @@ letter-spacing: .75px;
     height: 330px !important;
     width: 100%;  }
   .services-image5{
+    height: 330px !important;
+    width: 100%;  }
+  .services-image6{
     height: 330px !important;
     width: 100%;  }
   .about-text{
@@ -7985,6 +7997,9 @@ letter-spacing: .75px;
   .services-image5{
     height: 330px !important;
     width: 100%;  }
+  .services-image6{
+    height: 330px !important;
+    width: 100%;  }
   .about-text{
     margin-top: -3.5em;
   }
@@ -8970,6 +8985,11 @@ letter-spacing: .75px;
     width: 100%;
 
   }
+  .services-image6{
+    height: 37vh !important;
+    width: 100%;
+
+  }
   .about-text{
     margin-top: -4.5em;
   }
@@ -9083,6 +9103,12 @@ letter-spacing: .75px;
     height: 36vh !important;
   }
   .services-image4{
+    height: 36vh !important;
+  }
+  .services-image5{
+    height: 36vh !important;
+  }
+  .services-image6{
     height: 36vh !important;
   }
   .about-text{
@@ -9923,6 +9949,11 @@ letter-spacing: .75px;
     width: 100%;
 
   }
+  .services-image6{
+    height: 37vh !important;
+    width: 100%;
+
+  }
   .about-text{
     margin-top: -4.5em;
   }
@@ -10036,6 +10067,12 @@ letter-spacing: .75px;
     height: 36vh !important;
   }
   .services-image4{
+    height: 36vh !important;
+  }
+  .services-image5{
+    height: 36vh !important;
+  }
+  .services-image6{
     height: 36vh !important;
   }
   .about-text{
