@@ -4208,6 +4208,8 @@ letter-spacing: .75px;
   .learn-more-btn:hover {
     background-color: #0056b3;
     border: none;
+    color: #ffffff;
+
 
   }
   .services-section {
@@ -5363,6 +5365,7 @@ letter-spacing: .75px;
   .learn-more-btn:hover {
     background-color: #0056b3;
     border: none;
+    color: #ffffff;
 
   }
   .services-section {
@@ -7685,6 +7688,7 @@ letter-spacing: .75px;
   .learn-more-btn:hover {
     background-color: #0056b3;
     border: none;
+    color: #ffffff;
 
   }
   .services-section {
@@ -8795,6 +8799,7 @@ letter-spacing: .75px;
   
   .learn-more-btn:hover {
     background-color: #0056b3;
+    color: #ffffff;
   }
   .inspection-icon{
     margin-left: .5em;
@@ -9745,6 +9750,8 @@ letter-spacing: .75px;
   
   .learn-more-btn:hover {
     background-color: #0056b3;
+    color: #ffffff;
+
   }
   .inspection-icon{
     margin-left: .5em;
@@ -11021,6 +11028,8 @@ background-position: top !important;
   
   .learn-more-btn:hover {
     background: #0056b3;
+    color: #ffffff;
+
   }
   .services-header-big{
     color: #121212   ;
@@ -12195,6 +12204,8 @@ background-position: top !important;
   
   .learn-more-btn:hover {
     background: #0056b3;
+    color: #ffffff;
+
   }
   .services-header-big{
     color: #121212   ;
@@ -13360,6 +13371,8 @@ background-position: top !important;
   
   .learn-more-btn:hover {
     background: #0056b3;
+    color: #ffffff;
+
   }
   .services-header-big{
     color: #121212   ;
@@ -14524,6 +14537,8 @@ background-position: top !important;
   
   .learn-more-btn:hover {
     background: #0056b3;
+    color: #ffffff;
+
   }
   .services-header-big{
     color: #121212   ;
@@ -15687,6 +15702,8 @@ background-position: top !important;
   
   .learn-more-btn:hover {
     background: #0056b3;
+    color: #ffffff;
+
   }
   .services-header-big{
     color: #121212   ;
@@ -16876,6 +16893,8 @@ background-position: top !important;
   
   .learn-more-btn:hover {
     background: #0056b3;
+    color: #ffffff;
+
   }
   .services-header-big{
     color: #121212   ;
@@ -18060,6 +18079,8 @@ background-position: top !important;
   
   .learn-more-btn:hover {
     background: #0056b3;
+    color: #ffffff;
+
   }
   .services-header-big{
     color: #121212   ;
@@ -18525,7 +18546,7 @@ background-size: contain !important;  }
   z-index: 3; /* Ensure arrow is above the form header */
 }
 .half-width {
-  width: 200px !important;
+  width: 198px !important;
   width: calc(50% - 10px); /* Subtracting margin space */
 }
 .form-header-big{
@@ -19237,6 +19258,8 @@ background-position: top !important;
   
   .learn-more-btn:hover {
     background: #0056b3;
+    color: #ffffff;
+
   }
   .services-header-big{
     color: #121212   ;
@@ -20408,6 +20431,8 @@ background-position: top !important;
   
   .learn-more-btn:hover {
     background: #0056b3;
+    color: #ffffff;
+
   }
   .services-header-big{
     color: #121212   ;
@@ -21575,6 +21600,8 @@ background-position: top !important;
   
   .learn-more-btn:hover {
     background: #0056b3;
+    color: #ffffff;
+
   }
   .services-header-big{
     color: #121212   ;
@@ -22743,6 +22770,8 @@ background-position: top !important;
   
   .learn-more-btn:hover {
     background: #0056b3;
+    color: #ffffff;
+
   }
   .services-header-big{
     color: #121212   ;
@@ -23914,6 +23943,8 @@ background-position: top !important;
   
   .learn-more-btn:hover {
     background: #0056b3;
+    color: #ffffff;
+
   }
   .services-header-big{
     color: #121212   ;
@@ -25086,6 +25117,8 @@ background-position: top !important;
   
   .learn-more-btn:hover {
     background: #0056b3;
+    color: #ffffff;
+
   }
   .services-header-big{
     color: #121212   ;
@@ -26261,6 +26294,8 @@ background-position: top !important;
   
   .learn-more-btn:hover {
     background: #0056b3;
+    color: #ffffff;
+
   }
   .services-header-big{
     color: #121212   ;
@@ -27435,6 +27470,8 @@ background-position: top !important;
   
   .learn-more-btn:hover {
     background: #0056b3;
+    color: #ffffff;
+
   }
   .services-header-big{
     color: #121212   ;
@@ -28995,7 +29032,9 @@ letter-spacing: 1px;
 }
 
 .learn-more-btn:hover {
-  background-color: #0056b3;
+  background: #0056b3;
+  color: #ffffff;
+
 }
 .inspection-icon{
   margin-left: .5em;
