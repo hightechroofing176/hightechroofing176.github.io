@@ -9248,37 +9248,41 @@ margin-left: -80px !important;
   position: relative;
   display: inline-block;
 }
+.google-icon-review-card{
+  width: 1.5em;
+right: 0;
+margin-right: 4.2em;
+position: absolute;  }
+.stars-icons{
+  align-items: center;
+margin-top: -7px;
+margin-left: 7px;
+margin-right: 7px;
+}
+.reviews-section-sub-head{
+  color: #000;
+  font-weight: 600 ;
+  font-family: "Poppins", sans-serif !important;
+text-transform: uppercase;
+font-size: 1.3em;
+align-items: baseline !important;
+margin-bottom: 1em;
+
+margin-top: .2em;
+}
+
 section#testimonial {
-  margin-top: -5em !important;
+  margin-top: -4.4em !important;
   margin-bottom: 3.4em;
 }
-.reviews-section-header::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -5px; /* Adjust this value to position the underline closer or further from the text */
-  width: 100%;
-  height: 2px; /* Adjust thickness of the underline */
-  background-color: #000; /* Set the underline color */
-}
-.reviews-section-header {
-  position: relative;
-  display: inline-block;
-  text-align: center;
-}
 
-.reviews-section-header::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: -22px; /* Adjust to position the image below the text */
-  width: 250px; /* Adjust to match the width of the underline image */
-  height: 20px; /* Adjust based on the height of the underline image */
-  background: url('../img/underline-purple.png') no-repeat center;
-  background-size: contain;
-}
-
+.reviews-section-google-logo{
+  width: 7em;
+  margin-left: 0em;
+  margin-top: .85em  ;
+  margin-bottom: .15em  ;
+  align-items: center;
+  }
 
 .reviews-section-header{
   font-family: "Poppins", system-ui !important;
@@ -9286,7 +9290,7 @@ section#testimonial {
   font-weight: 600 !important;
 
   font-size: 2.9em !important;
-  margin-bottom: .75em !important;
+  margin-bottom: .25em !important;
   color: #000000 !important;
 }  
 .mobile-display-none{
@@ -9300,7 +9304,7 @@ section#testimonial {
   margin-bottom: .5em;
   font-weight: 600 !important;
   font-size: 1.6em !important;
-  color: #64B5B9 !important;
+  color: #FBBD20 !important;
 }
 .services-section-header{
   font-family: "Poppins", system-ui !important;
@@ -9313,7 +9317,7 @@ section#testimonial {
   color: #000000 !important;
 }  
 .services-section{
-  margin-top: -4em;
+  margin-top: -6.3em;
 }
 .underline-image-services-section {
   position: relative;
@@ -9394,9 +9398,9 @@ section#testimonial {
   
   }
   .service-icon4{
-    width: 80px !important;
-    margin-bottom: 1.25em !important;
-  
+    width: 65px !important;
+    margin-bottom: 1.5em !important;
+  margin-top: -8px;
   }
   .service-icon5{
     width: 80px !important;
@@ -9404,9 +9408,15 @@ section#testimonial {
   
   }
   .service-icon6{
-    width: 80px !important;
+    width: 90px !important;
+    margin-bottom: 1.5em !important;
+    margin-top: -13px;
+
+  }
+  .service-icon7{
+    width: 64px !important;
     margin-bottom: 1.75em !important;
-  
+  margin-top: 8px;
   }
   .read-more{
     color: #fff;
@@ -9441,7 +9451,7 @@ section#testimonial {
   
     }
     .project-carousel{
-      margin-top: 3em;
+      margin-top: -1em;
       margin-bottom:  2.5em;
     }
     .project-carousel .owl-nav {
@@ -9459,6 +9469,106 @@ section#testimonial {
       opacity: 1;
       z-index: 1;
     }
+    .bottom-left {
+      background-color: transparent;
+      width: 1200px;
+    height: auto;
+    transform: rotate(-0deg) scaleX(-1); /* Flip horizontally */
+    top: 10%;
+    opacity: .17 !important;
+        left: -1010px !important;
+    }
+    .top-right {
+      background-color: transparent;
+      width: 1200px; /* Adjust width as needed */
+      height: auto;
+      transform: rotate(-360deg) scaleX(-1); /* Flip horizontally */
+      position: absolute;
+      top: 5%;
+      left: 1550px !important;
+    z-index: 1;
+    opacity: .5;
+    
+    
+    }
+    .choose-us-header{
+      font-family: "Poppins", system-ui !important;
+  text-transform: uppercase ;
+  font-weight: 600 !important;
+  margin-left: 0em !important;
+  width: 100%;
+  margin-top: -.1em !important;
+  font-size: 2.9em !important;
+  color: #000000 !important;
+    }
+    .choose-us-container {
+      display: block !important;
+      justify-content: center;
+      align-items: center;
+      
+      margin-left: auto ;
+      margin-right: auto;
+      width: 90% !important; /* Adjust as needed */
+      max-width: 1200px; /* Max width for large screens */
+      gap: 20px; /* Gap between sections */
+  }
+  
+  .choose-us-container .left-section,
+  .choose-us-container .right-section {
+      display: block !important;
+      max-width: 100% !important;
+  }
+  
+  .choose-us-container .left-section {
+      margin-right: 20px;
+  }
+  
+  .choose-us-container .right-section {
+    display: block !important;
+    justify-content: center;
+      align-items: center;
+  }
+  
+  
+  .margin-top2{
+    margin-top: .7em !important;
+    margin-bottom: 15px !important;
+  }
+  .choose-us-container .reason {
+    display: flex !important;
+    align-items: center;
+      margin-bottom: 20px;
+      border-bottom: 1px solid white;
+      padding-bottom: 1.3em;
+      width: 100% !important;
+  }
+  
+  .choose-us-container .icon {
+   margin-right: 20px;
+  }
+  
+  .choose-us-container .text h3 {
+      font-size: 1.35em !important;
+      margin-top: 5px !important;
+      margin-bottom: 5px !important;
+
+      color: #F5F5F5;
+  
+  }
+  
+  .choose-us-container .text p {
+      margin: 0;
+      color: #FFFFFF;
+      font-size: .99em;
+  }
+  
+  .choose-us-container .right-section img {
+      max-width: 100% !important;
+      height: 330px !important;
+      margin-top: 1.25em !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+  }
  
     
     .project-carousel:hover .owl-nav {
@@ -9477,8 +9587,8 @@ section#testimonial {
       justify-content: center;
       color: #FFFFFF;
       border: none !important;
-      background: #242B57;
-      background: #242B57; 
+      background: #FBBD20;
+      background: #FBBD20; 
       border-radius: 45px;
       font-size: 22px;
       z-index: 1111 !important;
@@ -9524,14 +9634,14 @@ section#testimonial {
 }
 .swiper-pagination {
   position: absolute;
-  margin-bottom: -80px !important ; /* Adjust the distance from the bottom as needed */
+  margin-bottom: -70px !important ; /* Adjust the distance from the bottom as needed */
 }
 .appointment {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
   background-size: cover;
   height: 1050px;
   margin-bottom: 6em !important;
-  margin-top: -2.2em !important;
+  margin-top: -4em !important;
 }
 .appointment p{
   font-size: 1.14em;
