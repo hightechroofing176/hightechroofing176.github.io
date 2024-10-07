@@ -7832,7 +7832,7 @@ margin-top: -1.45em !important;
   position: absolute;
   font-size: .8em !important;
 margin-left: -19% !important;
-margin-top: -7.5% !important;
+margin-top: -7.75% !important;
 
 } 
 .left-mobile-none{
@@ -7841,8 +7841,8 @@ margin-top: -7.5% !important;
 } 
 .logo{
   margin-left: -8em;
-  width: 10em !important;
-  margin-top: -1.5em !important;
+  width: 9.8em !important;
+  margin-top: -1.85em !important;
 }
 .navbar{
   height: 89px;
@@ -8575,7 +8575,7 @@ margin-top: -35px !important;
   background-size: cover;
 }
 .service-page-header3 {
-  height: 310px !important;
+  height: 315px !important;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -8607,7 +8607,7 @@ margin-top: -35px !important;
 .font-type-page-header{
   font-weight: 600 !important;
   font-size: 4em !important;
-  font-family: "Poppins", system-ui !important;
+  font-family: "Lato", sans-serif !important;
 text-transform: uppercase !important; 
 margin-top: .28em;
 margin-left: -.1em !important;
@@ -8616,7 +8616,7 @@ text-align: left !important;
 .font-type-service-page-header{
   font-weight: 600 !important;
   font-size: 3.12em !important;
-  font-family: "Poppins", system-ui !important;
+  font-family: "Lato", sans-serif !important;
 text-transform: uppercase !important; 
 margin-top: .3em;
 margin-left: -.1em;
@@ -8626,7 +8626,7 @@ text-align: left !important;
 .font-type-service-page-header-lead{
   font-weight: 600 !important;
   font-size: 3.7em !important;
-  font-family: "Poppins", system-ui !important;
+  font-family: "Lato", sans-serif !important;
 text-transform: uppercase !important; 
 margin-top: .4em;
 margin-left: -.1em;
@@ -8635,7 +8635,7 @@ text-align: left !important;
 .font-type-service-page-header-repairs{
   font-weight: 600 !important;
   font-size: 3.4em !important;
-  font-family: "Poppins", system-ui !important;
+  font-family: "Lato", sans-serif !important;
 text-transform: uppercase !important; 
 margin-top: .32em;
 line-height: 1.1;
@@ -8644,28 +8644,39 @@ text-align: left !important;
 }
 .font-type-service-page-header-rubber{
   font-weight: 600 !important;
-  font-size: 3.3em !important;
-  font-family: "Poppins", system-ui !important;
+  font-size: 3.1em !important;
+  font-family: "Lato", sans-serif !important;
 text-transform: uppercase !important; 
 margin-top: .34em;
-line-height: 1.1;
+line-height: 1.15;
+margin-left: -.1em;
+text-align: left !important;
+}
+.font-type-service-page-header-inspections{
+  font-weight: 600 !important;
+  font-size: 3.2em !important;
+  font-family: "Lato", sans-serif !important;
+  text-transform: uppercase !important; 
+margin-top: .3em;
+line-height: 1.14;
+letter-spacing: 1px;
 margin-left: -.1em;
 text-align: left !important;
 }
 .font-type-service-page-header-chimney{
   font-weight: 600 !important;
-  font-size: 3.4em !important;
-  font-family: "Poppins", system-ui !important;
+  font-size: 2.85em !important;
+  font-family: "Lato", sans-serif !important;
 text-transform: uppercase !important; 
 margin-top: .34em;
-line-height: 1.1;
+line-height: 1.16;
 margin-left: -.1em;
 text-align: left !important;
 }
 .font-type-service-page-header-dry{
   font-weight: 600 !important;
   font-size: 3.8em !important;
-  font-family: "Poppins", system-ui !important;
+  font-family: "Lato", sans-serif !important;
 text-transform: uppercase !important; 
 margin-top: .45em !important  ;
 line-height: 1.1;
@@ -8675,7 +8686,7 @@ text-align: left !important;
 .font-type-service-page-header-mortar{
   font-weight: 600 !important;
   font-size: 3.4em !important;
-  font-family: "Poppins", system-ui !important;
+  font-family: "Lato", sans-serif !important;
 text-transform: uppercase !important; 
 margin-top: .32em !important  ;
 line-height: 1.1;
@@ -8685,11 +8696,22 @@ text-align: left !important;
 .font-type-service-page-header-gutter{
   font-weight: 600 !important;
   font-size: 3.3em !important;
-  font-family: "Poppins", system-ui !important;
+  font-family: "Lato", sans-serif !important;
 text-transform: uppercase !important; 
 margin-top: .32em;
 line-height: 1.13;
 margin-left: -.1em;
+text-align: left !important;
+}
+.font-type-service-page-header-loft{
+  font-weight: 600 !important;
+  font-size: 2.94em !important;
+  font-family: "Lato", sans-serif !important;
+  text-transform: uppercase !important; 
+margin-top: .35em;
+letter-spacing: 1px !important;
+line-height: 1.2 !important;
+margin-left: -.15em;
 text-align: left !important;
 }
 .breadcrumb{
@@ -9043,6 +9065,7 @@ white-space: nowrap !important;
   .service-header-h1{
     text-transform: uppercase !important;
     font-size: 2.2em;
+    color: #000 ;
   }
   .service-page-contact-us{
     margin-bottom: .2em !important;
@@ -10153,9 +10176,9 @@ text-align: left !important;
 .font-type-service-page-header{
   font-weight: 600 !important;
   font-size: 3.32em !important;
-  font-family: "Poppins", system-ui !important;
+  font-family: "Lato", sans-serif !important;
 text-transform: uppercase !important; 
-margin-top: .35em;
+margin-top: .3em;
 margin-left: -.1em;
 
 text-align: left !important;
