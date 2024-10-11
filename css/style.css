@@ -1146,7 +1146,7 @@ text-transform: uppercase;
     }
  
     #myNavbar {
-      border-bottom: 3px solid #fff;
+      border-bottom: 3px solid #FBB81C;
   }
 
   
@@ -6631,7 +6631,7 @@ margin-left: -39px !important;
   margin-bottom: .5em;
   font-weight: 600 !important;
   font-size: 1.44em !important;
-  color: #64B5B9 !important;
+  color: #FBBD20 !important;
 }
 
 .services-section{
@@ -12612,17 +12612,7 @@ section#testimonial {
   text-align: center;
 }
 
-.reviews-section-header::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: -22px; /* Adjust to position the image below the text */
-  width: 250px; /* Adjust to match the width of the underline image */
-  height: 24px; /* Adjust based on the height of the underline image */
-  background: url('../img/underline-purple.png') no-repeat center;
-  background-size: contain;
-}
+
 
 
 .reviews-section-header{
@@ -12645,7 +12635,7 @@ section#testimonial {
   margin-bottom: .5em;
   font-weight: 600 !important;
   font-size: 1.65em !important;
-  color: #64B5B9 !important;
+  color: #FBBD20 !important;
 }
 .services-section-header{
   font-family: "Poppins", system-ui !important;
@@ -16745,7 +16735,200 @@ font-size: 2.3em;
     }
 } 
 @media (min-width: 991px) and (max-width: 1070px){
+  .yellow-header-text{
+    color: #FBBD20;
+  }
+  .py-15{
+    padding: 2em 0em !important;
+  }
+  .blog .posts-list .post-title {
+    font-size: 28px;
+    font-weight: 700;
+    transition: 0.3s;
+    color: #000;
+    font-weight: 700;
+    text-transform: none !important;
+    font-style: normal;
+    margin-bottom: 15px;
+  }
+  .choose-us {
+    position: relative;
+    background: #fff;
+  margin-top: -13.6em !important;
+  margin-bottom: -7em !important;
+       padding: 100px 0; /* Adjust padding as needed */
+       z-index: -12; /* Ensure overlays are below content */
+  overflow: hidden;
+  }
+  .overlay-choose {
+    position: absolute;
+    z-index: -1; /* Ensure overlays are below content */
+  }
+  .bottom-left {
+    background-color: transparent;
+    width: 1200px;
+  height: auto;
+  transform: rotate(-0deg) scaleX(-1); /* Flip horizontally */
+  top: 10%;
+  opacity: .3;
+      left: -980px ;
+  }
+  .top-right {
+    background-color: transparent;
+    width: 1200px; /* Adjust width as needed */
+    height: auto;
+    transform: rotate(-360deg) scaleX(-1); /* Flip horizontally */
+    position: absolute;
+    top: 5%;
+    left: 1550px !important;
+  z-index: 1;
+  opacity: .5;
   
+  
+  }
+  .choose-us::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px; /* Adjust height as needed for the gradient transition */
+    background: #fff;
+  
+    z-index: 21;
+  }
+  /* Bottom gradient */
+  .choose-us::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px; /* Adjust height as needed for the gradient transition */
+  background: #fff;
+  z-index: 2;
+  }
+  
+  .choose-us-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-left: auto ;
+    margin-right: auto;
+    width: 85% !important; /* Adjust as needed */
+    max-width: 1200px; /* Max width for large screens */
+    gap: 20px; /* Gap between sections */
+  }
+  
+  .choose-us-container .left-section,
+  .choose-us-container .right-section {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .choose-us-container .left-section {
+    margin-right: 20px;
+  }
+  
+  .choose-us-container .right-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .choose-us-container p {
+    font-size: 1em;
+    font-family: 'Open sans' !important;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #8D9297 !important;
+  }
+  .choose-us-container .right-section img {
+    max-width: 90%;
+    object-fit: cover;
+    height: 790px !important;
+  }
+  .choose-us-container .reason {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #8f8f8f;
+    padding-bottom: 1.3em;
+    width: 90%;
+  }
+  
+  .choose-us-container .icon {
+  margin-right: 20px;
+  }
+  
+  .choose-us-container .text h3 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #000   ;
+  
+  }
+  
+  .choose-us-container .text p {
+    margin: 0;
+    color: #000   ;
+  }
+  
+  .choose-us-container .right-section img {
+    max-width: 100%;
+    height: auto;
+  }
+  .choose-us-header{
+    font-family: "Poppins", system-ui !important;
+    text-transform: uppercase ;
+    font-weight: 600 ;
+    margin-left: 0em ;
+    width: 100%;
+    margin-top: .2em;
+    font-size: 3em !important ;
+    color: #000000 ;
+  }
+  .icon-png{
+  width: 64px;
+  height: 64px;
+  }
+  
+  
+
+  .project-carousel{
+    margin-top: .7em !important;
+  }
+  .swiper-pagination {
+    position: absolute;
+    bottom: 30px !important; /* Adjust the distance from the bottom as needed */
+  }
+  .google-icon-review-card{
+    width: 1.5em;
+right: 0;
+margin-right: 3.7em;
+position: absolute;  }
+  .reviews-section-sub-head{
+    color: #000;
+    font-weight: 600 ;
+    font-family: "Poppins", sans-serif !important;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  align-items: baseline !important;
+  margin-bottom: 1em;
+  margin-top: .2em;
+  }
+  .reviews-section-google-logo{
+  width: 5em;
+  margin-left: .5em;
+  align-items: center;
+  }
+  .stars-icons{
+    align-items: center;
+  margin-top: -7px;
+  margin-left: 7px;
+  margin-right: 7px;
+  }
   .ipad-display-visible{
     display: block !important;
   }  .service-page-sub-head2{
@@ -16856,11 +17039,11 @@ margin-top: 0em;
   display: inline-block;
 }
 .header-text{
-  font-family: "Poppins", system-ui !important;
+  font-family: "Lato", sans-serif !important;
   font-weight: 700 !important;
   color: #fff;
   line-height: 1.15 ;
-  font-size: 4.25em !important;
+  font-size: 3.4em !important;
 text-transform: uppercase !important;
 }
 .body-text{
@@ -16868,14 +17051,25 @@ text-transform: uppercase !important;
   font-weight: 600 !important;
   color: #fff;
   letter-spacing: 1px !important;
-  font-size: 1.6em !important;
+  font-size: 2.2em !important;
 text-transform: uppercase !important;
 }
 
 .intro-text{
-  max-width: 80%;
+  max-width: 70%;
+  border-left: 3px #FBBB1C solid;
   font-size: 1.2em !important;
+  padding-left: 1em;
+  margin-top: 1.1em;
+  margin-bottom: 1.3em;
 }
+.header-intro-text1{
+  color: #FBBD20;
+  font-family: "Poppins", sans-serif;
+font-weight: 600 !important;
+font-size: 1.5em;
+margin-bottom: .4em;
+} 
 .underline-image::after {
   content: "";
   position: absolute;
@@ -16920,16 +17114,25 @@ text-transform: uppercase !important;
     display: inline-flex;
     align-items: center;
     box-sizing: border-box;
-    height: 60px; /* Set a fixed height */
+    height: 57px; /* Set a fixed height */
 }
 
+
 .btn-carousel {
-    background: rgb(103,180,184);
-    background: linear-gradient(142deg, rgba(103,180,184,1) 0%, rgba(150,224,227,1) 100%);
+  background: rgb(250,161,33);
+  background: linear-gradient(270deg, rgba(250,161,33,1) 0%, rgba(251,190,27,1) 100%);
     color: #fff;
-    padding: 0 90px 0px 40px !important; /* Ensure equal horizontal padding */
+    padding: 1px 110px 0px 40px !important; /* Ensure equal horizontal padding */
 
     border: none;
+}
+.reviews-overlay{
+  width: 17em !important;
+  height: auto !important;
+  margin-top: -2.5px !important;
+  z-index: 2;
+  margin-left: 20em;
+  object-fit: cover !important;
 }
 .btn-carousel2 {
 
@@ -16997,13 +17200,13 @@ letter-spacing: .2px; /* Adjust the value as needed */
   } 
   
   .navbar-nav{
-    margin-left: 1em !important;
+    margin-left: .75em !important;
   }
   .navbar .navbar-nav .nav-link {
     margin-right: 23px;
     padding: 6px 0px 0px 0;
   color: #fff;
-  font-size: 18.5px !important;
+  font-size: 17.5px !important;
   font-weight: 500 !important;
     white-space: nowrap !important;
 text-transform: uppercase;
@@ -17015,14 +17218,14 @@ font-family: "Poppins", system-ui !important;
   
   }
   .navbar-links-2{
-    margin-left: 156px !important ;
+    margin-left: 200px !important ;
     margin-top: 6px;
   }
   .navbar .navbar-nav .nav-link2 {
     margin-right: 23px;
     padding: 6px 0px 0px 0 !important;
   color: #fff;
-  font-size: 18.5px !important;
+  font-size: 17.5px !important;
   font-weight: 600 !important;
 
 text-transform: uppercase;
@@ -17052,7 +17255,7 @@ border: none !important;
     font-family: "Poppins", system-ui !important;
 align-items: center !important;
     text-transform: uppercase;
-    padding: .2em 1.57em;
+    padding: .2em 1.47em;
     margin-left: 6.8em !important;
     margin-right: 2px !important ;
     border-radius: 5.21em;
@@ -17109,7 +17312,7 @@ font-family: "Montserrat", sans-serif;
     height: 90px !important;
   }
   .logo{
-    width: 9.5em !important;
+    width: 8.75em !important;
     position: relative;
     z-index: 10000;
     margin-top: 6.8em !important;
@@ -17195,7 +17398,7 @@ font-family: "Montserrat", sans-serif;
   margin-left: 0em !important;
   padding: 0em 2em;
   width: 100%;
-  font-size: 3em !important;
+  font-size: 3.2em !important;
   color: #000000 !important;
 }
 .space{
@@ -17245,7 +17448,7 @@ width: 100% !important;
   display: inline-block;
 } 
 .services-section{
-  margin-top: -3em;
+  margin-top: -8.75em;
 }
 .services-section-sub-header{
   font-family: "Poppins", system-ui !important;
@@ -17253,16 +17456,16 @@ width: 100% !important;
   font-weight: 0em !important;
   margin-bottom: .5em;
   font-weight: 600 !important;
-  font-size: 1.44em !important;
-  color: #64B5B9 !important;
+  font-size: 1.54em !important;
+  color: #FBBD20 !important;
 }
 .services-section-header{
   font-family: "Poppins", system-ui !important;
   text-transform: uppercase ;
   font-weight: 600 !important;
   margin-left: 0em ;
-  font-size: 3em !important;
-  margin-bottom: .75em !important;
+  font-size: 3.2em !important;
+    margin-bottom: .35em !important;
   color: #000000 !important;
 } 
 .desktop-none{
@@ -17317,62 +17520,57 @@ width: 100% !important;
     font-size: 1.5em;
   }
   .service-icon2{
-    width: 80px !important;
+    width: 84px !important;
     margin-bottom: 1.5em !important;
   }
   .service-icon1{
     width: 70px !important;
-    margin-bottom: 1.5em !important;
+    margin-bottom: 1.25em !important;
   
   }
   .service-icon3{
-    width: 70px !important;
-    margin-bottom: 1.5em !important;
+    width: 75px !important;
+    margin-bottom: 1.25em !important;
   
   }
   .service-icon4{
-    width: 70px !important;
+    width: 65px !important;
     margin-bottom: 1.5em !important;
-  
+  margin-top: -8px;
   }
   .service-icon5{
-    width: 70px !important;
-    margin-bottom: 1.5em !important;
+    width: 80px !important;
+    margin-bottom: 1.25em !important;
   
   }
   .service-icon6{
-    width: 70px !important;
+    width: 90px !important;
     margin-bottom: 1.5em !important;
-  
+    margin-top: -13px;
+
+  }
+  .service-icon7{
+    width: 57px !important;
+    margin-bottom: 1.75em !important;
+  margin-top: 8px;
   }
   .projects{
-    margin-bottom: 4em;
-    margin-top: 1.3em;
+    margin-bottom: 5em;
+    margin-top: 1.53em;
   }
   .reviews-section-header {
     position: relative;
     display: inline-block;
     text-align: center;
   }
-  
-  .reviews-section-header::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: -22px; /* Adjust to position the image below the text */
-    width: 250px; /* Adjust to match the width of the underline image */
-    height: 24px; /* Adjust based on the height of the underline image */
-    background: url('../img/underline-purple.png') no-repeat center;
-    background-size: contain;
-  }
+
   .facebook-five-star{
     width: 11em !important;
     margin-top: 1.3em !important;
     margin-bottom: 1.5em;
   }
   section#testimonial {
-    margin-top: -8.3em !important;
+    margin-top: -5.3em !important;
     margin-bottom: -6.9em;
   }
   .testimonial-content .user-info {
@@ -17431,7 +17629,7 @@ text-transform: uppercase !important;  }
     margin-bottom: 4em !important;
   }
   .appointment p{
-    font-size: 1.06em;
+    font-size: 1.1em;
   }
   .custom-text-area{
     height: 155px;
@@ -17477,7 +17675,7 @@ height: 55px;
     background-size: cover;
   }
   .service-page-header3 {
-    height: 270px !important;
+    height: 315px !important;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -17526,6 +17724,26 @@ height: 55px;
   text-align: center !important;
   }
   .font-type-service-page-header-repairs{
+    font-weight: 600 !important;
+    font-size: 4.86em !important;
+    font-family: "Poppins", system-ui !important;
+  text-transform: uppercase !important; 
+  margin-top: .32em;
+  line-height: 1.1;
+  margin-left: 0em;
+  text-align: center !important;
+  }
+  .font-type-service-page-header-inspections{
+    font-weight: 600 !important;
+    font-size: 4.86em !important;
+    font-family: "Poppins", system-ui !important;
+  text-transform: uppercase !important; 
+  margin-top: .32em;
+  line-height: 1.1;
+  margin-left: 0em;
+  text-align: center !important;
+  }
+  .font-type-service-page-header-loft{
     font-weight: 600 !important;
     font-size: 4.86em !important;
     font-family: "Poppins", system-ui !important;
@@ -17586,6 +17804,12 @@ height: 55px;
   }
   .font-type-page-header{
     font-weight: 600 !important;
+    font-size: 4.86em !important;
+    font-family: "Poppins", system-ui !important;
+  text-transform: uppercase !important; 
+  margin-top: .3em;
+  }
+  .blog-post-page-header{font-weight: 600 !important;
     font-size: 4.86em !important;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
@@ -17666,12 +17890,13 @@ height: 55px;
     text-transform: uppercase !important;
     font-size: 2.4em !important;
     margin-top: .5em;
+    color: #000 !important;
   }
   .about-img{
     background-image: url(../img/about-1.jpg );
     background-size: cover;
   background-position: top;
-  height: 660px !important;
+  height: 720px !important;
   }/* Center the entire section */
 .about-container {
   display: flex;
@@ -17694,6 +17919,7 @@ height: 55px;
     margin-left: auto !important;
   }
   .font-future-about-page{
+    color: #000 !important;
     font-weight: 600 !important;
     font-size: 2.8em !important;
     width: 105% !important;
@@ -17702,7 +17928,7 @@ height: 55px;
   text-transform: uppercase !important; 
   }
   .about-page-link{
-    font-size: 27px !important;
+    font-size: 24px !important;
     font-weight: 600 !important;
     color: #182333;
     font-family: 'Poppins', sans-serif;
@@ -17736,7 +17962,7 @@ height: 55px;
     margin-right: auto ;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
-  margin-bottom: .95em;
+  margin-bottom: .5em;
   }
   .underline-image-projects-page {
     position: relative;
@@ -17888,6 +18114,206 @@ font-size: 1.12em !important;
     }
 }
 @media (min-width: 1070px) and (max-width: 1100px){
+  .blog-post-page-header{font-weight: 600 !important;
+    font-size: 4.86em !important;
+    font-family: "Poppins", system-ui !important;
+  text-transform: uppercase !important; 
+  margin-top: .3em;
+  }
+  .project-carousel .owl-nav {
+    position: absolute;
+    width: 95%;
+    margin-left: 1.75em ;
+    height: 45px;
+    top: 45%;
+
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    transition: .5s;
+    opacity: 1;
+    z-index: 1;
+  }
+  .choose-us {
+    position: relative;
+    background: #fff;
+  margin-top: -13.6em !important;
+  margin-bottom: -7em !important;
+       padding: 73px 0; /* Adjust padding as needed */
+       z-index: -12; /* Ensure overlays are below content */
+  overflow: hidden;
+  }
+  .overlay-choose {
+    position: absolute;
+    z-index: -1; /* Ensure overlays are below content */
+  }
+  .bottom-left {
+    background-color: transparent;
+    width: 1200px;
+  height: auto;
+  transform: rotate(-0deg) scaleX(-1); /* Flip horizontally */
+  top: 10%;
+  opacity: .3;
+      left: -1080px ;
+  }
+  .top-right {
+    background-color: transparent;
+    width: 1200px; /* Adjust width as needed */
+    height: auto;
+    transform: rotate(-360deg) scaleX(-1); /* Flip horizontally */
+    position: absolute;
+    top: 5%;
+    left: 1550px !important;
+  z-index: 1;
+  opacity: .5;
+  
+  
+  }
+  .choose-us::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px; /* Adjust height as needed for the gradient transition */
+    background: #fff;
+  
+    z-index: 21;
+  }
+  /* Bottom gradient */
+  .choose-us::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px; /* Adjust height as needed for the gradient transition */
+  background: #fff;
+  z-index: 2;
+  }
+  
+  .choose-us-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-left: auto ;
+    margin-right: auto;
+    width: 85% !important; /* Adjust as needed */
+    max-width: 1200px; /* Max width for large screens */
+    gap: 20px; /* Gap between sections */
+  }
+  
+  .choose-us-container .left-section,
+  .choose-us-container .right-section {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .choose-us-container .left-section {
+    margin-right: 20px;
+  }
+  
+  .choose-us-container .right-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .choose-us-container p {
+    font-size: 1em;
+    font-family: 'Open sans' !important;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #8D9297 !important;
+  }
+  .choose-us-container .right-section img {
+    max-width: 90%;
+    object-fit: cover;
+    height: 790px !important;
+  }
+  .choose-us-container .reason {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #8f8f8f;
+    padding-bottom: 1.3em;
+    width: 90%;
+  }
+  
+  .choose-us-container .icon {
+  margin-right: 20px;
+  }
+  
+  .choose-us-container .text h3 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #000   ;
+  
+  }
+  
+  .choose-us-container .text p {
+    margin: 0;
+    color: #000   ;
+  }
+  
+  .choose-us-container .right-section img {
+    max-width: 100%;
+    height: auto;
+  }
+  .choose-us-header{
+    font-family: "Poppins", system-ui !important;
+    text-transform: uppercase ;
+    font-weight: 600 ;
+    margin-left: 0em ;
+    width: 100%;
+    margin-top: .2em;
+    font-size: 3em !important ;
+    color: #000000 ;
+  }
+  .icon-png{
+  width: 64px;
+  height: 64px;
+  }
+  
+  .project-carousel{
+    margin-top: .7em !important;
+  }
+  .swiper-pagination {
+    position: absolute;
+    bottom: 10px !important; /* Adjust the distance from the bottom as needed */
+  }
+  .google-icon-review-card{
+    width: 1.5em;
+right: 0;
+margin-right: 3.7em;
+position: absolute;  }
+  .reviews-section-sub-head{
+    color: #000;
+    font-weight: 600 ;
+    font-family: "Poppins", sans-serif !important;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  align-items: baseline !important;
+  margin-bottom: 1em;
+  margin-top: .2em;
+  }
+  .reviews-section-google-logo{
+  width: 5em;
+  margin-left: .5em;
+  align-items: center;
+  }
+  .stars-icons{
+    align-items: center;
+  margin-top: -7px;
+  margin-left: 7px;
+  margin-right: 7px;
+  }
+  .yellow-header-text{
+    color: #FBBD20;
+  } 
   .ipad-display-visible{
     display: block !important;
   }
@@ -17920,10 +18346,13 @@ font-size: 1.12em !important;
     height: 3.35rem; /* Size of the outer circle */
     border-radius: 50%;
     padding: .71em;
-    margin-top: -5em;
+    margin-top: -3.75em;
     background-color: rgba(255, 255, 255, 0.0); /* Transparent circle */
     border: 2px solid white; /* White stroke */
     position: absolute;
+  }
+  .yellow-header-text{
+    color: #FBBD20;
   }
   .text-container{
     width: 90%;
@@ -17992,11 +18421,11 @@ margin-top: 0em;
   display: inline-block;
 }
 .header-text{
-  font-family: "Poppins", system-ui !important;
+  font-family: "Lato", sans-serif !important;
   font-weight: 700 !important;
   color: #fff;
   line-height: 1.15 ;
-  font-size: 4.25em !important;
+  font-size: 3.4em !important;
 text-transform: uppercase !important;
 }
 .body-text{
@@ -18004,14 +18433,25 @@ text-transform: uppercase !important;
   font-weight: 600 !important;
   color: #fff;
   letter-spacing: 1px !important;
-  font-size: 1.6em !important;
+  font-size: 2.2em !important;
 text-transform: uppercase !important;
 }
 
 .intro-text{
-  max-width: 80%;
+  max-width: 70%;
+  border-left: 3px #FBBB1C solid;
   font-size: 1.2em !important;
+  padding-left: 1em;
+  margin-top: 1.1em;
+  margin-bottom: 1.3em;
 }
+.header-intro-text1{
+  color: #FBBD20;
+  font-family: "Poppins", sans-serif;
+font-weight: 600 !important;
+font-size: 1.5em;
+margin-bottom: .4em;
+} 
 .underline-image::after {
   content: "";
   position: absolute;
@@ -18057,12 +18497,20 @@ text-transform: uppercase !important;
 }
 
 .btn-carousel {
-    background: rgb(103,180,184);
-    background: linear-gradient(142deg, rgba(103,180,184,1) 0%, rgba(150,224,227,1) 100%);
+  background: rgb(250,161,33);
+  background: linear-gradient(270deg, rgba(250,161,33,1) 0%, rgba(251,190,27,1) 100%);
     color: #fff;
-    padding: 0 90px 0px 40px !important; /* Ensure equal horizontal padding */
+    padding: 1px 110px 0px 40px !important; /* Ensure equal horizontal padding */
 
     border: none;
+}
+.reviews-overlay{
+  width: 17em !important;
+  height: auto !important;
+  margin-top: -2.5px !important;
+  z-index: 2;
+  margin-left: 20em;
+  object-fit: cover !important;
 }
 .btn-carousel2 {
 
@@ -18130,13 +18578,13 @@ letter-spacing: .2px; /* Adjust the value as needed */
   } 
   
   .navbar-nav{
-    margin-left: 2em !important;
+    margin-left: 1.8em !important;
   }
   .navbar .navbar-nav .nav-link {
     margin-right: 23px;
     padding: 6px 0px 0px 0;
   color: #fff;
-  font-size: 19px !important;
+  font-size: 18px !important;
   font-weight: 500 !important;
     white-space: nowrap !important;
 text-transform: uppercase;
@@ -18148,14 +18596,14 @@ font-family: "Poppins", system-ui !important;
   
   }
   .navbar-links-2{
-    margin-left: 148px !important ;
+    margin-left: 189px !important ;
     margin-top: 6px;
   }
   .navbar .navbar-nav .nav-link2 {
     margin-right: 23px;
     padding: 6px 0px 0px 0 !important;
   color: #fff;
-  font-size: 19px !important;
+  font-size: 18px !important;
   font-weight: 600 !important;
 
 text-transform: uppercase;
@@ -18176,8 +18624,9 @@ font-family: "Poppins", system-ui !important;
   }
   .btn-colour-nav {
     position: relative;
-    background: transparent !important;
-    border: 3px solid #fff;
+    background: rgb(250,161,33);
+    background: linear-gradient(270deg, rgba(250,161,33,1) 0%, rgba(251,190,27,1) 100%) !important;   
+        border: none !important;
     color: #fff;
     margin-top: 2px;
 
@@ -18243,7 +18692,7 @@ font-family: "Montserrat", sans-serif;
     height: 90px !important;
   }
   .logo{
-    width: 9.5em !important;
+    width: 8.75em !important;
     position: relative;
     z-index: 10000;
     margin-top: 6.8em !important;
@@ -18330,7 +18779,7 @@ font-family: "Montserrat", sans-serif;
   margin-left: 0em !important;
   padding: 0em 2em;
   width: 100%;
-  font-size: 3em !important;
+  font-size: 3.2em !important;
   color: #000000 !important;
 }
 .contact div {
@@ -18396,7 +18845,7 @@ margin-left: 5px;
 
 }
 .services-section{
-  margin-top: -6.17em;
+  margin-top: -7.9em;
 }
 .services-section-sub-header{
   font-family: "Poppins", system-ui !important;
@@ -18405,7 +18854,7 @@ margin-left: 5px;
   margin-bottom: .5em;
   font-weight: 600 !important;
   font-size: 1.5em !important;
-  color: #64B5B9 !important;
+  color: #FBBD20 !important;
 }
 .services-section-header{
   font-family: "Poppins", system-ui !important;
@@ -18413,7 +18862,7 @@ margin-left: 5px;
   font-weight: 600 !important;
   margin-left: 0em ;
   font-size: 3.2em !important;
-  margin-bottom: .65em !important;
+  margin-bottom: .35em !important;
   color: #000000 !important;
 } 
 .desktop-none{
@@ -18468,37 +18917,43 @@ margin-left: 5px;
     font-size: 1.5em;
   }
   .service-icon2{
-    width: 80px !important;
+    width: 84px !important;
     margin-bottom: 1.5em !important;
   }
   .service-icon1{
     width: 70px !important;
-    margin-bottom: 1.5em !important;
+    margin-bottom: 1.25em !important;
   
   }
   .service-icon3{
-    width: 70px !important;
-    margin-bottom: 1.5em !important;
+    width: 75px !important;
+    margin-bottom: 1.25em !important;
   
   }
   .service-icon4{
-    width: 70px !important;
+    width: 65px !important;
     margin-bottom: 1.5em !important;
-  
+  margin-top: -8px;
   }
   .service-icon5{
-    width: 70px !important;
-    margin-bottom: 1.5em !important;
+    width: 80px !important;
+    margin-bottom: 1.25em !important;
   
   }
   .service-icon6{
-    width: 70px !important;
+    width: 90px !important;
     margin-bottom: 1.5em !important;
-  
+    margin-top: -13px;
+
+  }
+  .service-icon7{
+    width: 57px !important;
+    margin-bottom: 1.75em !important;
+  margin-top: 8px;
   }
   .projects{
     margin-bottom: 5em;
-    margin-top: .72em !important;
+    margin-top: 1.6em !important;
   }
   .reviews-section-header {
     position: relative;
@@ -18506,24 +18961,14 @@ margin-left: 5px;
     text-align: center;
   }
   
-  .reviews-section-header::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: -22px; /* Adjust to position the image below the text */
-    width: 250px; /* Adjust to match the width of the underline image */
-    height: 24px; /* Adjust based on the height of the underline image */
-    background: url('../img/underline-purple.png') no-repeat center;
-    background-size: contain;
-  }
+
   .facebook-five-star{
     width: 11em !important;
     margin-top: 1.3em !important;
     margin-bottom: 1.5em;
   }
   section#testimonial {
-    margin-top: -8.69em !important;
+    margin-top: -5.2em !important;
     margin-bottom: -6.4em;
   }
   .testimonial-content .user-info {
@@ -18573,7 +19018,7 @@ margin-left: 2.5em;
 }  
 .font-type-contact{
   font-weight: 700;
-  font-size: 2.83em;
+  font-size: 2.85em;
   margin-top: .64em;
   font-family: "Poppins", system-ui !important;
 text-transform: uppercase !important;  }  
@@ -18827,7 +19272,7 @@ height: 55px;
     background-image: url(../img/about-1.jpg );
     background-size: cover;
   background-position: top;
-  height: 670px !important;
+  height: 700px !important;
   }/* Center the entire section */
 .about-container {
   display: flex;
@@ -18854,6 +19299,7 @@ height: 55px;
     font-size: 2.8em !important;
     width: 105% !important;
     line-height: 1.2 !important;
+    color:  #000 !important;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
   }
@@ -19048,6 +19494,249 @@ font-size: 1.12em !important;
       }
 }
 @media (min-width: 1100px) and (max-width: 1170px){
+  .text-area-contact-page{
+    height: 160px !important;
+    }
+    .blog-post-page-header{font-weight: 600 !important;
+    font-size: 4.86em !important;
+    font-family: "Poppins", system-ui !important;
+  text-transform: uppercase !important; 
+  margin-top: .25em;
+  }
+  .swiper-pagination {
+    position: absolute;
+    bottom: 20px !important; /* Adjust the distance from the bottom as needed */
+  }
+  
+  .choose-us {
+    position: relative;
+    background: #fff;
+  margin-top: -13.6em !important;
+  margin-bottom: -7em !important;
+       padding: 73px 0; /* Adjust padding as needed */
+       z-index: -12; /* Ensure overlays are below content */
+  overflow: hidden;
+  }
+  .overlay-choose {
+    position: absolute;
+    z-index: -1; /* Ensure overlays are below content */
+  }
+  .bottom-left {
+    background-color: transparent;
+    width: 1200px;
+  height: auto;
+  transform: rotate(-0deg) scaleX(-1); /* Flip horizontally */
+  top: 10%;
+  opacity: .3;
+      left: -1080px ;
+  }
+  .top-right {
+    background-color: transparent;
+    width: 1200px; /* Adjust width as needed */
+    height: auto;
+    transform: rotate(-360deg) scaleX(-1); /* Flip horizontally */
+    position: absolute;
+    top: 5%;
+    left: 1550px !important;
+  z-index: 1;
+  opacity: .5;
+  
+  
+  }
+  .choose-us::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px; /* Adjust height as needed for the gradient transition */
+    background: #fff;
+  
+    z-index: 21;
+  }
+  /* Bottom gradient */
+  .choose-us::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px; /* Adjust height as needed for the gradient transition */
+  background: #fff;
+  z-index: 2;
+  }
+  
+  .choose-us-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-left: auto ;
+    margin-right: auto;
+    width: 85% !important; /* Adjust as needed */
+    max-width: 1200px; /* Max width for large screens */
+    gap: 20px; /* Gap between sections */
+  }
+  
+  .choose-us-container .left-section,
+  .choose-us-container .right-section {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .choose-us-container .left-section {
+    margin-right: 20px;
+  }
+  
+  .choose-us-container .right-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .choose-us-container p {
+    font-size: 1em;
+    font-family: 'Open sans' !important;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #8D9297 !important;
+  }
+  .choose-us-container .right-section img {
+    max-width: 90%;
+    object-fit: cover;
+    height: 690px !important;
+  }
+  .choose-us-container .reason {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #8f8f8f;
+    padding-bottom: 1.3em;
+    width: 90%;
+  }
+  
+  .choose-us-container .icon {
+  margin-right: 20px;
+  }
+  
+  .choose-us-container .text h3 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #000   ;
+  
+  }
+  
+  .choose-us-container .text p {
+    margin: 0;
+    color: #000   ;
+  }
+  
+  .choose-us-container .right-section img {
+    max-width: 100%;
+    height: auto;
+  }
+  .choose-us-header{
+    font-family: "Poppins", system-ui !important;
+    text-transform: uppercase ;
+    font-weight: 600 ;
+    margin-left: 0em ;
+    width: 100%;
+    margin-top: .2em;
+    font-size: 3em !important ;
+    color: #000000 ;
+  }
+  .icon-png{
+  width: 64px;
+  height: 64px;
+  }
+  .project-carousel .owl-nav {
+    position: absolute;
+    width: 95%;
+    margin-left: 1.75em ;
+    height: 45px;
+    top: 45%;
+
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    transition: .5s;
+    opacity: 1;
+    z-index: 1;
+  }
+  .project-carousel{
+    margin-top: .2em !important;
+  }
+  .google-icon-review-card{
+    width: 1.5em;
+right: 0;
+margin-right: 3.7em;
+position: absolute;  }
+  .reviews-section-sub-head{
+    color: #000;
+    font-weight: 600 ;
+    font-family: "Poppins", sans-serif !important;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  align-items: baseline !important;
+  margin-bottom: 1em;
+  margin-top: .2em;
+  }
+  .reviews-section-google-logo{
+  width: 5em;
+  margin-left: .5em;
+  align-items: center;
+  }
+  .stars-icons{
+    align-items: center;
+  margin-top: -7px;
+  margin-left: 7px;
+  margin-right: 7px;
+  }
+  .yellow-header-text{
+    color: #FBBD20;
+  }
+  .reviews-overlay{
+    width: 17em !important;
+    height: auto !important;
+    margin-top: -2.5px !important;
+    z-index: 2;
+    margin-left: 20em;
+    object-fit: cover !important;
+  }
+  .header-text{
+    font-family: "Lato", sans-serif !important;
+    font-weight: 700 !important;
+    color: #fff;
+    line-height: 1.15 ;
+    font-size: 3.4em !important;
+  text-transform: uppercase !important;
+  }
+  .body-text{
+    font-family: "Poppins", system-ui !important;
+    font-weight: 600 !important;
+    color: #fff;
+    letter-spacing: 1px !important;
+    font-size: 2.2em !important;
+  text-transform: uppercase !important;
+  }
+  
+  .intro-text{
+    max-width: 70%;
+    border-left: 3px #FBBB1C solid;
+    font-size: 1.2em !important;
+    padding-left: 1em;
+    margin-top: 1.1em;
+    margin-bottom: 1.3em;
+  }
+  .header-intro-text1{
+    color: #FBBD20;
+    font-family: "Poppins", sans-serif;
+  font-weight: 600 !important;
+  font-size: 1.5em;
+  margin-bottom: .2em !important;
+  } 
   .ipad-display-visible{
     display: block !important;
   }
@@ -19080,8 +19769,8 @@ font-size: 1.12em !important;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 3.35rem; /* Size of the outer circle */
-    height: 3.35rem; /* Size of the outer circle */
+    width: 3.25rem; /* Size of the outer circle */
+    height: 3.25rem; /* Size of the outer circle */
     border-radius: 50%;
     padding: .71em;
     margin-top: -5em;
@@ -19102,7 +19791,7 @@ font-size: 1.12em !important;
 /* Ensure the carousel-item is positioned relatively */
 .carousel-item {
   position: relative;
-  height: 590px !important;
+  height: 610px !important;
 } .navbar-brand {
   position: absolute; /* Position the logo absolutely to center it */
   left: 50%;
@@ -19155,39 +19844,8 @@ margin-top: 0em;
   position: relative;
   display: inline-block;
 }
-.header-text{
-  font-family: "Poppins", system-ui !important;
-  font-weight: 700 !important;
-  color: #fff;
-  line-height: 1.15 ;
-  font-size: 4.25em !important;
-text-transform: uppercase !important;
-}
-.body-text{
-  font-family: "Poppins", system-ui !important;
-  font-weight: 600 !important;
-  color: #fff;
-  letter-spacing: 1px !important;
-  font-size: 1.6em !important;
-text-transform: uppercase !important;
-}
 
-.intro-text{
-  max-width: 80%;
-  font-size: 1.2em !important;
-}
-.underline-image::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: -4px; /* Adjust this value to position the underline correctly */
-  height: 20px; /* Adjust this value based on the height of your underline image */
-  background-image: url('../img/underline.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center bottom;
-}
+
 
 .carousel-bottom-shape {
   position: absolute;
@@ -19222,10 +19880,10 @@ text-transform: uppercase !important;
 }
 
 .btn-carousel {
-    background: rgb(103,180,184);
-    background: linear-gradient(142deg, rgba(103,180,184,1) 0%, rgba(150,224,227,1) 100%);
+  background: rgb(250,161,33);
+  background: linear-gradient(270deg, rgba(250,161,33,1) 0%, rgba(251,190,27,1) 100%);
     color: #fff;
-    padding: 0 90px 0px 40px !important; /* Ensure equal horizontal padding */
+    padding: 1px 110px 0px 40px !important; /* Ensure equal horizontal padding */
 
     border: none;
 }
@@ -19295,13 +19953,13 @@ letter-spacing: .2px; /* Adjust the value as needed */
   } 
   
   .navbar-nav{
-    margin-left: 2em !important;
+    margin-left: 1.9em !important;
   }
   .navbar .navbar-nav .nav-link {
     margin-right: 23px;
     padding: 6px 0px 0px 0;
   color: #fff;
-  font-size: 19.5px !important;
+  font-size: 18.75px !important;
   font-weight: 500 !important;
     white-space: nowrap !important;
 text-transform: uppercase;
@@ -19313,14 +19971,14 @@ font-family: "Poppins", system-ui !important;
   
   }
   .navbar-links-2{
-    margin-left: 166px !important ;
+    margin-left: 193px !important ;
     margin-top: 6px;
   }
   .navbar .navbar-nav .nav-link2 {
     margin-right: 23px;
     padding: 6px 0px 0px 0 !important;
   color: #fff;
-  font-size: 19.5px !important;
+  font-size: 18.75px !important;
   font-weight: 600 !important;
 
 text-transform: uppercase;
@@ -19341,8 +19999,8 @@ font-family: "Poppins", system-ui !important;
   }
   .btn-colour-nav {
     position: relative;
-    background: transparent !important;
-    border: 3px solid #fff;
+    background: rgb(250,161,33);
+    background: linear-gradient(270deg, rgba(250,161,33,1) 0%, rgba(251,190,27,1) 100%) !important;       border: none !important;
     color: #fff;
     margin-top: 2px;
 
@@ -19350,7 +20008,7 @@ font-family: "Poppins", system-ui !important;
     font-family: "Poppins", system-ui !important;
 align-items: center !important;
     text-transform: uppercase;
-    padding: .2em 1.57em;
+    padding: .2em 1.53em;
     margin-left: 7em !important;
     margin-right: 2px !important ;
     border-radius: 5.21em;
@@ -19407,7 +20065,7 @@ font-family: "Montserrat", sans-serif;
     height: 90px !important;
   }
   .logo{
-    width: 10em !important;
+    width: 9em !important;
     position: relative;
     z-index: 10000;
     margin-top: 6.9em !important;
@@ -19494,7 +20152,7 @@ font-family: "Montserrat", sans-serif;
   margin-left: 0em !important;
   padding: 0em 2em;
   width: 100%;
-  font-size: 3em !important;
+  font-size: 3.2em !important;
   color: #000000 !important;
 }
 .contact div {
@@ -19560,7 +20218,7 @@ margin-left: 5px;
 
 }
 .services-section{
-  margin-top: -6em;
+  margin-top: -8.5em;
 }
 .services-section-sub-header{
   font-family: "Poppins", system-ui !important;
@@ -19569,7 +20227,7 @@ margin-left: 5px;
   margin-bottom: .5em;
   font-weight: 600 !important;
   font-size: 1.5em !important;
-  color: #64B5B9 !important;
+  color: #FBBD20 !important;
 }
 .services-section-header{
   font-family: "Poppins", system-ui !important;
@@ -19577,7 +20235,7 @@ margin-left: 5px;
   font-weight: 600 !important;
   margin-left: 0em ;
   font-size: 3.2em !important;
-  margin-bottom: .65em !important;
+  margin-bottom: .25em !important;
   color: #000000 !important;
 } 
 .desktop-none{
@@ -19646,23 +20304,28 @@ margin-left: 5px;
   
   }
   .service-icon4{
-    width: 70px !important;
-    margin-bottom: 1.5em !important;
+    width: 60px !important;
+    margin-bottom: 2em !important;
   
   }
   .service-icon5{
-    width: 70px !important;
+    width: 80px !important;
     margin-bottom: 1.5em !important;
   
   }
   .service-icon6{
-    width: 70px !important;
+    width: 85px !important;
+    margin-bottom: 1.5em !important;
+  
+  }
+  .service-icon7{
+    width: 55px !important;
     margin-bottom: 1.5em !important;
   
   }
   .projects{
-    margin-bottom: 5em;
-    margin-top: 1.6em !important;
+    margin-bottom: -14em  !important;
+    margin-top: 2.2em !important;
   }
   .reviews-section-header {
     position: relative;
@@ -19670,24 +20333,14 @@ margin-left: 5px;
     text-align: center;
   }
   
-  .reviews-section-header::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: -22px; /* Adjust to position the image below the text */
-    width: 250px; /* Adjust to match the width of the underline image */
-    height: 24px; /* Adjust based on the height of the underline image */
-    background: url('../img/underline-purple.png') no-repeat center;
-    background-size: contain;
-  }
+ 
   .facebook-five-star{
     width: 11em !important;
     margin-top: 1.3em !important;
     margin-bottom: 1.5em;
   }
   section#testimonial {
-    margin-top: -8.29em !important;
+    margin-top: -5.5em !important;
     margin-bottom: -5.8em;
   }
   .testimonial-content .user-info {
@@ -19740,7 +20393,7 @@ text-transform: uppercase !important;  }
   .appointment {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
     background-size: cover;
-    height: 520px;
+    height: 480px;
     margin-bottom: 5em !important;
   }
   .appointment p{
@@ -19792,7 +20445,7 @@ height: 55px;
     background-size: cover;
   }
   .service-page-header3 {
-    height: 270px !important;
+    height: 320px !important;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -19826,7 +20479,7 @@ height: 55px;
     font-size: 4.86em !important;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
-  margin-top: .4em;
+  margin-top: .25em !important;
   margin-left: 0em;
   
   text-align: center !important;
@@ -19836,7 +20489,7 @@ height: 55px;
     font-size: 4.86em !important;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
-  margin-top: .4em;
+  margin-top: .25em !important;
   margin-left: 0em;
   text-align: center !important;
   }
@@ -19845,7 +20498,7 @@ height: 55px;
     font-size: 4.86em !important;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
-  margin-top: .32em;
+  margin-top: .25em !important;
   line-height: 1.1;
   margin-left: 0em;
   text-align: center !important;
@@ -19855,7 +20508,7 @@ height: 55px;
     font-size: 4.76em !important;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
-  margin-top: .4em;
+  margin-top: .25em !important;
   line-height: 1.1;
   margin-left: 0em;
   text-align: center !important;
@@ -19865,7 +20518,27 @@ height: 55px;
     font-size: 4.86em !important;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
-  margin-top: .4em;
+  margin-top: .25em !important;
+  line-height: 1.1;
+  margin-left: 0em;
+  text-align: center !important;
+  }
+  .font-type-service-page-header-inspections{
+    font-weight: 600 !important;
+    font-size: 4.86em !important;
+    font-family: "Poppins", system-ui !important;
+  text-transform: uppercase !important; 
+  margin-top: .25em !important;
+  line-height: 1.1;
+  margin-left: 0em;
+  text-align: center !important;
+  }
+  .font-type-service-page-header-loft{
+    font-weight: 600 !important;
+    font-size: 4.86em !important;
+    font-family: "Poppins", system-ui !important;
+  text-transform: uppercase !important; 
+  margin-top: .25em !important;
   line-height: 1.1;
   margin-left: 0em;
   text-align: center !important;
@@ -19875,7 +20548,7 @@ height: 55px;
     font-size: 4.86em !important;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
-  margin-top: .2em;
+  margin-top: .25em !important;
   margin-left: 0em;
   text-align: center !important;
   }
@@ -19884,7 +20557,7 @@ height: 55px;
     font-size: 4.86em !important;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
-  margin-top: .45em !important  ;
+  margin-top: .25em !important;
   line-height: 1.1;
   margin-left: 0em;
   text-align: center !important;
@@ -19894,7 +20567,7 @@ height: 55px;
     font-size: 4.3em !important;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
-  margin-top: .29em;
+  margin-top: .25em !important;
   line-height: 1.13;
   margin-left: 0em !important;
   text-align: center !important;
@@ -19904,7 +20577,7 @@ height: 55px;
     font-size: 4.86em !important;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
-  margin-top: .3em;
+  margin-top: .25em !important;
   }
 
   .page-header .breadcrumb-item+.breadcrumb-item::before {
@@ -19981,13 +20654,13 @@ height: 55px;
     text-transform: uppercase !important;
     font-size: 2.5em !important;
     margin-top: .5em;
-    color: #182333;
+    color: #000 !important;
   }
   .about-img{
     background-image: url(../img/about-1.jpg );
     background-size: cover;
   background-position: top;
-  height: 670px !important;
+  height: 720px !important;
   }/* Center the entire section */
 .about-container {
   display: flex;
@@ -20014,13 +20687,14 @@ height: 55px;
     font-size: 2.8em !important;
     width: 105% !important;
     line-height: 1.2 !important;
+    color: #000 !important;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
   }
   .about-page-link{
     font-size: 27px !important;
     font-weight: 600 !important;
-    color: #182333;
+    color: #000 !important;
     font-family: 'Poppins', sans-serif;
 
     text-decoration: underline;
@@ -20052,7 +20726,7 @@ height: 55px;
     margin-right: auto ;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
-  margin-bottom: .95em;
+  margin-bottom: .4em;
   }
   .underline-image-projects-page {
     position: relative;
@@ -20204,6 +20878,256 @@ font-size: 1.17em !important;
     }
 }
 @media (min-width: 1170px) and (max-width: 1190px){
+  .project-carousel .owl-nav {
+    position: absolute;
+    width: 95%;
+    margin-left: 1.85em ;
+    height: 45px;
+    top: 45%;
+
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    transition: .5s;
+    opacity: 1;
+    z-index: 1;
+  }
+  .blog-post-page-header{font-weight: 600 !important;
+    font-size: 4.86em !important;
+    font-family: "Poppins", system-ui !important;
+  text-transform: uppercase !important; 
+  margin-top: .25em;
+  }
+  .swiper-pagination {
+    position: absolute;
+    bottom: 20px !important; /* Adjust the distance from the bottom as needed */
+  }
+  
+  .choose-us {
+    position: relative;
+    background: #fff;
+  margin-top: -13.6em !important;
+  margin-bottom: -7em !important;
+       padding: 63px 0; /* Adjust padding as needed */
+       z-index: -12; /* Ensure overlays are below content */
+  overflow: hidden;
+  }
+  .overlay-choose {
+    position: absolute;
+    z-index: -1; /* Ensure overlays are below content */
+  }
+  .bottom-left {
+    background-color: transparent;
+    width: 1200px;
+  height: auto;
+  transform: rotate(-0deg) scaleX(-1); /* Flip horizontally */
+  top: 10%;
+  opacity: .3;
+      left: -1080px ;
+  }
+  .top-right {
+    background-color: transparent;
+    width: 1200px; /* Adjust width as needed */
+    height: auto;
+    transform: rotate(-360deg) scaleX(-1); /* Flip horizontally */
+    position: absolute;
+    top: 5%;
+    left: 1550px !important;
+  z-index: 1;
+  opacity: .5;
+  
+  
+  }
+  .choose-us::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px; /* Adjust height as needed for the gradient transition */
+    background: #fff;
+  
+    z-index: 21;
+  }
+  /* Bottom gradient */
+  .choose-us::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px; /* Adjust height as needed for the gradient transition */
+  background: #fff;
+  z-index: 2;
+  }
+  
+  .choose-us-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-left: auto ;
+    margin-right: auto;
+    width: 85% !important; /* Adjust as needed */
+    max-width: 1200px; /* Max width for large screens */
+    gap: 20px; /* Gap between sections */
+  }
+  
+  .choose-us-container .left-section,
+  .choose-us-container .right-section {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .choose-us-container .left-section {
+    margin-right: 20px;
+  }
+  
+  .choose-us-container .right-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .choose-us-container p {
+    font-size: 1em;
+    font-family: 'Open sans' !important;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #8D9297 !important;
+  }
+  .choose-us-container .right-section img {
+    max-width: 90%;
+    object-fit: cover;
+    height: 690px !important;
+  }
+  .choose-us-container .reason {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #8f8f8f;
+    padding-bottom: 1.3em;
+    width: 90%;
+  }
+  
+  .choose-us-container .icon {
+  margin-right: 20px;
+  }
+  
+  .choose-us-container .text h3 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #000   ;
+  
+  }
+  
+  .choose-us-container .text p {
+    margin: 0;
+    color: #000   ;
+  }
+  
+  .choose-us-container .right-section img {
+    max-width: 100%;
+    height: auto;
+  }
+  .choose-us-header{
+    font-family: "Poppins", system-ui !important;
+    text-transform: uppercase ;
+    font-weight: 600 ;
+    margin-left: 0em ;
+    width: 100%;
+    margin-top: .2em;
+    font-size: 3.2em !important ;
+    color: #000000 ;
+  }
+  .icon-png{
+  width: 64px;
+  height: 64px;
+  }
+  .swiper-pagination {
+    position: absolute;
+    bottom: 20px !important; /* Adjust the distance from the bottom as needed */
+  }
+  
+  .btn-carousel {
+    background: rgb(250,161,33);
+    background: linear-gradient(270deg, rgba(250,161,33,1) 0%, rgba(251,190,27,1) 100%);
+      color: #fff;
+      padding: 1px 110px 0px 40px !important; /* Ensure equal horizontal padding */
+  
+      border: none;
+  }
+  .google-icon-review-card{
+    width: 1.5em;
+right: 0;
+margin-right: 2.7em;
+position: absolute;  }
+  .reviews-section-sub-head{
+    color: #000;
+    font-weight: 600 ;
+    font-family: "Poppins", sans-serif !important;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  align-items: baseline !important;
+  margin-bottom: 1em;
+  margin-top: .2em;
+  }
+  .reviews-section-google-logo{
+  width: 5em;
+  margin-left: .5em;
+  align-items: center;
+  }
+  .stars-icons{
+    align-items: center;
+  margin-top: -7px;
+  margin-left: 7px;
+  margin-right: 7px;
+  }
+  .yellow-header-text{
+    color: #FBBD20;
+  }
+  .reviews-overlay{
+    width: 17em !important;
+    height: auto !important;
+    margin-top: -2.5px !important;
+    z-index: 2;
+    margin-left: 20em;
+    object-fit: cover !important;
+  }
+  .header-text{
+    font-family: "Lato", sans-serif !important;
+    font-weight: 700 !important;
+    color: #fff;
+    line-height: 1.15 ;
+    font-size: 3.4em !important;
+  text-transform: uppercase !important;
+  }
+  .body-text{
+    font-family: "Poppins", system-ui !important;
+    font-weight: 600 !important;
+    color: #fff;
+    letter-spacing: 1px !important;
+    font-size: 2.2em !important;
+  text-transform: uppercase !important;
+  }
+  
+  .intro-text{
+    max-width: 70%;
+    border-left: 3px #FBBB1C solid;
+    font-size: 1.2em !important;
+    padding-left: 1em;
+    margin-top: 1.1em;
+    margin-bottom: 1.3em;
+  }
+  .header-intro-text1{
+    color: #FBBD20;
+    font-family: "Poppins", sans-serif;
+  font-weight: 600 !important;
+  font-size: 1.5em;
+  margin-bottom: .2em !important;
+  } 
   .ipad-display-visible{
     display: block !important;
   }
@@ -20331,27 +21255,8 @@ margin-top: 0em;
   position: relative;
   display: inline-block;
 }
-.header-text{
-  font-family: "Poppins", system-ui !important;
-  font-weight: 700 !important;
-  color: #fff;
-  line-height: 1.15 ;
-  font-size: 4.25em !important;
-text-transform: uppercase !important;
-}
-.body-text{
-  font-family: "Poppins", system-ui !important;
-  font-weight: 600 !important;
-  color: #fff;
-  letter-spacing: 1px !important;
-  font-size: 1.6em !important;
-text-transform: uppercase !important;
-}
 
-.intro-text{
-  max-width: 80%;
-  font-size: 1.2em !important;
-}
+  
 .underline-image::after {
   content: "";
   position: absolute;
@@ -20397,14 +21302,6 @@ text-transform: uppercase !important;
     height: 60px; /* Set a fixed height */
 }
 
-.btn-carousel {
-    background: rgb(103,180,184);
-    background: linear-gradient(142deg, rgba(103,180,184,1) 0%, rgba(150,224,227,1) 100%);
-    color: #fff;
-    padding: 0 90px 0px 40px !important; /* Ensure equal horizontal padding */
-
-    border: none;
-}
 .btn-carousel2 {
 
   padding: 0 80px 0px 35px !important; /* Ensure equal horizontal padding */
@@ -20480,13 +21377,13 @@ letter-spacing: .2px; /* Adjust the value as needed */
   }
   
   .navbar-nav{
-    margin-left: 2em !important;
+    margin-left: 1.81em !important;
   }
   .navbar .navbar-nav .nav-link {
     margin-right: 30px;
     padding: 6px 0px 0px 0;
   color: #fff;
-  font-size: 20px !important;
+  font-size: 19.5px !important;
   font-weight: 500 !important;
     white-space: nowrap !important;
 text-transform: uppercase;
@@ -20498,14 +21395,14 @@ font-family: "Poppins", system-ui !important;
   
   }
   .navbar-links-2{
-    margin-left: 168px !important ;
+    margin-left: 191px !important ;
     margin-top: 6px;
   }
   .navbar .navbar-nav .nav-link2 {
     margin-right: 30px;
     padding: 6px 0px 0px 0 !important;
   color: #fff;
-  font-size: 20px !important;
+  font-size: 19.5px !important;
   font-weight: 600 !important;
 
 text-transform: uppercase;
@@ -20526,8 +21423,8 @@ font-family: "Poppins", system-ui !important;
   }
   .btn-colour-nav {
     position: relative;
-    background: transparent !important;
-    border: 3px solid #fff;
+    background: rgb(250,161,33);
+    background: linear-gradient(270deg, rgba(250,161,33,1) 0%, rgba(251,190,27,1) 100%) !important;    border: none !important;
     color: #fff;
     margin-top: 3px !important;
 
@@ -20585,7 +21482,7 @@ font-family: "Montserrat", sans-serif;
     height: 90px !important;
   }
   .logo{
-    width: 10em !important;
+    width: 9em !important;
     position: relative;
     z-index: 10000;
     margin-top: 6.9em !important;
@@ -20672,7 +21569,7 @@ font-family: "Montserrat", sans-serif;
   margin-left: 0em !important;
   padding: 0em 2em;
   width: 100%;
-  font-size: 3em !important;
+  font-size: 3.2em !important;
   color: #000000 !important;
 }
 .contact div {
@@ -20738,7 +21635,7 @@ margin-left: 5px;
 
 }
 .services-section{
-  margin-top: -6.3em;
+  margin-top: -8.63em;
 }
 .services-section-sub-header{
   font-family: "Poppins", system-ui !important;
@@ -20747,7 +21644,7 @@ margin-left: 5px;
   margin-bottom: .5em;
   font-weight: 600 !important;
   font-size: 1.5em !important;
-  color: #64B5B9 !important;
+  color: #FBBD20 !important;
 }
 .services-section-header{
   font-family: "Poppins", system-ui !important;
@@ -20755,7 +21652,7 @@ margin-left: 5px;
   font-weight: 600 !important;
   margin-left: 0em ;
   font-size: 3.2em !important;
-  margin-bottom: .65em !important;
+  margin-bottom: .25em !important;
   color: #000000 !important;
 } 
 .desktop-none{
@@ -20824,23 +21721,33 @@ margin-left: 5px;
   
   }
   .service-icon4{
-    width: 70px !important;
-    margin-bottom: 1.5em !important;
+    width: 60px !important;
+    margin-bottom: 2em !important;
+    margin-top: -5px !important;
+
   
   }
   .service-icon5{
-    width: 70px !important;
+    width: 80px !important;
+    margin-top: -15px !important;
+
     margin-bottom: 1.5em !important;
   
   }
   .service-icon6{
-    width: 70px !important;
+    width: 85px !important;
+    margin-bottom: 1.5em !important;
+    margin-top: -15px !important;
+  
+  }
+  .service-icon7{
+    width: 52px !important;
     margin-bottom: 1.5em !important;
   
   }
   .projects{
     margin-bottom: 5em;
-    margin-top: 1em !important;
+    margin-top: 1.5em !important;
   }
   .reviews-section-header {
     position: relative;
@@ -20848,24 +21755,14 @@ margin-left: 5px;
     text-align: center;
   }
   
-  .reviews-section-header::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: -22px; /* Adjust to position the image below the text */
-    width: 250px; /* Adjust to match the width of the underline image */
-    height: 24px; /* Adjust based on the height of the underline image */
-    background: url('../img/underline-purple.png') no-repeat center;
-    background-size: contain;
-  }
+
   .facebook-five-star{
     width: 11em !important;
     margin-top: 1.3em !important;
     margin-bottom: 1.5em;
   }
   section#testimonial {
-    margin-top: -8.49em !important;
+    margin-top: -5.49em !important;
     margin-bottom: -6em;
   }
   .testimonial-content .user-info {
@@ -20917,7 +21814,7 @@ margin-left: 2.5em;
 }  
 .font-type-contact{
   font-weight: 700;
-  font-size: 2.85em;
+  font-size: 2.8em;
   margin-top: .45em;
   font-family: "Poppins", system-ui !important;
 text-transform: uppercase !important;  }  
@@ -20977,7 +21874,7 @@ height: 55px;
     background-size: cover;
   }
   .service-page-header3 {
-    height: 270px !important;
+    height: 315px !important;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -21011,7 +21908,27 @@ height: 55px;
     font-size: 4.86em !important;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
-  margin-top: .3em;
+  margin-top: .25em !important;
+  margin-left: 0em;
+  
+  text-align: center !important;
+  }
+  .font-type-service-page-header-inspections{
+    font-weight: 600 !important;
+    font-size: 4.86em !important;
+    font-family: "Poppins", system-ui !important;
+  text-transform: uppercase !important; 
+  margin-top: .25em !important;
+  margin-left: 0em;
+  
+  text-align: center !important;
+  }
+  .font-type-service-page-header-loft{
+    font-weight: 600 !important;
+    font-size: 4.86em !important;
+    font-family: "Poppins", system-ui !important;
+  text-transform: uppercase !important; 
+  margin-top: .25em !important;
   margin-left: 0em;
   
   text-align: center !important;
@@ -21021,7 +21938,7 @@ height: 55px;
     font-size: 4.86em !important;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
-  margin-top: .3em;
+  margin-top: .25em !important;
   margin-left: 0em;
   text-align: center !important;
   }
@@ -21030,7 +21947,7 @@ height: 55px;
     font-size: 4.86em !important;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
-  margin-top: .3em;
+  margin-top: .25em !important;
   line-height: 1.1;
   margin-left: 0em;
   text-align: center !important;
@@ -21040,7 +21957,7 @@ height: 55px;
     font-size: 4.76em !important;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
-  margin-top: .3em;
+  margin-top: .25em !important;
   line-height: 1.1;
   margin-left: 0em;
   text-align: center !important;
@@ -21050,7 +21967,7 @@ height: 55px;
     font-size: 4.86em !important;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
-  margin-top: .3em;
+  margin-top: .25em !important;
   line-height: 1.1;
   margin-left: 0em;
   text-align: center !important;
@@ -21060,7 +21977,7 @@ height: 55px;
     font-size: 4.86em !important;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
-  margin-top: .2em;
+  margin-top: .25em !important;
   margin-left: 0em;
   text-align: center !important;
   }
@@ -21069,7 +21986,7 @@ height: 55px;
     font-size: 4.86em !important;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
-  margin-top: .3em !important  ;
+  margin-top: .25em !important;
   line-height: 1.1;
   margin-left: 0em;
   text-align: center !important;
@@ -21079,7 +21996,7 @@ height: 55px;
     font-size: 4.3em !important;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
-  margin-top: .35em;
+  margin-top: .25em !important;
   line-height: 1.13;
   margin-left: 0em !important;
   text-align: center !important;
@@ -21089,7 +22006,7 @@ height: 55px;
     font-size: 4.86em !important;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
-  margin-top: .3em;
+  margin-top: .25em !important;
   }
 
   .page-header .breadcrumb-item+.breadcrumb-item::before {
@@ -21166,13 +22083,13 @@ height: 55px;
     text-transform: uppercase !important;
     font-size: 2.5em !important;
     margin-top: .5em;
-    color: #182333;
+    color: #000 !important;
   }
   .about-img{
     background-image: url(../img/about-1.jpg );
     background-size: cover;
   background-position: top;
-  height: 670px !important;
+  height: 720px !important;
   }/* Center the entire section */
 .about-container {
   display: flex;
@@ -21198,6 +22115,7 @@ height: 55px;
     font-weight: 600 !important;
     font-size: 2.8em !important;
     width: 105% !important;
+    color: #000 !important;
     line-height: 1.2 !important;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
@@ -21205,7 +22123,7 @@ height: 55px;
   .about-page-link{
     font-size: 27px !important;
     font-weight: 600 !important;
-    color: #182333;
+    color: #000 !important; 
     font-family: 'Poppins', sans-serif;
 
     text-decoration: underline;
@@ -21234,10 +22152,11 @@ height: 55px;
     line-height: 1.2 ;
     width: 70% ;
     margin-left: auto ;
+    color: #000 !important;
     margin-right: auto ;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
-  margin-bottom: .95em;
+  margin-bottom: .4em;
   }
   .underline-image-projects-page {
     position: relative;
@@ -21387,8 +22306,264 @@ font-size: 1.17em !important;
       background-color: #fff; /* New background color when clicked (green in this example) */
       /* You can change this color to the desired color */
     }
+    .project-carousel{
+      margin-top: 1em !important;
+    }
 }
 @media (min-width: 1190px) and (max-width: 1270px){
+  .project-carousel .owl-nav {
+    position: absolute;
+    width: 95%;
+    margin-left: 1.85em ;
+    height: 45px;
+    top: 45%;
+
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    transition: .5s;
+    opacity: 1;
+    z-index: 1;
+  }
+  .blog-post-page-header{font-weight: 600 !important;
+    font-size: 4.86em !important;
+    font-family: "Poppins", system-ui !important;
+  text-transform: uppercase !important; 
+  margin-top: .25em;
+  }
+  .swiper-pagination {
+    position: absolute;
+    bottom: 20px !important; /* Adjust the distance from the bottom as needed */
+  }
+  
+  .choose-us {
+    position: relative;
+    background: #fff;
+  margin-top: -13.6em !important;
+  margin-bottom: -7em !important;
+       padding: 63px 0; /* Adjust padding as needed */
+       z-index: -12; /* Ensure overlays are below content */
+  overflow: hidden;
+  }
+  .overlay-choose {
+    position: absolute;
+    z-index: -1; /* Ensure overlays are below content */
+  }
+  .bottom-left {
+    background-color: transparent;
+    width: 1200px;
+  height: auto;
+  transform: rotate(-0deg) scaleX(-1); /* Flip horizontally */
+  top: 10%;
+  opacity: .3;
+      left: -1080px ;
+  }
+  .top-right {
+    background-color: transparent;
+    width: 1200px; /* Adjust width as needed */
+    height: auto;
+    transform: rotate(-360deg) scaleX(-1); /* Flip horizontally */
+    position: absolute;
+    top: 5%;
+    left: 1550px !important;
+  z-index: 1;
+  opacity: .5;
+  
+  
+  }
+  .choose-us::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px; /* Adjust height as needed for the gradient transition */
+    background: #fff;
+  
+    z-index: 21;
+  }
+  /* Bottom gradient */
+  .choose-us::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px; /* Adjust height as needed for the gradient transition */
+  background: #fff;
+  z-index: 2;
+  }
+  
+  .choose-us-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-left: auto ;
+    margin-right: auto;
+    width: 85% !important; /* Adjust as needed */
+    max-width: 1200px; /* Max width for large screens */
+    gap: 20px; /* Gap between sections */
+  }
+  
+  .choose-us-container .left-section,
+  .choose-us-container .right-section {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .choose-us-container .left-section {
+    margin-right: 20px;
+  }
+  
+  .choose-us-container .right-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .choose-us-container p {
+    font-size: 1em;
+    font-family: 'Open sans' !important;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #8D9297 !important;
+  }
+  .choose-us-container .right-section img {
+    max-width: 90%;
+    object-fit: cover;
+    height: 680px !important;
+  }
+  .choose-us-container .reason {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #8f8f8f;
+    padding-bottom: 1.3em;
+    width: 90%;
+  }
+  
+  .choose-us-container .icon {
+  margin-right: 20px;
+  }
+  
+  .choose-us-container .text h3 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #000   ;
+  
+  }
+  
+  .choose-us-container .text p {
+    margin: 0;
+    color: #000   ;
+  }
+  
+  .choose-us-container .right-section img {
+    max-width: 100%;
+    height: auto;
+  }
+  .choose-us-header{
+    font-family: "Poppins", system-ui !important;
+    text-transform: uppercase ;
+    font-weight: 600 ;
+    margin-left: 0em ;
+    width: 100%;
+    margin-top: .2em;
+    font-size: 3.2em !important ;
+    color: #000000 ;
+  }
+  .icon-png{
+  width: 64px;
+  height: 64px;
+  }
+  .swiper-pagination {
+    position: absolute;
+    bottom: 20px !important; /* Adjust the distance from the bottom as needed */
+  }
+  
+  .btn-carousel {
+    background: rgb(250,161,33);
+    background: linear-gradient(270deg, rgba(250,161,33,1) 0%, rgba(251,190,27,1) 100%);
+      color: #fff;
+      padding: 1px 110px 0px 40px !important; /* Ensure equal horizontal padding */
+  
+      border: none;
+  }
+  .google-icon-review-card{
+    width: 1.5em;
+right: 0;
+margin-right: 2.7em;
+position: absolute;  }
+  .reviews-section-sub-head{
+    color: #000;
+    font-weight: 600 ;
+    font-family: "Poppins", sans-serif !important;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  align-items: baseline !important;
+  margin-bottom: 1em;
+  margin-top: .2em;
+  }
+  .reviews-section-google-logo{
+  width: 5em;
+  margin-left: .5em;
+  align-items: center;
+  }
+  .stars-icons{
+    align-items: center;
+  margin-top: -7px;
+  margin-left: 7px;
+  margin-right: 7px;
+  }
+  .yellow-header-text{
+    color: #FBBD20;
+  }
+  .reviews-overlay{
+    width: 17em !important;
+    height: auto !important;
+    margin-top: -2.5px !important;
+    z-index: 2;
+    margin-left: 20em;
+    object-fit: cover !important;
+  }
+  .header-text{
+    font-family: "Lato", sans-serif !important;
+    font-weight: 700 !important;
+    color: #fff;
+    line-height: 1.15 ;
+    font-size: 3.7em !important;
+  text-transform: uppercase !important;
+  }
+  .body-text{
+    font-family: "Poppins", system-ui !important;
+    font-weight: 600 !important;
+    color: #fff;
+    letter-spacing: 1px !important;
+    font-size: 2.2em !important;
+  text-transform: uppercase !important;
+  }
+  
+  .intro-text{
+    max-width: 70%;
+    border-left: 3px #FBBB1C solid;
+    font-size: 1.2em !important;
+    padding-left: 1em;
+    margin-top: 1.1em;
+    margin-bottom: 1.3em;
+  }
+  .header-intro-text1{
+    color: #FBBD20;
+    font-family: "Poppins", sans-serif;
+  font-weight: 600 !important;
+  font-size: 1.5em;
+  margin-bottom: .4em !important;
+  } 
+  .project-carousel{
+    margin-top: -.21em !important;
+  }
   .ipad-display-visible{
     display: block !important;
   }
@@ -21492,14 +22667,7 @@ margin-top: 0em;
   position: relative;
   display: inline-block;
 }
-.header-text{
-  font-family: "Poppins", system-ui !important;
-  font-weight: 700 !important;
-  color: #fff;
-  line-height: 1.15 ;
-  font-size: 4.25em !important;
-text-transform: uppercase !important;
-}
+
 .body-text{
   font-family: "Poppins", system-ui !important;
   font-weight: 600 !important;
@@ -21558,14 +22726,7 @@ text-transform: uppercase !important;
     height: 60px; /* Set a fixed height */
 }
 
-.btn-carousel {
-    background: rgb(103,180,184);
-    background: linear-gradient(142deg, rgba(103,180,184,1) 0%, rgba(150,224,227,1) 100%);
-    color: #fff;
-    padding: 0 90px 0px 40px !important; /* Ensure equal horizontal padding */
 
-    border: none;
-}
 .btn-carousel2 {
 
   padding: 0 80px 0px 35px !important; /* Ensure equal horizontal padding */
@@ -21659,11 +22820,11 @@ font-family: "Poppins", system-ui !important;
   
   }
   .navbar-links-2{
-    margin-left: 166px !important ;
+    margin-left: 168px !important ;
     margin-top: 6px;
   }
   .navbar .navbar-nav .nav-link2 {
-    margin-right: 30px;
+    margin-right: 31px;
     padding: 6px 0px 0px 0 !important;
   color: #fff;
   font-size: 20px !important;
@@ -21687,8 +22848,8 @@ font-family: "Poppins", system-ui !important;
   }
   .btn-colour-nav {
     position: relative;
-    background: transparent !important;
-    border: 3px solid #fff;
+    background: rgb(250,161,33);
+    background: linear-gradient(270deg, rgba(250,161,33,1) 0%, rgba(251,190,27,1) 100%) !important;     border: none !important;
     color: #fff;
     margin-top: 3px !important;
 
@@ -21746,7 +22907,7 @@ font-family: "Montserrat", sans-serif;
     height: 90px !important;
   }
   .logo{
-    width: 10em !important;
+    width: 9em !important;
     position: relative;
     z-index: 10000;
     margin-top: 6.9em !important;
@@ -21833,7 +22994,7 @@ font-family: "Montserrat", sans-serif;
   margin-left: 0em !important;
   padding: 0em 2em;
   width: 100%;
-  font-size: 3em !important;
+  font-size: 3.2em !important;
   color: #000000 !important;
 }
 .contact div {
@@ -21899,7 +23060,7 @@ margin-left: 5px;
 
 }
 .services-section{
-  margin-top: -6em;
+  margin-top: -9em;
 }
 .services-section-sub-header{
   font-family: "Poppins", system-ui !important;
@@ -21908,7 +23069,7 @@ margin-left: 5px;
   margin-bottom: .5em;
   font-weight: 600 !important;
   font-size: 1.5em !important;
-  color: #64B5B9 !important;
+  color: #FBBD20 !important;
 }
 .services-section-header{
   font-family: "Poppins", system-ui !important;
@@ -21916,7 +23077,7 @@ margin-left: 5px;
   font-weight: 600 !important;
   margin-left: 0em ;
   font-size: 3.2em !important;
-  margin-bottom: .65em !important;
+  margin-bottom: .35em !important;
   color: #000000 !important;
 } 
 .desktop-none{
@@ -21985,48 +23146,49 @@ margin-left: 5px;
   
   }
   .service-icon4{
-    width: 70px !important;
-    margin-bottom: 1.5em !important;
+    width: 60px !important;
+    margin-bottom: 2em !important;
+    margin-top: -5px !important;
+
   
   }
   .service-icon5{
-    width: 70px !important;
+    width: 80px !important;
+    margin-top: -15px !important;
+
     margin-bottom: 1.5em !important;
   
   }
   .service-icon6{
-    width: 70px !important;
+    width: 85px !important;
+    margin-bottom: 1.5em !important;
+    margin-top: -15px !important;
+  
+  }
+  .service-icon7{
+    width: 52px !important;
     margin-bottom: 1.5em !important;
   
   }
   .projects{
-    margin-bottom: 5em;
-    margin-top: 1em !important;
+    margin-bottom: 2em;
+    margin-top: 2em !important;
   }
+  
   .reviews-section-header {
     position: relative;
     display: inline-block;
     text-align: center;
   }
   
-  .reviews-section-header::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: -22px; /* Adjust to position the image below the text */
-    width: 250px; /* Adjust to match the width of the underline image */
-    height: 24px; /* Adjust based on the height of the underline image */
-    background: url('../img/underline-purple.png') no-repeat center;
-    background-size: contain;
-  }
+
   .facebook-five-star{
     width: 11em !important;
     margin-top: 1.3em !important;
     margin-bottom: 1.5em;
   }
   section#testimonial {
-    margin-top: -8.69em !important;
+    margin-top: -5.19em !important;
     margin-bottom: -6.4em !important;
   }
   .testimonial-content .user-info {
@@ -22137,7 +23299,7 @@ height: 55px;
     background-size: cover;
   }
   .service-page-header3 {
-    height: 270px !important;
+    height: 320px !important;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -22167,6 +23329,26 @@ height: 55px;
     background-size: cover;
   }
   .font-type-service-page-header{
+    font-weight: 600 !important;
+    font-size: 4.86em !important;
+    font-family: "Poppins", system-ui !important;
+  text-transform: uppercase !important; 
+  margin-top: .3em;
+  margin-left: 0em;
+  
+  text-align: center !important;
+  }
+  .font-type-service-page-header-inspections{
+    font-weight: 600 !important;
+    font-size: 4.86em !important;
+    font-family: "Poppins", system-ui !important;
+  text-transform: uppercase !important; 
+  margin-top: .3em;
+  margin-left: 0em;
+  
+  text-align: center !important;
+  }
+  .font-type-service-page-header-loft{
     font-weight: 600 !important;
     font-size: 4.86em !important;
     font-family: "Poppins", system-ui !important;
@@ -22326,13 +23508,13 @@ height: 55px;
     text-transform: uppercase !important;
     font-size: 2.5em !important;
     margin-top: .5em;
-    color: #182333;
+    color: #000 !important;
   }
   .about-img{
     background-image: url(../img/about-1.jpg );
     background-size: cover;
   background-position: top;
-  height: 670px !important;
+  height: 715px !important;
   }/* Center the entire section */
 .about-container {
   display: flex;
@@ -22356,6 +23538,7 @@ height: 55px;
   }
   .font-future-about-page{
     font-weight: 600 !important;
+    color: #000 !important;
     font-size: 2.8em !important;
     width: 105% !important;
     line-height: 1.2 !important;
@@ -22365,7 +23548,7 @@ height: 55px;
   .about-page-link{
     font-size: 27px !important;
     font-weight: 600 !important;
-    color: #182333;
+    color: #000 !important;
     font-family: 'Poppins', sans-serif;
 
     text-decoration: underline;
@@ -22397,7 +23580,7 @@ height: 55px;
     margin-right: auto ;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
-  margin-bottom: .95em;
+  margin-bottom: .4em;
   }
   .underline-image-projects-page {
     position: relative;
@@ -22549,16 +23732,256 @@ font-size: 1.17em !important;
     }
 }
 @media (min-width: 1270px) and (max-width: 1350px){
-  .blog .sidebar .sidebar-title {
-    font-size: 27px !important;
- color: #182333;
-    font-family: "poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal !important;
-    margin-bottom: 22px !important;
-    padding: 0;
-    margin: 0;
+  .project-carousel .owl-nav {
+    position: absolute;
+    width: 95%;
+    margin-left: 1.85em ;
+    height: 45px;
+    top: 45%;
+
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    transition: .5s;
+    opacity: 1;
+    z-index: 1;
   }
+  .blog-post-page-header{font-weight: 600 !important;
+    font-size: 4.86em !important;
+    font-family: "Poppins", system-ui !important;
+  text-transform: uppercase !important; 
+  margin-top: .25em;
+  }
+  .swiper-pagination {
+    position: absolute;
+    bottom: 20px !important; /* Adjust the distance from the bottom as needed */
+  }
+  
+  .choose-us {
+    position: relative;
+    background: #fff;
+  margin-top: -13.6em !important;
+  margin-bottom: -7em !important;
+       padding: 63px 0; /* Adjust padding as needed */
+       z-index: -12; /* Ensure overlays are below content */
+  overflow: hidden;
+  }
+  .overlay-choose {
+    position: absolute;
+    z-index: -1; /* Ensure overlays are below content */
+  }
+  .bottom-left {
+    background-color: transparent;
+    width: 1200px;
+  height: auto;
+  transform: rotate(-0deg) scaleX(-1); /* Flip horizontally */
+  top: 10%;
+  opacity: .3;
+      left: -1080px ;
+  }
+  .top-right {
+    background-color: transparent;
+    width: 1200px; /* Adjust width as needed */
+    height: auto;
+    transform: rotate(-360deg) scaleX(-1); /* Flip horizontally */
+    position: absolute;
+    top: 5%;
+    left: 1550px !important;
+  z-index: 1;
+  opacity: .5;
+  
+  
+  }
+  .choose-us::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px; /* Adjust height as needed for the gradient transition */
+    background: #fff;
+  
+    z-index: 21;
+  }
+  /* Bottom gradient */
+  .choose-us::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px; /* Adjust height as needed for the gradient transition */
+  background: #fff;
+  z-index: 2;
+  }
+  
+  .choose-us-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-left: auto ;
+    margin-right: auto;
+    width: 85% !important; /* Adjust as needed */
+    max-width: 1200px; /* Max width for large screens */
+    gap: 20px; /* Gap between sections */
+  }
+  
+  .choose-us-container .left-section,
+  .choose-us-container .right-section {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .choose-us-container .left-section {
+    margin-right: 20px;
+  }
+  
+  .choose-us-container .right-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .choose-us-container p {
+    font-size: 1em;
+    font-family: 'Open sans' !important;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #8D9297 !important;
+  }
+  .choose-us-container .right-section img {
+    max-width: 90%;
+    object-fit: cover;
+    height: 680px !important;
+  }
+  .choose-us-container .reason {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #8f8f8f;
+    padding-bottom: 1.3em;
+    width: 90%;
+  }
+  
+  .choose-us-container .icon {
+  margin-right: 20px;
+  }
+  
+  .choose-us-container .text h3 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #000   ;
+  
+  }
+  
+  .choose-us-container .text p {
+    margin: 0;
+    color: #000   ;
+  }
+  
+  .choose-us-container .right-section img {
+    max-width: 100%;
+    height: auto;
+  }
+  .choose-us-header{
+    font-family: "Poppins", system-ui !important;
+    text-transform: uppercase ;
+    font-weight: 600 ;
+    margin-left: 0em ;
+    width: 100%;
+    margin-top: .2em;
+    font-size: 3.4em !important ;
+    color: #000000 ;
+  }
+  .icon-png{
+  width: 64px;
+  height: 64px;
+  }
+  .swiper-pagination {
+    position: absolute;
+    bottom: 20px !important; /* Adjust the distance from the bottom as needed */
+  }
+  
+  .btn-carousel {
+    background: rgb(250,161,33);
+    background: linear-gradient(270deg, rgba(250,161,33,1) 0%, rgba(251,190,27,1) 100%);
+      color: #fff;
+      padding: 1px 110px 0px 40px !important; /* Ensure equal horizontal padding */
+  
+      border: none;
+  }
+  .google-icon-review-card{
+    width: 1.5em;
+right: 0;
+margin-right: 2.7em;
+position: absolute;  }
+  .reviews-section-sub-head{
+    color: #000;
+    font-weight: 600 ;
+    font-family: "Poppins", sans-serif !important;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  align-items: baseline !important;
+  margin-bottom: 1em;
+  margin-top: .2em;
+  }
+  .reviews-section-google-logo{
+  width: 5em;
+  margin-left: .5em;
+  align-items: center;
+  }
+  .stars-icons{
+    align-items: center;
+  margin-top: -7px;
+  margin-left: 7px;
+  margin-right: 7px;
+  }
+  .yellow-header-text{
+    color: #FBBD20;
+  }
+  .reviews-overlay{
+    width: 17em !important;
+    height: auto !important;
+    margin-top: -2.5px !important;
+    z-index: 2;
+    margin-left: 20em;
+    object-fit: cover !important;
+  }
+  .header-text{
+    font-family: "Lato", sans-serif !important;
+    font-weight: 700 !important;
+    color: #fff;
+    line-height: 1.15 ;
+    font-size: 3.7em !important;
+  text-transform: uppercase !important;
+  }
+  .body-text{
+    font-family: "Poppins", system-ui !important;
+    font-weight: 600 !important;
+    color: #fff;
+    letter-spacing: 1px !important;
+    font-size: 2.2em !important;
+  text-transform: uppercase !important;
+  }
+  
+  .intro-text{
+    max-width: 70%;
+    border-left: 3px #FBBB1C solid;
+    font-size: 1.2em !important;
+    padding-left: 1em;
+    margin-top: 1.1em;
+    margin-bottom: 1.3em;
+  }
+  .header-intro-text1{
+    color: #FBBD20;
+    font-family: "Poppins", sans-serif;
+  font-weight: 600 !important;
+  font-size: 1.5em;
+  margin-bottom: .4em !important;
+  } 
   .service-page-sub-head2{
     margin-top: .8em !important;
     margin-bottom: .14em !important;
@@ -22656,27 +24079,7 @@ margin-top: 0em;
   position: relative;
   display: inline-block;
 }
-.header-text{
-  font-family: "Poppins", system-ui !important;
-  font-weight: 700 !important;
-  color: #fff;
-  line-height: 1.15 ;
-  font-size: 4.25em !important;
-text-transform: uppercase !important;
-}
-.body-text{
-  font-family: "Poppins", system-ui !important;
-  font-weight: 600 !important;
-  color: #fff;
-  letter-spacing: 1px !important;
-  font-size: 1.6em !important;
-text-transform: uppercase !important;
-}
 
-.intro-text{
-  max-width: 80%;
-  font-size: 1.2em !important;
-}
 .underline-image::after {
   content: "";
   position: absolute;
@@ -22722,14 +24125,7 @@ text-transform: uppercase !important;
     height: 60px; /* Set a fixed height */
 }
 
-.btn-carousel {
-    background: rgb(103,180,184);
-    background: linear-gradient(142deg, rgba(103,180,184,1) 0%, rgba(150,224,227,1) 100%);
-    color: #fff;
-    padding: 0 90px 0px 40px !important; /* Ensure equal horizontal padding */
 
-    border: none;
-}
 .btn-carousel2 {
 
   padding: 0 80px 0px 35px !important; /* Ensure equal horizontal padding */
@@ -22813,7 +24209,7 @@ letter-spacing: .2px; /* Adjust the value as needed */
     margin-right: 39px;
     padding: 6px 0px 0px 0;
   color: #fff;
-  font-size: 21px !important;
+  font-size: 20.5px !important;
   font-weight: 500 !important;
     white-space: nowrap !important;
 text-transform: uppercase;
@@ -22825,14 +24221,14 @@ font-family: "Poppins", system-ui !important;
   
   }
   .navbar-links-2{
-    margin-left: 160px !important ;
+    margin-left: 176px !important ;
     margin-top: 6px;
   }
   .navbar .navbar-nav .nav-link2 {
     margin-right: 39px;
     padding: 6px 0px 0px 0 !important;
   color: #fff;
-  font-size: 21px !important;
+  font-size: 20.5px !important;
   font-weight: 600 !important;
 
 text-transform: uppercase;
@@ -22853,8 +24249,8 @@ font-family: "Poppins", system-ui !important;
   }
   .btn-colour-nav {
     position: relative;
-    background: transparent !important;
-    border: 3px solid #fff;
+    background: rgb(250,161,33);
+    background: linear-gradient(270deg, rgba(250,161,33,1) 0%, rgba(251,190,27,1) 100%) !important;     border: none !important;
     color: #fff;
     margin-top: 3px !important;
 
@@ -22913,10 +24309,10 @@ font-family: "Montserrat", sans-serif;
     height: 90px !important;
   }
   .logo{
-    width: 10em !important;
+    width: 9.7em !important;
     position: relative;
     z-index: 10000;
-    margin-top: 6.9em !important;
+    margin-top: 6.7em !important;
   } .email{
     font-weight: 600 !important;
 
@@ -23069,7 +24465,7 @@ margin-left: 5px;
 
 }
 .services-section{
-  margin-top: -10.73em;
+  margin-top: -8.73em;
 }
 .services-section-sub-header{
   font-family: "Poppins", system-ui !important;
@@ -23078,7 +24474,7 @@ margin-left: 5px;
   margin-bottom: .5em;
   font-weight: 600 !important;
   font-size: 1.6em !important;
-  color: #64B5B9 !important;
+  color: #FBBD20 !important;
 }
 .services-section-header{
   font-family: "Poppins", system-ui !important;
@@ -23086,7 +24482,7 @@ margin-left: 5px;
   font-weight: 600 !important;
   margin-left: 0em ;
   font-size: 3.4em !important;
-  margin-bottom: .65em !important;
+  margin-bottom: .3em !important;
   color: #000000 !important;
 } 
 .desktop-none{
@@ -23155,26 +24551,36 @@ margin-left: 5px;
   
   }
   .service-icon4{
-    width: 70px !important;
-    margin-bottom: 1.5em !important;
+    width: 60px !important;
+    margin-bottom: 2em !important;
+    margin-top: -5px !important;
+
   
   }
   .service-icon5{
-    width: 70px !important;
+    width: 80px !important;
+    margin-top: -15px !important;
+
     margin-bottom: 1.5em !important;
   
   }
   .service-icon6{
-    width: 70px !important;
+    width: 85px !important;
+    margin-bottom: 1.5em !important;
+    margin-top: -15px !important;
+  
+  }
+  .service-icon7{
+    width: 52px !important;
     margin-bottom: 1.5em !important;
   
   }
   .projects{
     margin-bottom: 5em;
-    margin-top: 1.8em !important;
+    margin-top: 2.5em !important;
   }
   .project-carousel{
-    margin-top: 3.7em !important;
+    margin-top: -.1em !important;
   }
   .reviews-section-header {
     position: relative;
@@ -23183,24 +24589,14 @@ margin-left: 5px;
     font-size: 3.4em !important ;
   }
   
-  .reviews-section-header::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: -22px; /* Adjust to position the image below the text */
-    width: 310px; /* Adjust to match the width of the underline image */
-    height: 24px; /* Adjust based on the height of the underline image */
-    background: url('../img/underline-purple.png') no-repeat center;
-    background-size: contain;
-  }
+
   .facebook-five-star{
     width: 11em !important;
     margin-top: 1.3em !important;
     margin-bottom: 1.5em;
   }
   section#testimonial {
-    margin-top: -8.29em !important;
+    margin-top: -5.9em !important;
     margin-bottom: -6.4em !important;
   }
   .testimonial-content .user-info {
@@ -23209,7 +24605,7 @@ margin-left: 5px;
     justify-content: center;
     flex-wrap: nowrap !important;
     white-space: nowrap !important;
-    margin-right: 5.5em !important;
+    margin-right: 7em !important;
   }
   
   .testimonial-content .user-info .user {
@@ -23254,7 +24650,7 @@ margin-left: 2.5em;
 .font-type-contact{
   font-weight: 700;
   font-size: 3.4em;
-  margin-top: .55em;
+  margin-top: .25em;
   font-family: "Poppins", system-ui !important;
 text-transform: uppercase !important;  }  
   /*** Appointment ***/
@@ -23362,6 +24758,26 @@ height: 55px;
   text-align: center !important;
   }
   .font-type-service-page-header-repairs{
+    font-weight: 600 !important;
+    font-size: 4.86em !important;
+    font-family: "Poppins", system-ui !important;
+  text-transform: uppercase !important; 
+  margin-top: .32em;
+  line-height: 1.1;
+  margin-left: 0em;
+  text-align: center !important;
+  }
+  .font-type-service-page-header-inspections{
+    font-weight: 600 !important;
+    font-size: 4.86em !important;
+    font-family: "Poppins", system-ui !important;
+  text-transform: uppercase !important; 
+  margin-top: .32em;
+  line-height: 1.1;
+  margin-left: 0em;
+  text-align: center !important;
+  }
+  .font-type-service-page-header-loft{
     font-weight: 600 !important;
     font-size: 4.86em !important;
     font-family: "Poppins", system-ui !important;
@@ -23502,7 +24918,7 @@ height: 55px;
     text-transform: uppercase !important;
     font-size: 2.75em !important;
     margin-top: .5em;
-    color: #182333;
+    color:  #000 !important;
   }
   .display-desktop-only{
     display: block !important;
@@ -23535,6 +24951,7 @@ height: 55px;
   }
   .font-future-about-page{
     font-weight: 600 !important;
+    color:  #000 !important;
     font-size: 3em !important;
     width: 100% !important;
     line-height: 1.2 !important;
@@ -23549,6 +24966,7 @@ height: 55px;
     font-weight: 600 !important;
     color: #182333;
     font-family: 'Poppins', sans-serif;
+    color:  #000 !important;
 
     text-decoration: underline;
   }
@@ -23579,7 +24997,7 @@ height: 55px;
     margin-right: auto ;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
-  margin-bottom: .95em;
+  margin-bottom: .45em;
   }
   .underline-image-projects-page {
     position: relative;
@@ -23734,7 +25152,256 @@ font-size: 1.23em !important;
     }
 }
 @media (min-width: 1350px) and (max-width: 1400px){
+  .project-carousel .owl-nav {
+    position: absolute;
+    width: 95%;
+    margin-left: 1.85em ;
+    height: 45px;
+    top: 45%;
+
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    transition: .5s;
+    opacity: 1;
+    z-index: 1;
+  }
+  .blog-post-page-header{font-weight: 600 !important;
+    font-size: 4.86em !important;
+    font-family: "Poppins", system-ui !important;
+  text-transform: uppercase !important; 
+  margin-top: .25em;
+  }
+  .swiper-pagination {
+    position: absolute;
+    bottom: 20px !important; /* Adjust the distance from the bottom as needed */
+  }
   
+  .choose-us {
+    position: relative;
+    background: #fff;
+  margin-top: -13.6em !important;
+  margin-bottom: -7em !important;
+       padding: 63px 0; /* Adjust padding as needed */
+       z-index: -12; /* Ensure overlays are below content */
+  overflow: hidden;
+  }
+  .overlay-choose {
+    position: absolute;
+    z-index: -1; /* Ensure overlays are below content */
+  }
+  .bottom-left {
+    background-color: transparent;
+    width: 1200px;
+  height: auto;
+  transform: rotate(-0deg) scaleX(-1); /* Flip horizontally */
+  top: 10%;
+  opacity: .3;
+      left: -1080px ;
+  }
+  .top-right {
+    background-color: transparent;
+    width: 1200px; /* Adjust width as needed */
+    height: auto;
+    transform: rotate(-360deg) scaleX(-1); /* Flip horizontally */
+    position: absolute;
+    top: 5%;
+    left: 1550px !important;
+  z-index: 1;
+  opacity: .5;
+  
+  
+  }
+  .choose-us::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px; /* Adjust height as needed for the gradient transition */
+    background: #fff;
+  
+    z-index: 21;
+  }
+  /* Bottom gradient */
+  .choose-us::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px; /* Adjust height as needed for the gradient transition */
+  background: #fff;
+  z-index: 2;
+  }
+  
+  .choose-us-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-left: auto ;
+    margin-right: auto;
+    width: 85% !important; /* Adjust as needed */
+    max-width: 1200px; /* Max width for large screens */
+    gap: 20px; /* Gap between sections */
+  }
+  
+  .choose-us-container .left-section,
+  .choose-us-container .right-section {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .choose-us-container .left-section {
+    margin-right: 20px;
+  }
+  
+  .choose-us-container .right-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .choose-us-container p {
+    font-size: 1em;
+    font-family: 'Open sans' !important;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #8D9297 !important;
+  }
+  .choose-us-container .right-section img {
+    max-width: 90%;
+    object-fit: cover;
+    height: 680px !important;
+  }
+  .choose-us-container .reason {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #8f8f8f;
+    padding-bottom: 1.3em;
+    width: 90%;
+  }
+  
+  .choose-us-container .icon {
+  margin-right: 20px;
+  }
+  
+  .choose-us-container .text h3 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #000   ;
+  
+  }
+  
+  .choose-us-container .text p {
+    margin: 0;
+    color: #000   ;
+  }
+  
+  .choose-us-container .right-section img {
+    max-width: 100%;
+    height: auto;
+  }
+  .choose-us-header{
+    font-family: "Poppins", system-ui !important;
+    text-transform: uppercase ;
+    font-weight: 600 ;
+    margin-left: 0em ;
+    width: 100%;
+    margin-top: .2em;
+    font-size: 3.4em !important ;
+    color: #000000 ;
+  }
+  .icon-png{
+  width: 64px;
+  height: 64px;
+  }
+  .swiper-pagination {
+    position: absolute;
+    bottom: 20px !important; /* Adjust the distance from the bottom as needed */
+  }
+  
+  .btn-carousel {
+    background: rgb(250,161,33);
+    background: linear-gradient(270deg, rgba(250,161,33,1) 0%, rgba(251,190,27,1) 100%);
+      color: #fff;
+      padding: 1px 110px 0px 40px !important; /* Ensure equal horizontal padding */
+  
+      border: none;
+  }
+  .google-icon-review-card{
+    width: 1.5em;
+right: 0;
+margin-right: 2.7em;
+position: absolute;  }
+  .reviews-section-sub-head{
+    color: #000;
+    font-weight: 600 ;
+    font-family: "Poppins", sans-serif !important;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  align-items: baseline !important;
+  margin-bottom: 1em;
+  margin-top: .2em;
+  }
+  .reviews-section-google-logo{
+  width: 5em;
+  margin-left: .5em;
+  align-items: center;
+  }
+  .stars-icons{
+    align-items: center;
+  margin-top: -7px;
+  margin-left: 7px;
+  margin-right: 7px;
+  }
+  .yellow-header-text{
+    color: #FBBD20;
+  }
+  .reviews-overlay{
+    width: 17em !important;
+    height: auto !important;
+    margin-top: -2.5px !important;
+    z-index: 2;
+    margin-left: 20em;
+    object-fit: cover !important;
+  }
+  .header-text{
+    font-family: "Lato", sans-serif !important;
+    font-weight: 700 !important;
+    color: #fff;
+    line-height: 1.15 ;
+    font-size: 3.9em !important;
+  text-transform: uppercase !important;
+  }
+  .body-text{
+    font-family: "Poppins", system-ui !important;
+    font-weight: 600 !important;
+    color: #fff;
+    letter-spacing: 1px !important;
+    font-size: 2.2em !important;
+  text-transform: uppercase !important;
+  }
+  
+  .intro-text{
+    max-width: 70%;
+    border-left: 3px #FBBB1C solid;
+    font-size: 1.2em !important;
+    padding-left: 1em;
+    margin-top: 1.1em;
+    margin-bottom: 1.3em;
+  }
+  .header-intro-text1{
+    color: #FBBD20;
+    font-family: "Poppins", sans-serif;
+  font-weight: 600 !important;
+  font-size: 1.5em;
+  margin-bottom: .4em !important;
+  } 
   .service-page-sub-head2{
     margin-top: .8em !important;
     margin-bottom: .14em !important;
@@ -23836,39 +25503,9 @@ margin-top: 0em;
   position: relative;
   display: inline-block;
 }
-.header-text{
-  font-family: "Poppins", system-ui !important;
-  font-weight: 700 !important;
-  color: #fff;
-  line-height: 1.15 ;
-  font-size: 4.25em !important;
-text-transform: uppercase !important;
-}
-.body-text{
-  font-family: "Poppins", system-ui !important;
-  font-weight: 600 !important;
-  color: #fff;
-  letter-spacing: 1px !important;
-  font-size: 1.6em !important;
-text-transform: uppercase !important;
-}
 
-.intro-text{
-  max-width: 60%;
-  font-size: 1.2em !important;
-}
-.underline-image::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: -4px; /* Adjust this value to position the underline correctly */
-  height: 20px; /* Adjust this value based on the height of your underline image */
-  background-image: url('../img/underline.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center bottom;
-}
+
+
 
 .carousel-bottom-shape {
   position: absolute;
@@ -23902,14 +25539,7 @@ text-transform: uppercase !important;
     height: 60px; /* Set a fixed height */
 }
 
-.btn-carousel {
-    background: rgb(103,180,184);
-    background: linear-gradient(142deg, rgba(103,180,184,1) 0%, rgba(150,224,227,1) 100%);
-    color: #fff;
-    padding: 0 90px 0px 40px !important; /* Ensure equal horizontal padding */
 
-    border: none;
-}
 .btn-carousel2 {
 
   padding: 0 80px 0px 35px !important; /* Ensure equal horizontal padding */
@@ -23987,13 +25617,13 @@ letter-spacing: .2px; /* Adjust the value as needed */
   }
   
   .navbar-nav{
-    margin-left: 2.45em !important;
+    margin-left: 2.19em !important;
   }
   .navbar .navbar-nav .nav-link {
-    margin-right: 47px;
+    margin-right: 44px;
     padding: 6px 0px 0px 0;
   color: #fff;
-  font-size: 22px !important;
+  font-size: 21px !important;
   font-weight: 500 !important;
     white-space: nowrap !important;
 text-transform: uppercase;
@@ -24005,14 +25635,14 @@ font-family: "Poppins", system-ui !important;
   
   }
   .navbar-links-2{
-    margin-left: 148px !important ;
+    margin-left: 215px !important ;
     margin-top: 6px;
   }
   .navbar .navbar-nav .nav-link2 {
-    margin-right: 47px;
+    margin-right: 44px;
     padding: 6px 0px 0px 0 !important;
   color: #fff;
-  font-size: 22px !important;
+  font-size: 21px !important;
   font-weight: 600 !important;
 
 text-transform: uppercase;
@@ -24033,8 +25663,9 @@ font-family: "Poppins", system-ui !important;
   }
   .btn-colour-nav {
     position: relative;
-    background: transparent !important;
-    border: 3px solid #fff;
+    background: rgb(250,161,33);
+    background: linear-gradient(270deg, rgba(250,161,33,1) 0%, rgba(251,190,27,1) 100%) !important;   
+     border: none !important;
     color: #fff;
     margin-top: 3px !important;
 
@@ -24042,7 +25673,7 @@ font-family: "Poppins", system-ui !important;
     font-family: "Poppins", system-ui !important;
 align-items: center !important;
     text-transform: uppercase;
-    padding: .22em 1.36em;
+    padding: .22em 1.2em;
     margin-left: 6.3em !important;
     margin-right: 2px !important ;
     border-radius: 5.21em;
@@ -24052,7 +25683,7 @@ align-items: center !important;
   .call-us-button-phone{
     width: 24px !important;
     rotate: 20deg;
-    margin-right: 6px !important; }
+    margin-right: 2px !important; }
   .px-amount{
     padding: 0rem !important;
   }
@@ -24090,13 +25721,13 @@ font-family: "Montserrat", sans-serif;
   }  .navbar {
     margin-top: -50px; /* Negative margin to pull it up */
     border-top: none !important; /* Remove the top border if present */
-    height: 90px !important;
+    height: 95px !important;
   }
   .logo{
-    width: 10.4em !important;
+    width: 10.2em !important;
     position: relative;
     z-index: 10000;
-    margin-top: 6.9em !important;
+    margin-top: 6.8em !important;
   } .email{
     font-weight: 600 !important;
 
@@ -24249,7 +25880,7 @@ margin-left: 5px;
 
 }
 .services-section{
-  margin-top: -11em;
+  margin-top: -9em;
 }
 .services-section-sub-header{
   font-family: "Poppins", system-ui !important;
@@ -24258,7 +25889,7 @@ margin-left: 5px;
   margin-bottom: .5em;
   font-weight: 600 !important;
   font-size: 1.6em !important;
-  color: #64B5B9 !important;
+  color: #FBBD20 !important;
 }
 .services-section-header{
   font-family: "Poppins", system-ui !important;
@@ -24266,7 +25897,7 @@ margin-left: 5px;
   font-weight: 600 !important;
   margin-left: 0em ;
   font-size: 3.4em !important;
-  margin-bottom: .65em !important;
+  margin-bottom: .25em !important;
   color: #000000 !important;
 } 
 .desktop-none{
@@ -24335,26 +25966,36 @@ margin-left: 5px;
   
   }
   .service-icon4{
-    width: 70px !important;
-    margin-bottom: 1.5em !important;
+    width: 60px !important;
+    margin-bottom: 2em !important;
+    margin-top: -5px !important;
+
   
   }
   .service-icon5{
-    width: 70px !important;
+    width: 80px !important;
+    margin-top: -15px !important;
+
     margin-bottom: 1.5em !important;
   
   }
   .service-icon6{
-    width: 70px !important;
+    width: 85px !important;
+    margin-bottom: 1.5em !important;
+    margin-top: -15px !important;
+  
+  }
+  .service-icon7{
+    width: 52px !important;
     margin-bottom: 1.5em !important;
   
   }
   .projects{
     margin-bottom: 5em;
-    margin-top: 1.53em !important;
+    margin-top: 1.83em !important;
   }
   .project-carousel{
-    margin-top: 3.7em !important;
+    margin-top: .7em !important;
   }
   .reviews-section-header {
     position: relative;
@@ -24363,24 +26004,14 @@ margin-left: 5px;
     font-size: 3.4em !important ;
   }
   
-  .reviews-section-header::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: -22px; /* Adjust to position the image below the text */
-    width: 310px; /* Adjust to match the width of the underline image */
-    height: 24px; /* Adjust based on the height of the underline image */
-    background: url('../img/underline-purple.png') no-repeat center;
-    background-size: contain;
-  }
+
   .facebook-five-star{
     width: 11em !important;
     margin-top: 1.3em !important;
     margin-bottom: 1.5em;
   }
   section#testimonial {
-    margin-top: -8.29em !important;
+    margin-top: -6.29em !important;
     margin-bottom: -6.4em !important;
   }
   .testimonial-content .user-info {
@@ -24545,6 +26176,26 @@ height: 55px;
   margin-left: 0em;
   text-align: center !important;
   }
+  .font-type-service-page-header-inspections{
+    font-weight: 600 !important;
+    font-size: 4.86em !important;
+    font-family: "Poppins", system-ui !important;
+  text-transform: uppercase !important; 
+  margin-top: .32em;
+  line-height: 1.1;
+  margin-left: 0em;
+  text-align: center !important;
+  }
+  .font-type-service-page-header-loft{
+    font-weight: 600 !important;
+    font-size: 4.86em !important;
+    font-family: "Poppins", system-ui !important;
+  text-transform: uppercase !important; 
+  margin-top: .32em;
+  line-height: 1.1;
+  margin-left: 0em;
+  text-align: center !important;
+  }
   .font-type-service-page-header-rubber{
     font-weight: 600 !important;
     font-size: 4.86em !important;
@@ -24676,7 +26327,7 @@ height: 55px;
     text-transform: uppercase !important;
     font-size: 2.75em !important;
     margin-top: .5em;
-    color: #182333;
+    color: #000 !important;
   }
   .display-desktop-only{
     display: block !important;
@@ -24685,7 +26336,7 @@ height: 55px;
     background-image: url(../img/about-1.jpg );
     background-size: cover;
   background-position: top;
-  height: 630px !important;
+  height: 635px !important;
   }/* Center the entire section */
 .about-container {
   display: flex;
@@ -24709,6 +26360,7 @@ height: 55px;
   }
   .font-future-about-page{
     font-weight: 600 !important;
+    color: #000 !important;
     font-size: 3em !important;
     width: 100% !important;
     line-height: 1.2 !important;
@@ -24721,7 +26373,7 @@ height: 55px;
   .about-page-link{
     font-size: 27px !important;
     font-weight: 600 !important;
-    color: #182333;
+    color: #000 !important;
     font-family: 'Poppins', sans-serif;
 
     text-decoration: underline;
@@ -24753,7 +26405,7 @@ height: 55px;
     margin-right: auto ;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
-  margin-bottom: 1.15em;
+  margin-bottom: .45em;
   margin-top: .25em;
   }
   .underline-image-projects-page {
@@ -24779,7 +26431,7 @@ height: 55px;
     font-size: 1.1em !important;
   }
   .projects-filtered{
-    margin-top: -.5em !important;
+    margin-top: -1.25em !important;
   }  .projects-page-sub-header{
     font-weight: 600 !important;
     font-size: 1.6em !important;
@@ -24908,6 +26560,259 @@ font-size: 1.23em !important;
     }
 }
 @media (min-width: 1400px) and (max-width: 1500px){
+  .services-image4{
+    height: 100% !important;
+  }
+  .project-carousel .owl-nav {
+    position: absolute;
+    width: 95%;
+    margin-left: 1.85em ;
+    height: 45px;
+    top: 45%;
+
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    transition: .5s;
+    opacity: 1;
+    z-index: 1;
+  }
+  .blog-post-page-header{font-weight: 600 !important;
+    font-size: 5.5em !important;
+    font-family: "Poppins", system-ui !important;
+  text-transform: uppercase !important; 
+  margin-top: .25em;
+  }
+  .swiper-pagination {
+    position: absolute;
+    bottom: 20px !important; /* Adjust the distance from the bottom as needed */
+  }
+  
+  .choose-us {
+    position: relative;
+    background: #fff;
+  margin-top: -13.6em !important;
+  margin-bottom: -7em !important;
+       padding: 63px 0; /* Adjust padding as needed */
+       z-index: -12; /* Ensure overlays are below content */
+  overflow: hidden;
+  }
+  .overlay-choose {
+    position: absolute;
+    z-index: -1; /* Ensure overlays are below content */
+  }
+  .bottom-left {
+    background-color: transparent;
+    width: 1200px;
+  height: auto;
+  transform: rotate(-0deg) scaleX(-1); /* Flip horizontally */
+  top: 10%;
+  opacity: .3;
+      left: -1080px ;
+  }
+  .top-right {
+    background-color: transparent;
+    width: 1200px; /* Adjust width as needed */
+    height: auto;
+    transform: rotate(-360deg) scaleX(-1); /* Flip horizontally */
+    position: absolute;
+    top: 5%;
+    left: 1550px !important;
+  z-index: 1;
+  opacity: .5;
+  
+  
+  }
+  .choose-us::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px; /* Adjust height as needed for the gradient transition */
+    background: #fff;
+  
+    z-index: 21;
+  }
+  /* Bottom gradient */
+  .choose-us::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px; /* Adjust height as needed for the gradient transition */
+  background: #fff;
+  z-index: 2;
+  }
+  
+  .choose-us-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-left: auto ;
+    margin-right: auto;
+    width: 85% !important; /* Adjust as needed */
+    max-width: 1200px; /* Max width for large screens */
+    gap: 20px; /* Gap between sections */
+  }
+  
+  .choose-us-container .left-section,
+  .choose-us-container .right-section {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .choose-us-container .left-section {
+    margin-right: 20px;
+  }
+  
+  .choose-us-container .right-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .choose-us-container p {
+    font-size: 1.125em !important;
+    font-family: 'Open sans' !important;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #8D9297 !important;
+  }
+  .choose-us-container .right-section img {
+    max-width: 90%;
+    object-fit: cover;
+    height: 700px !important;
+  }
+  .choose-us-container .reason {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #8f8f8f;
+    padding-bottom: 1.3em;
+    width: 90%;
+  }
+  
+  .choose-us-container .icon {
+  margin-right: 20px;
+  }
+  
+  .choose-us-container .text h3 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #000   ;
+  
+  }
+  
+  .choose-us-container .text p {
+    margin: 0;
+    color: #000   ;
+  }
+  
+  .choose-us-container .right-section img {
+    max-width: 100%;
+    height: auto;
+  }
+  .choose-us-header{
+    font-family: "Poppins", system-ui !important;
+    text-transform: uppercase ;
+    font-weight: 600 ;
+    margin-left: 0em ;
+    width: 100%;
+    margin-top: .2em;
+    font-size: 3.4em !important ;
+    color: #000000 ;
+  }
+  .icon-png{
+  width: 64px;
+  height: 64px;
+  }
+  .swiper-pagination {
+    position: absolute;
+    bottom: 30px !important; /* Adjust the distance from the bottom as needed */
+  }
+  
+  .btn-carousel {
+    background: rgb(250,161,33);
+    background: linear-gradient(270deg, rgba(250,161,33,1) 0%, rgba(251,190,27,1) 100%);
+      color: #fff;
+      padding: 1px 100px 0px 50px !important; /* Ensure equal horizontal padding */
+  
+      border: none;
+  }
+  .google-icon-review-card{
+    width: 1.5em;
+right: 0;
+margin-right: 2.7em;
+position: absolute;  }
+  .reviews-section-sub-head{
+    color: #000;
+    font-weight: 600 ;
+    font-family: "Poppins", sans-serif !important;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  align-items: baseline !important;
+  margin-bottom: 1em;
+  margin-top: .2em;
+  }
+  .reviews-section-google-logo{
+  width: 5em;
+  margin-left: .5em;
+  align-items: center;
+  }
+  .stars-icons{
+    align-items: center;
+  margin-top: -7px;
+  margin-left: 7px;
+  margin-right: 7px;
+  }
+  .yellow-header-text{
+    color: #FBBD20;
+  }
+  .reviews-overlay{
+    width: 17.5em !important;
+    height: auto !important;
+    margin-top: -2.5px !important;
+    z-index: 2;
+    margin-left: 20em;
+    object-fit: cover !important;
+  }
+  .header-text{
+    font-family: "Lato", sans-serif !important;
+    font-weight: 700 !important;
+    color: #fff;
+    line-height: 1.15 ;
+    font-size: 4.4em !important;
+  text-transform: uppercase !important;
+  }
+  .body-text{
+    font-family: "Poppins", system-ui !important;
+    font-weight: 600 !important;
+    color: #fff;
+    letter-spacing: 1px !important;
+    font-size: 2.3em !important;
+  text-transform: uppercase !important;
+  }
+  
+  .intro-text{
+    max-width: 60%;
+    border-left: 3px #FBBB1C solid;
+    font-size: 1.25em !important;
+    padding-left: 1em;
+    margin-top: 1.1em;
+    margin-bottom: 1.3em;
+  }
+  .header-intro-text1{
+    color: #FBBD20;
+    font-family: "Poppins", sans-serif;
+  font-weight: 600 !important;
+  font-size: 1.65em;
+  margin-bottom: .4em !important;
+  } 
   .blog .sidebar .sidebar-title {
     font-size: 30px;
  color: #182333;
@@ -24949,7 +26854,7 @@ font-size: 1.23em !important;
     margin-top: 30px !important;
     }.carousel-caption {
       top: 4% !important;
-      left: 6% !important;
+      left: 7% !important;
     text-align: left;
       right: 0;
       z-index: 1;
@@ -24957,7 +26862,7 @@ font-size: 1.23em !important;
 /* Ensure the carousel-item is positioned relatively */
 .carousel-item {
   position: relative;
-  height: 640px !important;
+  height: 670px !important;
 } .navbar-brand {
   position: absolute; /* Position the logo absolutely to center it */
   left: 50%;
@@ -25010,39 +26915,6 @@ margin-top: 0em;
   position: relative;
   display: inline-block;
 }
-.header-text{
-  font-family: "Poppins", system-ui !important;
-  font-weight: 700 !important;
-  color: #fff;
-  line-height: 1.15 ;
-  font-size: 4.5em !important;
-text-transform: uppercase !important;
-}
-.body-text{
-  font-family: "Poppins", system-ui !important;
-  font-weight: 600 !important;
-  color: #fff;
-  letter-spacing: 1px !important;
-  font-size: 1.86em !important;
-text-transform: uppercase !important;
-}
-
-.intro-text{
-  max-width: 70%;
-  font-size: 1.32em !important;
-}
-.underline-image::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: -4px; /* Adjust this value to position the underline correctly */
-  height: 20px; /* Adjust this value based on the height of your underline image */
-  background-image: url('../img/underline.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center bottom;
-}
 
 .carousel-bottom-shape {
   position: absolute;
@@ -25066,7 +26938,7 @@ text-transform: uppercase !important;
   .btn-carousel, .btn-carousel2 {
     position: relative;
     text-transform: uppercase;
-    font-size: 23.7px !important;
+    font-size: 24.27px !important;
     z-index: 2;
     letter-spacing: 0px;
     font-weight: 500;
@@ -25076,14 +26948,6 @@ text-transform: uppercase !important;
     height: 60px; /* Set a fixed height */
 }
 
-.btn-carousel {
-    background: rgb(103,180,184);
-    background: linear-gradient(142deg, rgba(103,180,184,1) 0%, rgba(150,224,227,1) 100%);
-    color: #fff;
-    padding: 0 90px 0px 40px !important; /* Ensure equal horizontal padding */
-
-    border: none;
-}
 .btn-carousel2 {
 
   padding: 0 80px 0px 35px !important; /* Ensure equal horizontal padding */
@@ -25117,7 +26981,7 @@ text-transform: uppercase !important;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 1.42em !important;
+    padding-bottom: 1.15em !important;
   }
    .logo-container img {
 
@@ -25164,10 +27028,10 @@ letter-spacing: .2px; /* Adjust the value as needed */
     margin-left: 2.135em !important;
   }
   .navbar .navbar-nav .nav-link {
-    margin-right: 47px;
+    margin-right: 43px;
     padding: 6px 0px 0px 0;
   color: #fff;
-  font-size: 24px !important;
+  font-size: 23.25px !important;
   font-weight: 500 !important;
     white-space: nowrap !important;
 text-transform: uppercase;
@@ -25179,14 +27043,14 @@ font-family: "Poppins", system-ui !important;
   
   }
   .navbar-links-2{
-    margin-left: 175px !important ;
+    margin-left: 225px !important ;
     margin-top: 6px;
   }
   .navbar .navbar-nav .nav-link2 {
-    margin-right: 47px;
+    margin-right: 43px;
     padding: 6px 0px 0px 0 !important;
   color: #fff;
-  font-size: 24px !important;
+  font-size: 23.25px !important;
   font-weight: 600 !important;
 
 text-transform: uppercase;
@@ -25207,8 +27071,8 @@ font-family: "Poppins", system-ui !important;
   }
   .btn-colour-nav {
     position: relative;
-    background: transparent !important;
-    border: 3px solid #fff;
+    background: rgb(250,161,33);
+    background: linear-gradient(270deg, rgba(250,161,33,1) 0%, rgba(251,190,27,1) 100%) !important;       border: none !important;
     color: #fff;
     margin-top: 1px !important;
 
@@ -25264,7 +27128,7 @@ font-family: "Montserrat", sans-serif;
   }  .navbar {
     margin-top: -50px; /* Negative margin to pull it up */
     border-top: none !important; /* Remove the top border if present */
-    height: 100px !important;
+    height: 110px !important;
   }
   .logo{
     width: 11.29em !important;
@@ -25427,7 +27291,7 @@ margin-left: 5px;
 
 }
 .services-section{
-  margin-top: -12.5em;
+  margin-top: -9em;
 }
 .services-section-sub-header{
   font-family: "Poppins", system-ui !important;
@@ -25436,7 +27300,7 @@ margin-left: 5px;
   margin-bottom: .5em;
   font-weight: 600 !important;
   font-size: 1.7em !important;
-  color: #64B5B9 !important;
+  color: #FBBD20 !important;
 }
 .services-section-header{
   font-family: "Poppins", system-ui !important;
@@ -25444,7 +27308,7 @@ margin-left: 5px;
   font-weight: 600 !important;
   margin-left: 0em ;
   font-size: 3.4em !important;
-  margin-bottom: .65em !important;
+  margin-bottom: .34em !important;
   color: #000000 !important;
 } 
 .desktop-none{
@@ -25517,7 +27381,7 @@ margin-left: 5px;
     color: #ffffff;
   }
   .service-icon2{
-    width: 85px !important;
+    width: 90px !important;
     margin-bottom: 1.5em !important;
   }
   .service-icon1{
@@ -25531,26 +27395,36 @@ margin-left: 5px;
   
   }
   .service-icon4{
-    width: 80px !important;
-    margin-bottom: 1.5em !important;
+    width: 70px !important;
+    margin-bottom: 2em !important;
+    margin-top: -5px !important;
+
   
   }
   .service-icon5{
-    width: 80px !important;
+    width: 90px !important;
+    margin-top: -15px !important;
+
     margin-bottom: 1.5em !important;
   
   }
   .service-icon6{
-    width: 85px !important;
+    width: 95px !important;
+    margin-bottom: 1.5em !important;
+    margin-top: -15px !important;
+  
+  }
+  .service-icon7{
+    width: 64px !important;
     margin-bottom: 1.5em !important;
   
   }
   .projects{
     margin-bottom: 5em;
-    margin-top: 1.53em !important;
+    margin-top: 1.73em !important;
   }
   .project-carousel{
-    margin-top: 3.7em !important;
+    margin-top: 0em !important;
   }
   .reviews-section-header {
     position: relative;
@@ -25559,24 +27433,15 @@ margin-left: 5px;
     font-size: 3.4em !important ;
   }
   
-  .reviews-section-header::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: -22px; /* Adjust to position the image below the text */
-    width: 310px; /* Adjust to match the width of the underline image */
-    height: 24px; /* Adjust based on the height of the underline image */
-    background: url('../img/underline-purple.png') no-repeat center;
-    background-size: contain;
-  }
+
+  
   .facebook-five-star{
     width: 12em !important;
     margin-top: 1.73em !important;
     margin-bottom: 1.75em;
   }
   section#testimonial {
-    margin-top: -8.19em !important;
+    margin-top: -4.19em !important;
     margin-bottom: -6.4em !important;
   }
   .testimonial-content .user-info {
@@ -25632,6 +27497,7 @@ text-transform: uppercase !important;  }
     background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
     background-size: cover;
     height: 520px;
+    margin-top: 3em !important;
     margin-bottom: 5em !important;
   }
   .appointment p{
@@ -25732,6 +27598,26 @@ height: 55px;
   text-align: center !important;
   }
   .font-type-service-page-header-repairs{
+    font-weight: 600 !important;
+    font-size: 5.5em !important;
+    font-family: "Poppins", system-ui !important;
+  text-transform: uppercase !important; 
+  margin-top: .2em;
+  line-height: 1.1;
+  margin-left: 0em;
+  text-align: center !important;
+  }
+  .font-type-service-page-header-inspections{
+    font-weight: 600 !important;
+    font-size: 5.5em !important;
+    font-family: "Poppins", system-ui !important;
+  text-transform: uppercase !important; 
+  margin-top: .2em;
+  line-height: 1.1;
+  margin-left: 0em;
+  text-align: center !important;
+  }
+  .font-type-service-page-header-loft{
     font-weight: 600 !important;
     font-size: 5.5em !important;
     font-family: "Poppins", system-ui !important;
@@ -25872,9 +27758,9 @@ height: 55px;
   }
   .service-header-h1{
     text-transform: uppercase !important;
-    font-size: 2.75em !important;
+    font-size: 3.1em !important;
     margin-top: .5em;
-    color: #182333;
+    color: #000 !important;
   }
   .display-desktop-only{
     display: none !important;
@@ -25907,6 +27793,8 @@ height: 55px;
   }
   .font-future-about-page{
     font-weight: 600 !important;
+    color: #000 !important;
+
     font-size: 3.4em !important;
     width: 100% !important;
     line-height: 1.2 !important;
@@ -25921,15 +27809,17 @@ height: 55px;
     font-weight: 600 !important;
     color: #182333;
     font-family: 'Poppins', sans-serif;
+    color: #000 !important;
 
     text-decoration: underline;
   }
   .about-page-link:hover{
-    font-family: 'Kanit', sans-serif;
-    font-size: 22px;
-    font-style: italic;
-    font-weight: 500;
+    font-size: 29px !important;
+    font-weight: 600 !important;
     color: #182333;
+    font-family: 'Poppins', sans-serif;
+    color: #000 !important;
+
     text-decoration: underline;
   }
   .about-page-header{
@@ -25951,7 +27841,7 @@ height: 55px;
     margin-right: auto ;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
-  margin-bottom: 1.15em;
+  margin-bottom: .5em;
   margin-top: .25em;
   }
   .underline-image-projects-page {
@@ -25977,7 +27867,7 @@ height: 55px;
     font-size: 1.1em !important;
   }
   .projects-filtered{
-    margin-top: -.5em !important;
+    margin-top: -.9em !important;
   }  .projects-page-sub-header{
     font-weight: 600 !important;
     font-size: 1.7em !important;
@@ -26115,7 +28005,269 @@ font-size: 1.32em !important;
     }
 }
 @media (min-width: 1500px) and (max-width: 1599px){
+  .services-image4{
+    height: 100% !important;
+  }
+  .project-carousel .owl-nav {
+    position: absolute;
+    width: 95%;
+    margin-left: 1.85em ;
+    height: 45px;
+    top: 45%;
+
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    transition: .5s;
+    opacity: 1;
+    z-index: 1;
+  }
+  .blog-post-page-header{font-weight: 600 !important;
+    font-size: 5.5em !important;
+    font-family: "Poppins", system-ui !important;
+  text-transform: uppercase !important; 
+  margin-top: .25em;
+  }
+  .swiper-pagination {
+    position: absolute;
+    bottom: 20px !important; /* Adjust the distance from the bottom as needed */
+  }
   
+  .choose-us {
+    position: relative;
+    background: #fff;
+  margin-top: -12.6em !important;
+  margin-bottom: -6em !important;
+       padding: 63px 0; /* Adjust padding as needed */
+       z-index: -12; /* Ensure overlays are below content */
+  overflow: hidden;
+  }
+  .overlay-choose {
+    position: absolute;
+    z-index: -1; /* Ensure overlays are below content */
+  }
+  .bottom-left {
+    background-color: transparent;
+    width: 1200px;
+  height: auto;
+  transform: rotate(-0deg) scaleX(-1); /* Flip horizontally */
+  top: 10%;
+  opacity: .3;
+      left: -1080px ;
+  }
+  .top-right {
+    background-color: transparent;
+    width: 1200px; /* Adjust width as needed */
+    height: auto;
+    transform: rotate(-360deg) scaleX(-1); /* Flip horizontally */
+    position: absolute;
+    top: 5%;
+    left: 1550px !important;
+  z-index: 1;
+  opacity: .5;
+  
+  
+  }
+  .choose-us::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px; /* Adjust height as needed for the gradient transition */
+    background: #fff;
+  
+    z-index: 21;
+  }
+  /* Bottom gradient */
+  .choose-us::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px; /* Adjust height as needed for the gradient transition */
+  background: #fff;
+  z-index: 2;
+  }
+  
+  .choose-us-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-left: auto ;
+    margin-right: auto;
+    width: 85% !important; /* Adjust as needed */
+    max-width: 1200px; /* Max width for large screens */
+    gap: 20px; /* Gap between sections */
+  }
+  
+  .choose-us-container .left-section,
+  .choose-us-container .right-section {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .choose-us-container .left-section {
+    margin-right: 20px;
+  }
+  
+  .choose-us-container .right-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .choose-us-container p {
+    font-size: 1.125em !important;
+    font-family: 'Open sans' !important;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #8D9297 !important;
+  }
+  .choose-us-container .right-section img {
+    max-width: 90%;
+    object-fit: cover;
+    height: 700px !important;
+  }
+  .choose-us-container .reason {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #8f8f8f;
+    padding-bottom: 1.3em;
+    width: 90%;
+  }
+  
+  .choose-us-container .icon {
+  margin-right: 20px;
+  }
+  
+  .choose-us-container .text h3 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #000   ;
+  
+  }
+  
+  .choose-us-container .text p {
+    margin: 0;
+    color: #000   ;
+  }
+  
+  .choose-us-container .right-section img {
+    max-width: 100%;
+    height: auto;
+  }
+  .choose-us-header{
+    font-family: "Poppins", system-ui !important;
+    text-transform: uppercase ;
+    font-weight: 600 ;
+    margin-left: 0em ;
+    width: 100%;
+    margin-top: .2em;
+    font-size: 3.7em !important ;
+    color: #000000 ;
+  }
+  .icon-png{
+  width: 64px;
+  height: 64px;
+  }
+  .swiper-pagination {
+    position: absolute;
+    bottom: 30px !important; /* Adjust the distance from the bottom as needed */
+  }
+  
+  .btn-carousel {
+    background: rgb(250,161,33);
+    background: linear-gradient(270deg, rgba(250,161,33,1) 0%, rgba(251,190,27,1) 100%);
+      color: #fff;
+      padding: 1px 100px 0px 55px !important; /* Ensure equal horizontal padding */
+  
+      border: none;
+  }
+  .google-icon-review-card{
+    width: 1.5em;
+right: 0;
+margin-right: 2.7em;
+position: absolute;  }
+  .reviews-section-sub-head{
+    color: #000;
+    font-weight: 600 ;
+    font-family: "Poppins", sans-serif !important;
+  text-transform: uppercase;
+  font-size: 1.65em;
+  align-items: baseline !important;
+  margin-bottom: 1em;
+  margin-top: .2em;
+  }
+  .reviews-section-google-logo{
+  width: 5em;
+  margin-left: .5em;
+  align-items: center;
+  }
+  .stars-icons{
+    align-items: center;
+  margin-top: -7px;
+  margin-left: 7px;
+  margin-right: 7px;
+  }
+  .yellow-header-text{
+    color: #FBBD20;
+  }
+  .reviews-overlay{
+    width: 17.75em !important;
+    height: auto !important;
+    margin-top: -2.5px !important;
+    z-index: 2;
+    margin-left: 20.85em;
+    object-fit: cover !important;
+  }
+  .header-text{
+    font-family: "Lato", sans-serif !important;
+    font-weight: 700 !important;
+    color: #fff;
+    line-height: 1.15 ;
+    font-size: 4.45em !important;
+  text-transform: uppercase !important;
+  }
+  .body-text{
+    font-family: "Poppins", system-ui !important;
+    font-weight: 600 !important;
+    color: #fff;
+    letter-spacing: 1px !important;
+    font-size: 2.3em !important;
+  text-transform: uppercase !important;
+  }
+  
+  .intro-text{
+    max-width: 60%;
+    border-left: 3px #FBBB1C solid;
+    font-size: 1.35em !important;
+    padding-left: 1em;
+    margin-top: 1.1em;
+    margin-bottom: 1.3em;
+  }
+  .header-intro-text1{
+    color: #FBBD20;
+    font-family: "Poppins", sans-serif;
+  font-weight: 600 !important;
+  font-size: 1.65em;
+  margin-bottom: .4em !important;
+  } 
+  .blog .sidebar .sidebar-title {
+    font-size: 30px;
+ color: #182333;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal !important;
+    margin-bottom: 22px !important;
+    padding: 0;
+    margin: 0;
+  }
   
   .sidebar-title {
     font-size: 29px !important;
@@ -26154,7 +28306,7 @@ font-size: 1.32em !important;
 /* Ensure the carousel-item is positioned relatively */
 .carousel-item {
   position: relative;
-  height: 670px !important;
+  height: 690px !important;
 } .navbar-brand {
   position: absolute; /* Position the logo absolutely to center it */
   left: 50%;
@@ -26207,27 +28359,7 @@ margin-top: 0em;
   position: relative;
   display: inline-block;
 }
-.header-text{
-  font-family: "Poppins", system-ui !important;
-  font-weight: 700 !important;
-  color: #fff;
-  line-height: 1.15 ;
-  font-size: 4.5em !important;
-text-transform: uppercase !important;
-}
-.body-text{
-  font-family: "Poppins", system-ui !important;
-  font-weight: 600 !important;
-  color: #fff;
-  letter-spacing: 1px !important;
-  font-size: 1.86em !important;
-text-transform: uppercase !important;
-}
 
-.intro-text{
-  max-width: 70%;
-  font-size: 1.32em !important;
-}
 .underline-image::after {
   content: "";
   position: absolute;
@@ -26263,7 +28395,7 @@ text-transform: uppercase !important;
   .btn-carousel, .btn-carousel2 {
     position: relative;
     text-transform: uppercase;
-    font-size: 23.7px !important;
+    font-size: 24.7px !important;
     z-index: 2;
     letter-spacing: 0px;
     font-weight: 500;
@@ -26273,14 +28405,7 @@ text-transform: uppercase !important;
     height: 60px; /* Set a fixed height */
 }
 
-.btn-carousel {
-    background: rgb(103,180,184);
-    background: linear-gradient(142deg, rgba(103,180,184,1) 0%, rgba(150,224,227,1) 100%);
-    color: #fff;
-    padding: 0 90px 0px 40px !important; /* Ensure equal horizontal padding */
 
-    border: none;
-}
 .btn-carousel2 {
 
   padding: 0 80px 0px 35px !important; /* Ensure equal horizontal padding */
@@ -26314,7 +28439,7 @@ text-transform: uppercase !important;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 1.42em !important;
+    padding-bottom: 1.32em !important;
   }
    .logo-container img {
 
@@ -26358,10 +28483,10 @@ letter-spacing: .2px; /* Adjust the value as needed */
   }
   
   .navbar-nav{
-    margin-left: 3.5em !important;
+    margin-left: 3em !important;
   }
   .navbar .navbar-nav .nav-link {
-    margin-right: 47px;
+    margin-right: 45px;
     padding: 6px 0px 0px 0;
   color: #fff;
   font-size: 25px !important;
@@ -26376,11 +28501,11 @@ font-family: "Poppins", system-ui !important;
   
   }
   .navbar-links-2{
-    margin-left: 174px !important ;
+    margin-left: 210px !important ;
     margin-top: 6px;
   }
   .navbar .navbar-nav .nav-link2 {
-    margin-right: 47px;
+    margin-right: 45px;
     padding: 6px 0px 0px 0 !important;
   color: #fff;
   font-size: 25px !important;
@@ -26404,8 +28529,9 @@ font-family: "Poppins", system-ui !important;
   }
   .btn-colour-nav {
     position: relative;
-    background: transparent !important;
-    border: 3px solid #fff;
+    background: rgb(250,161,33);
+    background: linear-gradient(270deg, rgba(250,161,33,1) 0%, rgba(251,190,27,1) 100%) !important;
+        border: none !important;
     color: #fff;
     margin-top: 1px !important;
 
@@ -26461,7 +28587,7 @@ font-family: "Montserrat", sans-serif;
   }  .navbar {
     margin-top: -50px; /* Negative margin to pull it up */
     border-top: none !important; /* Remove the top border if present */
-    height: 100px !important;
+    height: 110px !important;
   }
   .logo{
     width: 11.5em !important;
@@ -26624,7 +28750,7 @@ margin-left: 5px;
 
 }
 .services-section{
-  margin-top: -12.5em;
+  margin-top: -9em;
 }
 .services-section-sub-header{
   font-family: "Poppins", system-ui !important;
@@ -26632,8 +28758,8 @@ margin-left: 5px;
   font-weight: 0em !important;
   margin-bottom: .5em;
   font-weight: 600 !important;
-  font-size: 1.8em !important;
-  color: #64B5B9 !important;
+  font-size: 1.85em !important;
+  color: #FBBD20 !important;
 }
 .services-section-header{
   font-family: "Poppins", system-ui !important;
@@ -26641,7 +28767,7 @@ margin-left: 5px;
   font-weight: 600 !important;
   margin-left: 0em ;
   font-size: 3.7em !important;
-  margin-bottom: .65em !important;
+  margin-bottom: .25em !important;
   color: #000000 !important;
 } 
 .desktop-none{
@@ -26714,7 +28840,7 @@ margin-left: 5px;
     color: #ffffff;
   }
   .service-icon2{
-    width: 85px !important;
+    width: 90px !important;
     margin-bottom: 1.5em !important;
   }
   .service-icon1{
@@ -26728,52 +28854,51 @@ margin-left: 5px;
   
   }
   .service-icon4{
-    width: 80px !important;
-    margin-bottom: 1.5em !important;
+    width: 70px !important;
+    margin-bottom: 2em !important;
+    margin-top: -5px !important;
+
   
   }
   .service-icon5{
-    width: 80px !important;
+    width: 90px !important;
+    margin-top: -15px !important;
+
     margin-bottom: 1.5em !important;
   
   }
   .service-icon6{
-    width: 85px !important;
+    width: 95px !important;
+    margin-bottom: 1.5em !important;
+    margin-top: -15px !important;
+  
+  }
+  .service-icon7{
+    width: 64px !important;
     margin-bottom: 1.5em !important;
   
   }
   .projects{
     margin-bottom: 5em;
-    margin-top: 1.53em !important;
+    margin-top: 2.5em !important;
   }
   .project-carousel{
-    margin-top: 3.7em !important;
+    margin-top: 0em !important;
   }
   .reviews-section-header {
     position: relative;
     display: inline-block;
     text-align: center;
-    font-size: 3.4em !important ;
+    font-size: 3.7em !important;
   }
-  
-  .reviews-section-header::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: -22px; /* Adjust to position the image below the text */
-    width: 310px; /* Adjust to match the width of the underline image */
-    height: 24px; /* Adjust based on the height of the underline image */
-    background: url('../img/underline-purple.png') no-repeat center;
-    background-size: contain;
-  }
+
   .facebook-five-star{
     width: 12em !important;
     margin-top: 1.73em !important;
     margin-bottom: 1.75em;
   }
   section#testimonial {
-    margin-top: -8.19em !important;
+    margin-top: -4.5em !important;
     margin-bottom: -6.4em !important;
   }
   .testimonial-content .user-info {
@@ -26934,6 +29059,29 @@ height: 55px;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
   margin-top: .2em;
+  
+  line-height: 1.1;
+  margin-left: 0em;
+  text-align: center !important;
+  }
+  .font-type-service-page-header-inspections{
+    font-weight: 600 !important;
+    font-size: 5.5em !important;
+    font-family: "Poppins", system-ui !important;
+  text-transform: uppercase !important; 
+  margin-top: .2em;
+  
+  line-height: 1.1;
+  margin-left: 0em;
+  text-align: center !important;
+  }
+  .font-type-service-page-header-loft{
+    font-weight: 600 !important;
+    font-size: 5.5em !important;
+    font-family: "Poppins", system-ui !important;
+  text-transform: uppercase !important; 
+  margin-top: .2em;
+  
   line-height: 1.1;
   margin-left: 0em;
   text-align: center !important;
@@ -27071,7 +29219,7 @@ height: 55px;
     text-transform: uppercase !important;
     font-size: 2.9em !important;
     margin-top: .5em;
-    color: #182333;
+    color: #000 !important;
   }
   .service-page-sub-head2{
     margin-top: .8em !important;
@@ -27117,6 +29265,7 @@ height: 55px;
     font-weight: 600 !important;
     font-size: 3.4em !important;
     width: 100% !important;
+    color: #000 !important;
     line-height: 1.2 !important;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
@@ -27127,7 +29276,7 @@ height: 55px;
   .about-page-link{
     font-size: 29px !important;
     font-weight: 600 !important;
-    color: #182333;
+    color: #000 !important;
     font-family: 'Poppins', sans-serif;
 
     text-decoration: underline;
@@ -27159,7 +29308,7 @@ height: 55px;
     margin-right: auto ;
     font-family: "Poppins", system-ui !important;
   text-transform: uppercase !important; 
-  margin-bottom: 1.15em;
+  margin-bottom: .45em;
   margin-top: .25em;
   }
   .underline-image-projects-page {
@@ -27185,7 +29334,7 @@ height: 55px;
     font-size: 1.1em !important;
   }
   .projects-filtered{
-    margin-top: -.5em !important;
+    margin-top: -1.1em !important;
   }  .projects-page-sub-header{
     font-weight: 600 !important;
     font-size: 1.7em !important;
@@ -27340,8 +29489,8 @@ font-size: 1.32em !important;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 3.65rem; /* Size of the outer circle */
-    height: 3.65rem; /* Size of the outer circle */
+    width: 3.75rem; /* Size of the outer circle */
+    height: 3.75rem; /* Size of the outer circle */
     border-radius: 50%;
     padding: .71em;
     margin-top: -5em;
@@ -27354,7 +29503,7 @@ font-size: 1.32em !important;
     margin-top: 30px !important;
     }.carousel-caption {
       top: 4% !important;
-      left: 6% !important;
+      left: 8% !important;
     text-align: left;
       right: 0;
       z-index: 1;
@@ -27841,7 +29990,7 @@ margin-left: 5px;
   margin-bottom: .5em;
   font-weight: 600 !important;
   font-size: 1.9em !important;
-  color: #64B5B9 !important;
+  color: #FBBD20 !important;
 }
 .services-section-header{
   font-family: "Poppins", system-ui !important;
@@ -29047,7 +31196,7 @@ margin-left: 5px;
   margin-bottom: .5em;
   font-weight: 600 !important;
   font-size: 1.9em !important;
-  color: #64B5B9 !important;
+  color: #FBBD20 !important;
 }
 .services-section-header{
   font-family: "Poppins", system-ui !important;
@@ -30287,7 +32436,7 @@ margin-left: 5px;
   margin-bottom: .5em;
   font-weight: 600 !important;
   font-size: 1.9em !important;
-  color: #FAAB1F !important;
+  color: #FBBD20 !important;
 }
 .services-section-header{
   font-family: "Poppins", system-ui !important;
@@ -31500,7 +33649,7 @@ margin-left: 5px;
   margin-bottom: .5em;
   font-weight: 600 !important;
   font-size: 1.9em !important;
-  color: #64B5B9 !important;
+  color: #FBBD20 !important;
 }
 .services-section-header{
   font-family: "Poppins", system-ui !important;
@@ -32718,7 +34867,7 @@ margin-left: 5px;
   margin-bottom: .5em;
   font-weight: 600 !important;
   font-size: 1.9em !important;
-  color: #64B5B9 !important;
+  color: #FBBD20 !important;
 }
 .services-section-header{
   font-family: "Poppins", system-ui !important;
@@ -33982,7 +36131,7 @@ margin-left: 5px;
   margin-bottom: .5em;
   font-weight: 600 !important;
   font-size: 1.9em !important;
-  color: #FAAB1F !important;
+  color: #FBBD20 !important;
 }
 .services-section-header{
   font-family: "Poppins", system-ui !important;
@@ -34309,7 +36458,27 @@ height: 55px;
   margin-left: 0em;
   text-align: center !important;
   }
+  .font-type-service-page-header-inspections{
+    font-weight: 600 !important;
+    font-size: 5.65em !important;
+    font-family: "Poppins", system-ui !important;
+  text-transform: uppercase !important; 
+  margin-top: .2em;
+  line-height: 1.1;
+  margin-left: 0em;
+  text-align: center !important;
+  }
   .font-type-service-page-header-rubber{
+    font-weight: 600 !important;
+    font-size: 5.65em !important;
+    font-family: "Poppins", system-ui !important;
+  text-transform: uppercase !important; 
+  margin-top: .2em;
+  line-height: 1.1;
+  margin-left: 0em;
+  text-align: center !important;
+  }
+  .font-type-service-page-header-loft{
     font-weight: 600 !important;
     font-size: 5.65em !important;
     font-family: "Poppins", system-ui !important;
@@ -34442,7 +36611,7 @@ height: 55px;
     text-transform: uppercase !important;
     font-size: 3em !important;
     margin-top: .5em;
-    color: #182333;
+    color: #000 !important;
   }
   .service-page-sub-head2{
     margin-top: .6em !important;
