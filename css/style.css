@@ -1477,10 +1477,10 @@ width: 9em;
     transition: ease-in-out .2s;
   }
   .copyright-link{
-    color: #96E0E3;
+    color: #FBBD1B;
   }
   .copyright-link:hover{
-    color: #96E0E3;
+    color: #FBBD1B;
   }
   .footer-list{
 
@@ -3297,7 +3297,7 @@ color: #000000 !important;
   .dropdown-menu.show {
     display: block; /* Ensure it’s set to block when active */
     visibility: visible;
-    background-color: #151A42 !important; /* Purple background color */
+    background-color: #000 !important; /* Purple background color */
 
   }
     /* Define the background color when a dropdown item is clicked */
@@ -3953,7 +3953,7 @@ margin-left: -28px !important;
       align-items: center;
       justify-content: center;
       flex-wrap: nowrap;
-      margin-right: 2em !important;
+      margin-right: 5em !important;
     }
     
     .testimonial-content .user-info .user {
@@ -4062,12 +4062,12 @@ outline: none;
 /* Full-width dropdown menu for mobile view */
 .navbar-collapse {
   width: 100vw; /* Full viewport width */
-  background-color: #151A42 !important; /* Purple background color */
+  background-color: #000 !important; /* Purple background color */
   position: absolute; /* Absolute positioning to ensure it spans the full width */
   left: 0; /* Align with the left edge of the viewport */
   top: 100%; /* Position it below the navbar */
 
-  border-bottom: white 3px solid;
+  border-bottom: #FBB81C 3px solid;
   z-index: 1000; /* Ensure it sits above other content */
 }
 
@@ -4096,6 +4096,8 @@ outline: none;
 .navbar-links-2 .nav-link2 {
   color: white; /* Text color for better contrast */
   padding: 0px !important; /* Add padding for better spacing */
+    font-family: "Lato", sans-serif !important;
+
   display: block; /* Make each link a block element */
 }
 
@@ -4295,7 +4297,7 @@ text-align: left !important;
   font-size: 2.87em !important;
   font-family: "Poppins", sans-serif !important;
   text-transform: uppercase !important; 
-margin-top: .3em;
+margin-top: .55em;
 line-height: 1.14;
 letter-spacing: 1px;
 margin-left: -.1em;
@@ -4745,8 +4747,7 @@ white-space: nowrap !important;
   }
   .dropdown-menu.show {
     display: block; /* Ensure it’s set to block when active */
-    visibility: visible;
-    background-color: #151A42 !important; /* Purple background color */
+    background-color: #000 !important; /* Purple background color */
 
   }
     /* Define the background color when a dropdown item is clicked */
@@ -4784,7 +4785,7 @@ white-space: nowrap !important;
   .dropdown-menu.show {
     display: block; /* Ensure it’s set to block when active */
     visibility: visible;
-    background-color: #151A42 !important; /* Purple background color */
+    background-color: #000 !important; /* Purple background color */
 
   }
     /* Define the background color when a dropdown item is clicked */
@@ -5369,7 +5370,7 @@ margin-top: .2em;
   
     }
     .project-carousel{
-      margin-top: 1em !important;
+      margin-top: .75em !important;
       margin-bottom:  2.5em;
     }
     .project-carousel .owl-nav {
@@ -5378,8 +5379,7 @@ margin-top: .2em;
       margin-left: 3.5% ;
       height: 45px;
       top: 45%;
-      background: #FBBD20;
-      background: #FBBD20; 
+
       left: 0;
       transform: translateY(-50%);
       display: flex;
@@ -5643,7 +5643,7 @@ outline: none;
   left: 0; /* Align with the left edge of the viewport */
   top: 100%; /* Position it below the navbar */
 
-  border-bottom: white 3px solid;
+  border-bottom: #FBB81C 3px solid;
   z-index: 1000; /* Ensure it sits above other content */
 }
 
@@ -5713,7 +5713,7 @@ outline: none;
   .dropdown-menu.show {
     display: block; /* Ensure it’s set to block when active */
     visibility: visible;
-    background-color: #151A42 !important; /* Purple background color */
+    background-color: #000 !important; /* Purple background color */
 
   }
 .navbar-collapse{
@@ -5858,7 +5858,7 @@ text-align: left !important;
   font-size: 3.3em !important;
   font-family: "Poppins", sans-serif !important;
   text-transform: uppercase !important; 
-margin-top: .3em;
+margin-top: .4em;
 line-height: 1.1;
 letter-spacing: 1px !important;
 margin-left: -.1em;
@@ -5880,7 +5880,7 @@ text-align: left !important;
   font-size: 3em !important;
   font-family: "Poppins", sans-serif !important;
   text-transform: uppercase !important; 
-margin-top: .3em;
+margin-top: .55em;
 line-height: 1.14;
 letter-spacing: 1px;
 margin-left: -.1em;
@@ -6515,7 +6515,7 @@ color: #000000 !important;
   .dropdown-menu.show {
     display: block; /* Ensure it’s set to block when active */
     visibility: visible;
-    background-color: #151A42 !important; /* Purple background color */
+    background-color: #000 !important; /* Purple background color */
 
   }
     /* Define the background color when a dropdown item is clicked */
@@ -7202,12 +7202,12 @@ outline: none;
 /* Full-width dropdown menu for mobile view */
 .navbar-collapse {
   width: 100vw; /* Full viewport width */
-  background-color: #151A42 !important; /* Purple background color */
+  background-color: #000 !important; /* Purple background color */
   position: absolute; /* Absolute positioning to ensure it spans the full width */
   left: 0; /* Align with the left edge of the viewport */
   top: 100%; /* Position it below the navbar */
 
-  border-bottom: white 3px solid;
+  border-bottom: #FBB81C 3px solid;
   z-index: 1000; /* Ensure it sits above other content */
 }
 
@@ -7273,7 +7273,7 @@ outline: none;
   .dropdown-menu.show {
     display: block; /* Ensure it’s set to block when active */
     visibility: visible;
-    background-color: #151A42 !important; /* Purple background color */
+    background-color: #000 !important; /* Purple background color */
 
   }
 .navbar-collapse{
@@ -7440,7 +7440,7 @@ text-align: left !important;
   font-size: 3em !important;
   font-family: "Poppins", sans-serif !important;
   text-transform: uppercase !important; 
-margin-top: .3em;
+margin-top: .5em;
 line-height: 1.14;
 letter-spacing: 1px;
 margin-left: -.1em;
@@ -7979,7 +7979,7 @@ color: #000000 !important;
   .dropdown-menu.show {
     display: block; /* Ensure it’s set to block when active */
     visibility: visible;
-    background-color: #151A42 !important; /* Purple background color */
+    background-color: #000 !important; /* Purple background color */
 
   }
     /* Define the background color when a dropdown item is clicked */
@@ -8587,8 +8587,7 @@ margin-top: .2em;
       margin-left: 3.5% ;
       height: 45px;
       top: 45%;
-      background: #FBBD20 !important;
-      background: #FBBD20 !important; 
+
       left: 0;
       transform: translateY(-50%);
       display: flex;
@@ -8746,12 +8745,12 @@ outline: none;
 /* Full-width dropdown menu for mobile view */
 .navbar-collapse {
   width: 100vw; /* Full viewport width */
-  background-color: #151A42 !important; /* Purple background color */
+  background-color: #000 !important; /* Purple background color */
   position: absolute; /* Absolute positioning to ensure it spans the full width */
   left: 0; /* Align with the left edge of the viewport */
   top: 100%; /* Position it below the navbar */
 
-  border-bottom: white 3px solid;
+  border-bottom: #FBB81C 3px solid;
   z-index: 1000; /* Ensure it sits above other content */
 }
 
@@ -8977,7 +8976,7 @@ text-align: left !important;
   font-size: 3.2em !important;
   font-family: "Poppins", sans-serif !important;
   text-transform: uppercase !important; 
-margin-top: .33em;
+margin-top: .54em;
 line-height: 1.14;
 letter-spacing: 1px;
 margin-left: -.1em;
@@ -9028,7 +9027,7 @@ text-align: left !important;
   font-size: 2.94em !important;
   font-family: "Poppins", sans-serif !important;
   text-transform: uppercase !important; 
-margin-top: .35em;
+margin-top: .5em;
 letter-spacing: 1px !important;
 line-height: 1.2 !important;
 margin-left: -.15em;
@@ -9180,7 +9179,7 @@ text-transform: uppercase !important;
   margin-right: auto !important;
   font-family: "Poppins", system-ui !important;
 text-transform: uppercase !important; 
-margin-bottom: 1em !important;
+margin-bottom: .65em !important;
 }
 
 .underline-image-projects-page {
@@ -9262,7 +9261,7 @@ margin-bottom: 1em !important;
 text-transform: uppercase !important; 
 }
 .icon-colour-contact{
-  color: #151A42;
+  color: #000 !important;
   font-size: 2.2em;
 }
 /* Grey circle background for icons */
@@ -9406,7 +9405,7 @@ white-space: nowrap !important;
   .dropdown-menu.show {
     display: block; /* Ensure it’s set to block when active */
     visibility: visible;
-    background-color: #151A42 !important; /* Purple background color */
+    background-color: #000 !important; /* Purple background color */
 
   }
     /* Define the background color when a dropdown item is clicked */
@@ -9465,7 +9464,7 @@ white-space: nowrap !important;
   .dropdown-menu.show {
     display: block; /* Ensure it’s set to block when active */
     visibility: visible;
-    background-color: #151A42 !important; /* Purple background color */
+    background-color: #000 !important; /* Purple background color */
 
   }
     /* Define the background color when a dropdown item is clicked */
@@ -9909,7 +9908,7 @@ section#testimonial {
   margin-left: auto !important;
   margin-right: auto !important;
   font-size: 2.9em !important;
-  margin-bottom: .75em !important;
+  margin-bottom: .35em !important;
   color: #000000 !important;
 }  
 .services-section{
@@ -10037,7 +10036,7 @@ section#testimonial {
     display: none !important;
   }
   .projects{
-    margin-bottom: 5em;
+    margin-bottom: 6.15em;
     margin-top: 1em !important;
   }
   .project-item {
@@ -10047,7 +10046,7 @@ section#testimonial {
   
     }
     .project-carousel{
-      margin-top: -1em;
+      margin-top: .35em !important;
       margin-bottom:  2.5em;
     }
     .project-carousel .owl-nav {
@@ -10202,7 +10201,7 @@ section#testimonial {
       justify-content: center;
       flex-wrap: nowrap;
       white-space: nowrap !important;
-      margin-right: 5.5em !important;
+      margin-right: 7em !important;
     }
     
     .testimonial-content .user-info .user {
@@ -10314,12 +10313,12 @@ outline: none;
 /* Full-width dropdown menu for mobile view */
 .navbar-collapse {
   width: 100vw; /* Full viewport width */
-  background-color: #151A42 !important; /* Purple background color */
+  background-color: #000 !important; /* Purple background color */
   position: absolute; /* Absolute positioning to ensure it spans the full width */
   left: 0; /* Align with the left edge of the viewport */
   top: 100%; /* Position it below the navbar */
 
-  border-bottom: white 3px solid;
+  border-bottom: #FBB81C 3px solid;
   z-index: 1000; /* Ensure it sits above other content */
 }
 
@@ -10526,7 +10525,7 @@ text-align: left !important;
   font-size: 3.52em !important;
   font-family: "Poppins", system-ui !important;
 text-transform: uppercase !important; 
-margin-top: .32em;
+margin-top: .37em;
 line-height: 1.1;
 margin-left: -.1em;
 text-align: left !important;
@@ -10565,7 +10564,7 @@ text-align: left !important;
   font-size: 3.32em !important;
   font-family: "Poppins", sans-serif !important;
   text-transform: uppercase !important; 
-margin-top: .3em;
+margin-top: .5em;
 line-height: 1.14;
 letter-spacing: 1px;
 margin-left: -.1em;
@@ -10596,7 +10595,7 @@ text-align: left !important;
   font-size: 3.15em !important;
   font-family: "Poppins", sans-serif !important;
   text-transform: uppercase !important; 
-margin-top: .35em;
+margin-top: .5em;
 letter-spacing: 1px !important;
 line-height: 1.2 !important;
 margin-left: -.15em;
@@ -10748,7 +10747,7 @@ text-transform: uppercase !important;
   margin-right: auto !important;
   font-family: "Poppins", system-ui !important;
 text-transform: uppercase !important; 
-margin-bottom: .9em !important;
+margin-bottom: .5em !important;
 padding: 0em .4em;
 }
 
@@ -11843,12 +11842,12 @@ outline: none;
 /* Full-width dropdown menu for mobile view */
 .navbar-collapse {
   width: 100vw; /* Full viewport width */
-  background-color: #151A42 !important; /* Purple background color */
+  background-color: #000 !important; /* Purple background color */
   position: absolute; /* Absolute positioning to ensure it spans the full width */
   left: 0; /* Align with the left edge of the viewport */
   top: 100%; /* Position it below the navbar */
 
-  border-bottom: white 3px solid;
+  border-bottom: #FBB81C 3px solid;
   z-index: 1000; /* Ensure it sits above other content */
 }
 
@@ -11958,7 +11957,7 @@ margin-top: -35px !important;
 .dropdown-menu.show {
   display: block; /* Ensure it’s set to block when active */
   visibility: visible;
-  background-color: #151A42 !important; /* Purple background color */
+  background-color: #000 !important; /* Purple background color */
 
 }
   /* Define the background color when a dropdown item is clicked */
@@ -12388,7 +12387,7 @@ padding: 0em .4em;
 text-transform: uppercase !important; 
 }
 .icon-colour-contact{
-  color: #151A42;
+  background-color: #000 !important; /* Purple background color */
   font-size: 2.2em;
 }
 /* Grey circle background for icons */
@@ -13424,12 +13423,12 @@ outline: none;
 /* Full-width dropdown menu for mobile view */
 .navbar-collapse {
   width: 100vw; /* Full viewport width */
-  background-color: #151A42 !important; /* Purple background color */
+  background-color: #000 !important; /* Purple background color */
   position: absolute; /* Absolute positioning to ensure it spans the full width */
   left: 0; /* Align with the left edge of the viewport */
   top: 100%; /* Position it below the navbar */
 
-  border-bottom: white 3px solid;
+  border-bottom: #FBB81C 3px solid;
   z-index: 1000; /* Ensure it sits above other content */
 }
 
@@ -13539,7 +13538,7 @@ margin-top: -35px !important;
 .dropdown-menu.show {
   display: block; /* Ensure it’s set to block when active */
   visibility: visible;
-  background-color: #151A42 !important; /* Purple background color */
+  background-color: #000 !important; /* Purple background color */
 
 }
   /* Define the background color when a dropdown item is clicked */
@@ -14974,12 +14973,12 @@ outline: none;
 /* Full-width dropdown menu for mobile view */
 .navbar-collapse {
   width: 100vw; /* Full viewport width */
-  background-color: #151A42 !important; /* Purple background color */
+  background-color: #000 !important; /* Purple background color */
   position: absolute; /* Absolute positioning to ensure it spans the full width */
   left: 0; /* Align with the left edge of the viewport */
   top: 100%; /* Position it below the navbar */
 
-  border-bottom: white 3px solid;
+  border-bottom: #FBB81C 3px solid;
   z-index: 1000; /* Ensure it sits above other content */
 }
 
@@ -15040,7 +15039,7 @@ outline: none;
   .dropdown-menu.show {
     display: block; /* Ensure it’s set to block when active */
     visibility: visible;
-    background-color: #151A42 !important; /* Purple background color */
+    background-color: #000 !important; /* Purple background color */
   
   }
     /* Define the background color when a dropdown item is clicked */
@@ -15787,7 +15786,7 @@ margin-right: 20px;
   .dropdown-menu.show {
     display: block; /* Ensure it’s set to block when active */
     visibility: visible;
-    background-color: #151A42 !important; /* Purple background color */
+    background-color: #000 !important; /* Purple background color */
   
   }
     /* Define the background color when a dropdown item is clicked */
@@ -16555,12 +16554,12 @@ outline: none;
 /* Full-width dropdown menu for mobile view */
 .navbar-collapse {
   width: 100vw; /* Full viewport width */
-  background-color: #151A42 !important; /* Purple background color */
+  background-color: #000 !important; /* Purple background color */
   position: absolute; /* Absolute positioning to ensure it spans the full width */
   left: 0; /* Align with the left edge of the viewport */
   top: 100%; /* Position it below the navbar */
 
-  border-bottom: white 3px solid;
+  border-bottom: #FBB81C 3px solid;
   z-index: 1000; /* Ensure it sits above other content */
 }
 
@@ -16628,7 +16627,7 @@ outline: none;
     visibility: visible;
   }
 .navbar-collapse{
-  background-color: #151A42 !important; /* Purple background color */
+  background-color: #000 !important; /* Purple background color */
   width: 100%;
 }  
 .contact img{
@@ -18609,7 +18608,7 @@ font-size: 1.12em !important;
     .dropdown-menu.show {
       display: block; /* Ensure it’s set to block when active */
       visibility: visible;
-      background-color: #151A42 !important; /* Purple background color */
+      background-color: #000 !important; /* Purple background color */
   
     }
     .dropdown-item{
@@ -19990,7 +19989,7 @@ font-size: 1.12em !important;
     .dropdown-menu.show {
       display: block; /* Ensure it’s set to block when active */
       visibility: visible;
-      background-color: #151A42 !important; /* Purple background color */
+      background-color: #000 !important; /* Purple background color */
   
     }
     .dropdown-item{
@@ -21382,7 +21381,7 @@ font-size: 1.17em !important;
     .dropdown-menu.show {
       display: block; /* Ensure it’s set to block when active */
       visibility: visible;
-      background-color: #151A42 !important; /* Purple background color */
+      background-color: #000 !important; /* Purple background color */
   
     }
     .dropdown-item{
@@ -22816,7 +22815,7 @@ font-size: 1.17em !important;
     .dropdown-menu.show {
       display: block; /* Ensure it’s set to block when active */
       visibility: visible;
-      background-color: #151A42 !important; /* Purple background color */
+      background-color: #000 !important; /* Purple background color */
   
     }
     .dropdown-item{
@@ -24244,7 +24243,7 @@ font-size: 1.17em !important;
     .dropdown-menu.show {
       display: block; /* Ensure it’s set to block when active */
       visibility: visible;
-      background-color: #151A42 !important; /* Purple background color */
+      background-color: #000 !important; /* Purple background color */
   
     }
     .dropdown-item{
@@ -25668,7 +25667,7 @@ font-size: 1.23em !important;
     .dropdown-menu.show {
       display: block; /* Ensure it’s set to block when active */
       visibility: visible;
-      background-color: #151A42 !important; /* Purple background color */
+      background-color: #000 !important; /* Purple background color */
   
     }
     .dropdown-item{
@@ -27080,7 +27079,7 @@ font-size: 1.23em !important;
     .dropdown-menu.show {
       display: block; /* Ensure it’s set to block when active */
       visibility: visible;
-      background-color: #151A42 !important; /* Purple background color */
+      background-color: #000 !important; /* Purple background color */
   
     }
     .dropdown-item{
@@ -28528,7 +28527,7 @@ font-size: 1.32em !important;
     .dropdown-menu.show {
       display: block; /* Ensure it’s set to block when active */
       visibility: visible;
-      background-color: #151A42 !important; /* Purple background color */
+      background-color: #000 !important; /* Purple background color */
   
     }
     .dropdown-item{
@@ -29998,7 +29997,7 @@ font-size: 1.32em !important;
     .dropdown-menu.show {
       display: block; /* Ensure it’s set to block when active */
       visibility: visible;
-      background-color: #151A42 !important; /* Purple background color */
+      background-color: #000 !important; /* Purple background color */
   
     }
     .dropdown-item{
@@ -31456,7 +31455,7 @@ margin-top: 0em;
     .dropdown-menu.show {
       display: block; /* Ensure it’s set to block when active */
       visibility: visible;
-      background-color: #151A42 !important; /* Purple background color */
+      background-color: #000 !important; /* Purple background color */
   
     }
     .dropdown-item{
@@ -32942,7 +32941,7 @@ margin-top: 0em;
     .dropdown-menu.show {
       display: block; /* Ensure it’s set to block when active */
       visibility: visible;
-      background-color: #151A42 !important; /* Purple background color */
+      background-color: #000 !important; /* Purple background color */
   
     }
     .dropdown-item{
@@ -34409,7 +34408,7 @@ margin-top: 0em;
     .dropdown-menu.show {
       display: block; /* Ensure it’s set to block when active */
       visibility: visible;
-      background-color: #151A42 !important; /* Purple background color */
+      background-color: #000 !important; /* Purple background color */
   
     }
     .dropdown-item{
@@ -35874,7 +35873,7 @@ margin-top: 0em;
     } .dropdown-menu.show {
       display: block; /* Ensure it’s set to block when active */
       visibility: visible;
-      background-color: #151A42 !important; /* Purple background color */
+      background-color: #000 !important; /* Purple background color */
   
     }
       /* Define the background color when a dropdown item is clicked */
@@ -37321,7 +37320,7 @@ margin-top: 0em;
     .dropdown-menu.show {
       display: block; /* Ensure it’s set to block when active */
       visibility: visible;
-      background-color: #151A42 !important; /* Purple background color */
+      background-color: #000 !important; /* Purple background color */
   
     }
       /* Define the background color when a dropdown item is clicked */
@@ -37340,6 +37339,8 @@ margin-top: 0em;
       }
 }
 @media (min-width: 1915px) and (max-width: 10000px){
+  .ipad-display-visible{
+  display: none !important;}
   .services-header-margin{
     margin-bottom: -2.15em !important;
   }
@@ -38666,8 +38667,8 @@ margin-top: 0em;
 .custom-spinner-container {
   width: 5.6rem; /* Adjust size as needed */
   height: 5.6rem; /* Adjust size as needed */
-  border: 5px solid rgba(0, 0, 0, 0.1); /* Light border */
-  border-top: 5px solid #96E0E3; /* Blue border */
+  border: 5px solid rgba(10, 01, 01, 0.7); /* Light border */
+  border-top: 5px solid #FBB61C; /* Blue border */
   border-radius: 50%; /* Make it a circle */
   animation: spin 1s linear infinite; /* Spin animation */
   display: flex;
@@ -38682,7 +38683,7 @@ margin-top: 0em;
 
 /* Custom CSS for the logo inside the spinner */
 .spinner-logo {
-  width: 3.8rem; /* Adjust size as needed */
+  width: 4rem; /* Adjust size as needed */
   height: auto;
   position: absolute; /* Position it in the center */
 }
@@ -39464,3 +39465,6 @@ width: 64px;
 height: 64px;
 }
 
+.bg-black{
+  background-color: #000 !important ;
+}
