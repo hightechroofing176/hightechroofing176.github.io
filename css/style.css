@@ -37354,6 +37354,27 @@ margin-top: 0em;
       }
 }
 @media (min-width: 1915px) and (max-width: 10000px){  
+  .bottom-left {
+    background-color: transparent;
+    width: 1200px;
+  height: auto;
+  transform: rotate(-0deg) scaleX(-1); /* Flip horizontally */
+  top: 15% !important;
+  opacity: .3;
+      left: -940px !important ;
+  }
+  .top-right {
+    background-color: transparent;
+    width: 1200px; /* Adjust width as needed */
+    height: auto;
+    transform: rotate(-360deg) scaleX(-1); /* Flip horizontally */
+    position: absolute;
+    top: 5%;
+    left: 1620px !important;
+  z-index: 1;
+  opacity: .5;
+  
+  }
   .choose-us {
     position: relative;
     background: #fff;
@@ -37943,7 +37964,7 @@ margin-left: 5px;
   font-weight: 600 !important;
   margin-left: 0em ;
   font-size: 4em !important;
-  margin-bottom: .65em !important;
+  margin-bottom: .45em !important;
   color: #000000 !important;
 } 
 .desktop-none{
@@ -38051,7 +38072,7 @@ margin-left: 5px;
   }
   .projects{
     margin-bottom: 2em;
-    margin-top: 2.5em !important;
+    margin-top: 3.5em !important;
   }
   .project-carousel{
     margin-top: -.7em !important;
