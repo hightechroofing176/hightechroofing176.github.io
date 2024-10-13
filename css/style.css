@@ -2642,7 +2642,7 @@ font-size: 1.1em;
 
 }
 .read-more{
-  color: #FAAB1F;
+  color: #fff !important;
   text-decoration: underline;
   font-weight: 400 !important;
 }
@@ -4877,7 +4877,7 @@ padding-left: .2em !important;
 }
 .text-container{
   width: 90%;
-  margin-top: 164px !important;
+  margin-top: 171px !important;
   }.carousel-caption {
     top: -20% !important;
     left: 0% !important;
@@ -15166,6 +15166,15 @@ margin-top: .26em;
 margin-left: 0em;
 text-align: left !important;
 }
+.blog-post-page-header{
+  font-weight: 600 !important;
+  font-size: 4.75em !important;
+  font-family: "Poppins", system-ui !important;
+text-transform: uppercase !important; 
+margin-top: .26em;
+margin-left: 0em;
+text-align: left !important;
+}
 .font-type-service-page-header{
   font-weight: 600 !important;
   font-size: 4.3em !important;
@@ -15367,6 +15376,7 @@ margin-left: 0em !important;
   margin-bottom: .35em;
   font-family: "Poppins", system-ui !important;
 text-transform: uppercase !important; 
+color: #000 !important;
 }
 
 
@@ -15410,7 +15420,7 @@ text-transform: uppercase !important;
   margin-right: auto !important;
   font-family: "Poppins", system-ui !important;
 text-transform: uppercase !important; 
-margin-bottom: .9em !important;
+margin-bottom: .5em !important;
 padding: 0em .4em;
 }
 
@@ -15437,7 +15447,7 @@ padding: 0em .4em;
   font-size: 1.13em;
 }
 .projects-filtered{
-  margin-top: -.75em !important;
+  margin-top: -1.5em !important;
 }
 .mb-30{
   margin-bottom: 1.5em !important;
@@ -15618,6 +15628,7 @@ white-space: nowrap !important;
   .service-header-h1{
     text-transform: uppercase !important;
     font-size: 2.7em;
+    color: #000 !important;
   }
   .service-page-contact-us{
     margin-bottom: .2em !important;
@@ -16251,7 +16262,7 @@ section#testimonial {
   padding: 0em .3em;
   margin-right: auto !important;
   font-size: 3.2em !important;
-  margin-bottom: .75em !important;
+  margin-bottom: .25em !important;
   color: #000000 !important;
 }  
 .services-section{
@@ -16386,7 +16397,7 @@ section#testimonial {
   
     }
     .project-carousel{
-      margin-top: -1.5em !important;
+      margin-top: .5em !important;
       margin-bottom:  2.5em;
     }
     .project-carousel .owl-nav {
@@ -16442,7 +16453,7 @@ section#testimonial {
       justify-content: center;
       flex-wrap: nowrap;
       white-space: nowrap !important;
-      margin-right: 1.5em !important;
+      margin-right: 3em !important;
     }
     
     .testimonial-content .user-info .user {
@@ -17002,7 +17013,7 @@ padding: 0em .4em;
   font-size: 1.13em;
 }
 .projects-filtered{
-  margin-top: -.75em !important;
+  margin-top: -1.5em !important;
 }
 .mb-30{
   margin-bottom: 1.5em !important;
@@ -24261,6 +24272,9 @@ font-size: 1.17em !important;
     }
 }
 @media (min-width: 1270px) and (max-width: 1350px){
+  .ipad-display-visible{
+    display: block !important;
+  }
   .social-icon{
     margin-right: .5em !important;
     margin-top: -0.5px !important;
@@ -26604,6 +26618,7 @@ text-transform: uppercase !important;  }
     background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .2)), url(../img/appointment.jpg) left center no-repeat;
     background-size: cover;
     height: 520px;
+    margin-top: 2em;
     margin-bottom: 5em !important;
   }
   .appointment p{
@@ -27961,7 +27976,7 @@ margin-left: 5px;
   }
   .projects{
     margin-bottom: 5em;
-    margin-top: 1.73em !important;
+    margin-top: 2em !important;
   }
   .project-carousel{
     margin-top: 0em !important;
@@ -37338,7 +37353,21 @@ margin-top: 0em;
         /* You can change this color to the desired color */
       }
 }
-@media (min-width: 1915px) and (max-width: 10000px){
+@media (min-width: 1915px) and (max-width: 10000px){  
+  .choose-us {
+    position: relative;
+    background: #fff;
+  margin-top: -11em;
+  margin-bottom: -4em;
+       padding: 130px 0px 110px 0px !important; /* Adjust padding as needed */
+       z-index: -12; /* Ensure overlays are below content */
+  overflow: hidden;
+  }
+  .choose-us-container .right-section img {
+    max-width: 100%;
+    height: 710px !important;
+    
+  }
   .ipad-display-visible{
   display: none !important;}
   .services-header-margin{
@@ -38022,7 +38051,7 @@ margin-left: 5px;
   }
   .projects{
     margin-bottom: 2em;
-    margin-top: 1.7em !important;
+    margin-top: 2.5em !important;
   }
   .project-carousel{
     margin-top: -.7em !important;
@@ -38304,6 +38333,13 @@ height: 55px;
   text-align: center !important;
   }
   .font-type-page-header{
+    font-weight: 600 !important;
+    font-size: 5.65em !important;
+    font-family: "Poppins", system-ui !important;
+  text-transform: uppercase !important; 
+  margin-top: .2em;
+  }
+  .blog-post-page-header{
     font-weight: 600 !important;
     font-size: 5.65em !important;
     font-family: "Poppins", system-ui !important;
