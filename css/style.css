@@ -6363,7 +6363,7 @@ margin-left: -7px;
   }
   .border-left{
     border-left: white solid 2px;
-    margin-top: 4.8em !important;
+    margin-top: 4.2em !important;
     right: 0% !important;
     height: 585px !important;
 
@@ -6385,7 +6385,7 @@ margin-left: -7px;
 
  
   .carousel-item {
-    height: 780px;
+    height: 760px;
     width: 100%;
   }
 
@@ -6395,30 +6395,19 @@ margin-left: -7px;
     font-style: normal;
     margin-top: .1em;
     color: #fff;
-    line-height: 1.2;
+    line-height: 1.1;
     font-size: 2.6em;
   }
   .underline {
     position: relative;
     display: inline-block;
-    padding-bottom: 1px !important; /* Adjust padding as needed to create space for the underline */
+    padding-bottom: 0px !important; /* Adjust padding as needed to create space for the underline */
   }
   
   .underline::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -3px;
-    height: 6px; /* Adjust height based on the image size */
-    background-image: url('../img/underline.png'); /* Image path */
-    background-size: contain;
-    background-repeat: repeat;
-        background-color: transparent; /* Ensure the background is transparent */
-        background-size: 100% 100%; /* Adjust width percentage to make the underline longer */
-  
-    background-position: center bottom;
-    pointer-events: none; /* Ensure the image doesn't interfere with text selection */
+
+    background-image: none; /* Image path */
+
   }
 
   .body-text {
@@ -6712,10 +6701,10 @@ margin-left: -7px;
     }
     
   .logo {
-    width: 8.85em;
+    width: 9em !important;
     margin-right: 0.5em;
-    margin-bottom: 0em !important;
-    margin-left: -1.2em;
+    margin-bottom: 0.2em !important;
+    margin-left: -1.2em !important;
     }
     .navbar .navbar-brand::after {
       position: absolute;
