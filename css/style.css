@@ -6703,7 +6703,9 @@ margin-left: -7px;
       background-color: #1E1E1E; /* Black color */
       z-index: -1; /* Ensure it is behind the image */
     }
-    
+    .desktop-none{
+      display: block !important;
+    }
   .logo {
     width: 9em !important;
     margin-right: 0.5em;
