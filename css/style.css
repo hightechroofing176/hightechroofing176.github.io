@@ -552,7 +552,7 @@ font-weight: 600 !important;font-style: normal;}
   border-radius: 5em; /* makes the underline ends rounded */
 
   height: 3px; /* thickness of underline */
-  background-color: #d7ba6b; /* your brand accent colour */
+  background-color: #d7ba6b !important; /* your brand accent colour */
 }
 
 .navbar .dropdown-toggle::after {
@@ -1136,7 +1136,7 @@ transition: ease .15s;
   border-top: 1px solid rgba(255, 255, 255, .1);
 }
 .about-img{
-  background-image: url(../img/about-page-img.jpg);
+  background-image: url(../img/about-page-image.jpg) !important;
   background-size: cover;
   height: 740px;
   margin-top: 2em;
@@ -1258,7 +1258,7 @@ font-weight: 600 !important;
   font-style: normal; 
   text-decoration: underline;
   font-size: 1em  ;
-  color:  #29396b;
+  color: #24292a !important;
 }
 
 .blog .posts-list .readmore i {
@@ -1901,7 +1901,7 @@ display: none;
   }
   .btn-nav{
 
-    background: linear-gradient(180deg, #d4b36b 0%, #c2a559 50%, #b89d4f 100%);
+    background: linear-gradient(180deg, #d4b36b 0%, #c2a559 50%, #b89d4f 100%) !important;
     margin-left: .55em;
     font-size: 24px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -1958,7 +1958,7 @@ margin-bottom: 1em;
   left: -14px;
   width: 184px; /* Adjust width as needed */
   height: 167%; /* Adjust height to match the logo container height */
-  background: linear-gradient(180deg, #d4b36b 0%, #c2a559 50%, #b89d4f 100%);
+  background: linear-gradient(180deg, #d4b36b 0%, #c2a559 50%, #b89d4f 100%) !important;
   clip-path: polygon(83% 0, 59% 54%, 81% 100%, 0% 100%, 0 59%, 0% 0%);  z-index: 0; /* Ensure clipping mask is below the logo */
 }
 
@@ -2917,6 +2917,20 @@ color: #020202;
 }
 /* Media query for screens between 300px and 385px */
 @media (min-width: 370px) and (max-width: 385px) {
+  .desktop-none{
+    display: block !important;
+  }
+  .underline {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 0px !important; /* Adjust padding as needed to create space for the underline */
+  }
+  
+  .underline::after {
+
+    background-image: none; /* Image path */
+
+  }
   .mt-contact-form-page{
     margin-top: -3.5em;
    }
@@ -2984,7 +2998,7 @@ color: #020202;
     }
 .user{
 width: 3em !important;
-margin-left: 3.5em;
+margin-left: 3.6em !important;
 
 }
 .testimonial-swiper .font-type-i-semi{
@@ -3022,11 +3036,12 @@ text-transform: capitalize;
 font-size: 1.3em !important;
 line-height: 1.8 !important;
 align-items: baseline !important;
-margin-bottom: 1.1em;
+margin-bottom: .9em !important;
 margin-top: .2em;
 }
   .reviews-section-google-logo{
   width: 5em;
+  
   margin-left: .5em;
   align-items: center;
   }
@@ -3210,9 +3225,9 @@ margin-top: .2em;
   .section-header-text-projects{
     font-family: 'Montserrat', sans-serif;
   font-weight: 600 !important;
-  margin-bottom: .65em !important;
+  margin-bottom: .5em !important;
   font-size: 1.5em;
-  color: #365bb3 !important;
+  color: #c8af64 !important;
   }
   .about1{
     margin-top: -1.5em;
@@ -3330,7 +3345,7 @@ margin-left: -7px;
     margin-bottom: -.75em !important;
   }
   .mt-custom-projects{
-    margin-top: -.8em !important ;
+    margin-top: -.95em !important ;
   }
   .about-image-height{
     height: 330px !important;
@@ -3681,8 +3696,8 @@ margin-left: -7px;
     font-weight: 500 !important;
       font-style: normal;
       line-height: 1 !important;
-      font-size: 3.45em !important;
-      margin-top: -.8em;
+      font-size: 3.7em !important;
+      margin-top: -.85em;
   }
   
   .page-header {
@@ -3747,7 +3762,7 @@ margin-left: -7px;
     margin-left: -1.72em !important;
 
     margin-right: 0.5em;
-    margin-top: .85em !important;
+    margin-top: .7em !important;
   }
 
   .clipping-mask2 {
@@ -3809,7 +3824,7 @@ margin-left: -7px;
   }
   .border-left{
     border-left: white solid 2px;
-    margin-top: 3.82em !important;
+    margin-top: 4.55em !important;
     right: 0% !important;
     height: 570px !important;
 
@@ -3831,7 +3846,7 @@ margin-left: -7px;
 
  
   .carousel-item {
-    height: 770px;
+    height: 760px;
     width: 100%;
   }
 
@@ -4076,7 +4091,7 @@ margin-left: -7px;
   .appointment {
     background: linear-gradient(to right, rgba(3, 3, 3, 0.692), rgba(0, 0, 0, .63)), url(../img/appointment.jpg) left bottom no-repeat;
     background-size: cover;
-    height: 1195px;
+    height: 1125px;
     margin-top: 3.5em !important;
 
 
@@ -4087,7 +4102,7 @@ margin-left: -7px;
     font-weight: 400 !important;
       font-style: normal;
       color: #ffffff;
-      font-size: 3em;
+      font-size: 3.2em;
       padding-right: 1em;
   }
   .navbar .navbar-nav .nav-link {
@@ -4134,12 +4149,12 @@ margin-left: -7px;
       z-index: -1; /* Ensure it is behind the image */
     }
     
-  .logo {
-    width: 8.5em;
-    margin-right: 0.5em;
-    margin-bottom: 0em !important;
-    margin-left: -1.2em;
-    }
+    .logo {
+      width: 8.5em !important;
+      margin-right: 0.5em;
+      margin-bottom: 0.1em !important;
+      margin-left: -1.15em !important;
+      }
     .navbar .navbar-brand::after {
       position: absolute;
       content: "";
@@ -4149,10 +4164,10 @@ margin-left: -7px;
       right: 0px;
       }  
    
-    .navbar-toggler{
-      margin-right: -.75em !important;
-      margin-bottom: -.75em;
-    }
+      .navbar-toggler{
+        margin-right: -1.2em !important;
+        margin-bottom: -.75em;
+      }
   }
 /* Media query for screens between 300px and 385px */
 @media (min-width: 100px) and (max-width: 370px) {
@@ -4337,7 +4352,7 @@ margin-top: .2em;
   
   }
   .choose-us-header{
-    color: #121212   ;
+    color: #24292a !important   ;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400 !important;
       font-style: normal;
@@ -5071,9 +5086,9 @@ margin-left: -7px;
   }
   .border-left{
     border-left: white solid 2px;
-    margin-top: 3.9em !important;
+    margin-top: 3.95em !important;
     right: 0% !important;
-    height: 570px !important;
+    height: 562px !important;
 
     margin-left: .6em !important;
   }
@@ -5093,7 +5108,7 @@ margin-left: -7px;
 
  
   .carousel-item {
-    height: 770px;
+    height: 760px;
     width: 100%;
   }
 
@@ -5102,31 +5117,20 @@ margin-left: -7px;
     font-weight: 600 !important;
     font-style: normal;
     color: #fff;
-    line-height: 1.2;
+    line-height: 1.1;
     margin-top: .1em;
     font-size: 2.48em;
   }
   .underline {
     position: relative;
     display: inline-block;
-    padding-bottom: 1px !important; /* Adjust padding as needed to create space for the underline */
+    padding-bottom: 0px !important; /* Adjust padding as needed to create space for the underline */
   }
   
   .underline::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -2px;
-    height: 4px; /* Adjust height based on the image size */
-    background-image: url('../img/underline.png'); /* Image path */
-    background-size: contain;
-    background-repeat: repeat;
-        background-color: transparent; /* Ensure the background is transparent */
-        background-size: 100% 100%; /* Adjust width percentage to make the underline longer */
-  
-    background-position: center bottom;
-    pointer-events: none; /* Ensure the image doesn't interfere with text selection */
+
+    background-image: none; /* Image path */
+
   }
 
   .body-text {
@@ -5420,10 +5424,10 @@ margin-left: -7px;
     }
     
   .logo {
-    width: 8.5em;
+    width: 8.5em !important;
     margin-right: 0.5em;
-    margin-bottom: 0em !important;
-    margin-left: -.85em;
+    margin-bottom: 0.1em !important;
+    margin-left: -1.25em !important;
     }
     .navbar .navbar-brand::after {
       position: absolute;
@@ -5435,7 +5439,7 @@ margin-left: -7px;
       }  
    
     .navbar-toggler{
-      margin-right: -1em !important;
+      margin-right: -1.2em !important;
       margin-bottom: -.75em;
     }}
 
@@ -5736,7 +5740,7 @@ margin-top: .2em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600 !important;
   font-size: 1.4em !important;
-  color: #365bb3;
+  color: #c8af64 !important;
   margin-bottom: .35em !important;
   }
   .section-header-text-about-page{
@@ -5744,14 +5748,14 @@ margin-top: .2em;
   font-weight: 600 !important;
   font-size: 1.4em;
   margin-bottom: .3em !important;
-  color: #375db6;
+  color: #c8af64 !important;
   }
   .section-header-projects-page{
     font-family: "Montserrat", sans-serif !important;
   font-weight: 600 !important;
   font-size: 1.4em;
   margin-bottom: .6em !important;
-  color: #375db6;
+  color: #c8af64 !important;
   }
   .contact-page-header{
     font-family: "Montserrat", sans-serif !important;
@@ -5759,14 +5763,14 @@ margin-top: .2em;
     font-size: 1.4em;
     margin-top: -1.5em;
     margin-bottom: .55em !important;
-    color: #375db6;
+    color: #c8af64 !important;
   }
   .section-header-text-projects{
     font-family: 'Montserrat', sans-serif;
   font-weight: 600 !important;
   margin-bottom: .65em !important;
   font-size: 1.5em;
-  color: #365bb3 !important;
+  color: #c8af64 !important;
   }
   .about1{
     margin-top: -1.5em;
@@ -6235,8 +6239,8 @@ margin-left: -7px;
     font-weight: 500 !important;
       font-style: normal;
       line-height: 1 !important;
-      font-size: 3.45em !important;
-      margin-top: -.8em;
+      font-size: 3.7em !important;
+      margin-top: -.87em;
   }
   
   .page-header {
@@ -6301,7 +6305,7 @@ margin-left: -7px;
     margin-left: -1.72em !important;
 
     margin-right: 0.5em;
-    margin-top: .85em !important;
+    margin-top: .7em !important;
   }
 
   .clipping-mask2 {
@@ -6363,9 +6367,9 @@ margin-left: -7px;
   }
   .border-left{
     border-left: white solid 2px;
-    margin-top: 4.2em !important;
+    margin-top: 4.5em !important;
     right: 0% !important;
-    height: 585px !important;
+    height: 573px !important;
 
     margin-left: .6em !important;
   }
@@ -6716,7 +6720,7 @@ margin-left: -7px;
       }  
    
     .navbar-toggler{
-      margin-right: -.65em !important;
+      margin-right: -.8em !important;
       margin-bottom: -1em;
     }
   }
@@ -6745,6 +6749,20 @@ margin-left: -7px;
 
 /* Media query for screens between 410px and 425 */
 @media (min-width: 410px) and (max-width: 425px) {
+  .desktop-none{
+    display: block !important;
+  }
+  .underline {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 0px !important; /* Adjust padding as needed to create space for the underline */
+  }
+  
+  .underline::after {
+
+    background-image: none; /* Image path */
+
+  }
   .sidebar{
     margin-top: -2em !important;
   }
@@ -6818,7 +6836,7 @@ margin-left: -7px;
     }
 .user{
 width: 3em !important;
-margin-left: 1.5em;
+margin-left: 1em !important;
 
 }
 .testimonial-swiper .font-type-i-semi{
@@ -6856,7 +6874,7 @@ text-transform: capitalize;
 font-size: 1.49em !important;
 line-height: 1.9 !important;
 align-items: baseline !important;
-margin-bottom: 1em !important;
+margin-bottom: .8em !important;
 margin-top: .2em;
 }
   .reviews-section-google-logo{
@@ -7016,7 +7034,7 @@ margin-top: .2em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600 !important;
   font-size: 1.5em !important;
-  color: #365bb3;
+  color: #c8af64 !important;
   margin-bottom: .35em !important;
   }
   .section-header-text-about-page{
@@ -7024,14 +7042,14 @@ margin-top: .2em;
   font-weight: 600 !important;
   font-size: 1.5em;
   margin-bottom: .3em !important;
-  color: #375db6;
+  color: #c8af64 !important;
   }
   .section-header-projects-page{
     font-family: "Montserrat", sans-serif !important;
   font-weight: 600 !important;
   font-size: 1.5em;
   margin-bottom: .6em !important;
-  color: #375db6;
+  color: #c8af64 !important;
   }
   .contact-page-header{
     font-family: "Montserrat", sans-serif !important;
@@ -7039,15 +7057,15 @@ margin-top: .2em;
     font-size: 1.5em;
     margin-top: -1.25em;
     margin-bottom: .55em !important;
-    color: #375db6;
+    color: #c8af64 !important;
   }
   .section-header-text-projects{
     font-family: 'Montserrat', sans-serif;
   font-weight: 600 !important;
   margin-bottom: .65em !important;
-  font-size: 1.5em;
-  color: #365bb3 !important;
-  }
+  font-size: 1.45em;
+  color: #c8af64 !important;
+}
   .about1{
     margin-top: -1.5em;
   }
@@ -7122,7 +7140,7 @@ margin-left: -7px;
       margin-top: .75em;
       margin-left: 0em;
       margin-bottom: .65em;
-      width: 95% !important;
+      width: 90% !important;
     }
   .py-23{
     padding: 0.2em 0em 0.1em 1.15em !important; 
@@ -7163,7 +7181,7 @@ margin-left: -7px;
     margin-bottom: -.75em !important;
   }
   .mt-custom-projects{
-    margin-top: -.8em !important ;
+    margin-top: -1em !important ;
   }
   .about-image-height{
     height: 330px !important;
@@ -7513,9 +7531,9 @@ margin-left: -7px;
     letter-spacing: .5px;
     font-weight: 500 !important;
       font-style: normal;
-      line-height: 1 !important;
+      line-height: 1;
       font-size: 3.75em !important;
-      margin-top: -.85em;
+      margin-top: -.3em;
   }
   
   .page-header {
@@ -7642,9 +7660,9 @@ margin-left: -7px;
   }
   .border-left{
     border-left: white solid 2px;
-    margin-top: 5.35em !important;
+    margin-top: 5.1em !important;
     right: 0% !important;
-    height: 583px !important;
+    height: 592px !important;
 
     margin-left: .6em !important;
   }
@@ -7664,7 +7682,7 @@ margin-left: -7px;
 
  
   .carousel-item {
-    height: 770px;
+    height: 785px;
     width: 100%;
   }
 
@@ -7909,7 +7927,7 @@ margin-left: -7px;
   .appointment {
     background: linear-gradient(to right, rgba(3, 3, 3, 0.692), rgba(0, 0, 0, .63)), url(../img/appointment.jpg) left bottom no-repeat;
     background-size: cover;
-    height: 1150px;
+    height: 1135px;
     margin-top: 3.85em !important;
     margin-bottom: 7em !important;
   }
@@ -7918,7 +7936,7 @@ margin-left: -7px;
     font-weight: 400 !important;
       font-style: normal;
       color: #ffffff;
-      font-size: 3.25em;
+      font-size: 3.5em;
       padding-right: 1em;
   }
   .navbar .navbar-nav .nav-link {
@@ -7965,12 +7983,12 @@ margin-left: -7px;
       z-index: -1; /* Ensure it is behind the image */
     }
     
-  .logo {
-    width: 8.2em !important;
-    margin-right: 0.5em;
-    margin-bottom: 0em !important;
-    margin-left: -1.2em;
-    }
+    .logo {
+      width: 9em !important;
+      margin-right: 0.5em;
+      margin-bottom: 0.2em !important;
+      margin-left: -1.2em !important;
+      }
     .navbar .navbar-brand::after {
       position: absolute;
       content: "";
@@ -7980,12 +7998,26 @@ margin-left: -7px;
       right: 0px;
       }  
    
-    .navbar-toggler{
-      margin-right: -.35em !important;
-      margin-bottom: -1em;
-    }
+      .navbar-toggler{
+        margin-right: -1.1em !important;
+        margin-bottom: -.75em;
+      }
   }
   @media (min-width: 510px) and (max-width: 699px){
+    .desktop-none{
+      display: block !important;
+    }
+    .underline {
+      position: relative;
+      display: inline-block;
+      padding-bottom: 0px !important; /* Adjust padding as needed to create space for the underline */
+    }
+    
+    .underline::after {
+  
+      background-image: none; /* Image path */
+  
+    }
     .sidebar{
       margin-top: -2em !important;
     }
@@ -8257,7 +8289,7 @@ margin-left: -7px;
       font-family: 'Montserrat', sans-serif;
       font-weight: 600 !important;
     font-size: 1.5em !important;
-    color: #365bb3;
+    color: #c8af64 !important;
     margin-bottom: .35em !important;
     }
     .section-header-text-about-page{
@@ -8265,30 +8297,30 @@ margin-left: -7px;
     font-weight: 600 !important;
     font-size: 1.5em;
     margin-bottom: .3em !important;
-    color: #375db6;
-    }
+    color: #c8af64 !important;
+  }
     .section-header-projects-page{
       font-family: "Montserrat", sans-serif !important;
     font-weight: 600 !important;
     font-size: 1.5em;
     margin-bottom: .6em !important;
-    color: #375db6;
-    }
+    color: #c8af64 !important;
+  }
     .contact-page-header{
       font-family: "Montserrat", sans-serif !important;
       font-weight: 600 !important;
       font-size: 1.5em;
       margin-top: -1.25em;
       margin-bottom: .55em !important;
-      color: #375db6;
+      color: #c8af64 !important;
     }
     .section-header-text-projects{
       font-family: 'Montserrat', sans-serif;
     font-weight: 600 !important;
     margin-bottom: .65em !important;
     font-size: 1.5em;
-    color: #365bb3 !important;
-    }
+    color: #c8af64 !important;
+  }
     .about1{
       margin-top: -1.5em;
     }
@@ -8755,10 +8787,8 @@ margin-left: -7px;
       letter-spacing: .5px;
       font-weight: 500 !important;
         font-style: normal;
-        line-height: 1 !important;
-        padding-right: 1.5em !important;
-        font-size: 3.95em !important;
-        margin-top: -.85em;
+        font-size: 4em !important;
+        margin-top: -.4em;
     }
     
     .page-header {
@@ -8887,7 +8917,7 @@ margin-left: -7px;
       border-left: white solid 2px;
       margin-top: 7em !important;
       right: 0% !important;
-      height: 523px !important;
+      height: 503px !important;
   
       margin-left: .6em !important;
     }
@@ -9209,12 +9239,12 @@ margin-left: -7px;
         z-index: -1; /* Ensure it is behind the image */
       }
       
-    .logo {
-      width: 8.2em !important;
-      margin-right: 0.5em;
-      margin-bottom: 0em !important;
-      margin-left: -1.2em;
-      }
+      .logo {
+        width: 9.25em !important;
+        margin-right: 0.5em;
+        margin-bottom: 0.35em !important;
+        margin-left: -1.1em !important;
+        }
       .navbar .navbar-brand::after {
         position: absolute;
         content: "";
@@ -9224,14 +9254,28 @@ margin-left: -7px;
         right: 0px;
         }  
      
-      .navbar-toggler{
-        margin-right: -.35em !important;
-        margin-bottom: -1em;
-      }
+        .navbar-toggler{
+          margin-right: -.95em !important;
+          margin-bottom: -.8em;
+        }
   }
 
 /* Media query for screens between 410px and 425 */
 @media (min-width: 435px) and (max-width: 447px) {
+  .desktop-none{
+    display: block !important;
+  }
+  .underline {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 0px !important; /* Adjust padding as needed to create space for the underline */
+  }
+  
+  .underline::after {
+
+    background-image: none; /* Image path */
+
+  }
   .sidebar{
     margin-top: -2em !important;
   }
@@ -9503,7 +9547,7 @@ margin-top: .2em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600 !important;
   font-size: 1.5em !important;
-  color: #365bb3;
+  color: #c8af64 !important;
   margin-bottom: .35em !important;
   }
   .section-header-text-about-page{
@@ -9511,14 +9555,14 @@ margin-top: .2em;
   font-weight: 600 !important;
   font-size: 1.5em;
   margin-bottom: .3em !important;
-  color: #375db6;
+  color: #c8af64 !important;
   }
   .section-header-projects-page{
     font-family: "Montserrat", sans-serif !important;
   font-weight: 600 !important;
   font-size: 1.5em;
   margin-bottom: .6em !important;
-  color: #375db6;
+  color: #c8af64 !important;
   }
   .contact-page-header{
     font-family: "Montserrat", sans-serif !important;
@@ -9526,7 +9570,7 @@ margin-top: .2em;
     font-size: 1.5em;
     margin-top: -1.25em;
     margin-bottom: .55em !important;
-    color: #375db6;
+    color: #c8af64 !important;
   }
   .section-header-text-projects{
     font-family: 'Montserrat', sans-serif;
@@ -10001,9 +10045,8 @@ margin-left: -7px;
     letter-spacing: .5px;
     font-weight: 500 !important;
       font-style: normal;
-      line-height: 1 !important;
-      font-size: 3.95em !important;
-      margin-top: -.85em;
+      font-size: 4em !important;
+      margin-top: -.4em;
   }
   
   .page-header {
@@ -10453,13 +10496,12 @@ margin-left: -7px;
       background-color: #1E1E1E; /* Black color */
       z-index: -1; /* Ensure it is behind the image */
     }
-    
-  .logo {
-    width: 8.2em !important;
-    margin-right: 0.5em;
-    margin-bottom: 0em !important;
-    margin-left: -1.2em;
-    }
+    .logo {
+      width: 9.25em !important;
+      margin-right: 0.5em;
+      margin-bottom: 0.4em !important;
+      margin-left: -1.2em !important;
+      }
     .navbar .navbar-brand::after {
       position: absolute;
       content: "";
@@ -10469,12 +10511,26 @@ margin-left: -7px;
       right: 0px;
       }  
    
-    .navbar-toggler{
-      margin-right: -.35em !important;
-      margin-bottom: -1em;
-    }
+      .navbar-toggler{
+        margin-right: -.95em !important;
+        margin-bottom: -.8em;
+      }
   }
 @media (min-width: 448px) and (max-width: 510px) {
+  .desktop-none{
+    display: block !important;
+  }
+  .underline {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 0px !important; /* Adjust padding as needed to create space for the underline */
+  }
+  
+  .underline::after {
+
+    background-image: none; /* Image path */
+
+  }
   .sidebar{
     margin-top: -2em !important;
   }
@@ -10746,7 +10802,7 @@ margin-top: .2em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600 !important;
   font-size: 1.5em !important;
-  color: #365bb3;
+  color: #c8af64 !important;
   margin-bottom: .35em !important;
   }
   .section-header-text-about-page{
@@ -10754,14 +10810,14 @@ margin-top: .2em;
   font-weight: 600 !important;
   font-size: 1.5em;
   margin-bottom: .3em !important;
-  color: #375db6;
+  color: #c8af64 !important;
   }
   .section-header-projects-page{
     font-family: "Montserrat", sans-serif !important;
   font-weight: 600 !important;
   font-size: 1.5em;
   margin-bottom: .6em !important;
-  color: #375db6;
+  color: #c8af64 !important;
   }
   .contact-page-header{
     font-family: "Montserrat", sans-serif !important;
@@ -10769,14 +10825,14 @@ margin-top: .2em;
     font-size: 1.5em;
     margin-top: -1.25em;
     margin-bottom: .55em !important;
-    color: #375db6;
+    color: #c8af64 !important;
   }
   .section-header-text-projects{
     font-family: 'Montserrat', sans-serif;
   font-weight: 600 !important;
   margin-bottom: .65em !important;
   font-size: 1.5em;
-  color: #365bb3 !important;
+  color: #c8af64 !important;
   }
   .about1{
     margin-top: -1.5em;
@@ -11244,9 +11300,8 @@ margin-left: -7px;
     letter-spacing: .5px;
     font-weight: 500 !important;
       font-style: normal;
-      line-height: 1 !important;
-      font-size: 3.95em !important;
-      margin-top: -.85em;
+      font-size: 4em !important;
+      margin-top: -.4em;
   }
   
   .page-header {
@@ -11640,7 +11695,7 @@ margin-left: -7px;
   .appointment {
     background: linear-gradient(to right, rgba(3, 3, 3, 0.692), rgba(0, 0, 0, .63)), url(../img/appointment.jpg) left bottom no-repeat;
     background-size: cover;
-    height: 1150px;
+    height: 1140px;
     margin-top: 4em !important;
 
     margin-bottom: 7em !important;
@@ -11650,7 +11705,7 @@ margin-left: -7px;
     font-weight: 400 !important;
       font-style: normal;
       color: #ffffff;
-      font-size: 3.5em;
+      font-size: 3.75em;
       padding-right: 1em;
   }
   .navbar .navbar-nav .nav-link {
@@ -11697,12 +11752,12 @@ margin-left: -7px;
       z-index: -1; /* Ensure it is behind the image */
     }
     
-  .logo {
-    width: 8.2em !important;
-    margin-right: 0.5em;
-    margin-bottom: 0em !important;
-    margin-left: -1.2em;
-    }
+    .logo {
+      width: 9.25em !important;
+      margin-right: 0.5em;
+      margin-bottom: 0.35em !important;
+      margin-left: -1.2em !important;
+      }
     .navbar .navbar-brand::after {
       position: absolute;
       content: "";
@@ -11712,12 +11767,27 @@ margin-left: -7px;
       right: 0px;
       }  
    
-    .navbar-toggler{
-      margin-right: -.35em !important;
-      margin-bottom: -1em;
-    }
+   
+      .navbar-toggler{
+        margin-right: -.95em !important;
+        margin-bottom: -.8em;
+      }
   }
-@media (min-width: 425px) and (max-width: 434px) {
+@media (min-width: 425px) and (max-width: 434px) { 
+  .desktop-none{
+  display: block !important;
+}
+.underline {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 0px !important; /* Adjust padding as needed to create space for the underline */
+}
+
+.underline::after {
+
+  background-image: none; /* Image path */
+
+}
   .sidebar{
     margin-top: -2em !important;
   }
@@ -11989,7 +12059,7 @@ margin-top: .2em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600 !important;
   font-size: 1.5em !important;
-  color: #365bb3;
+  color: #c8af64 !important;
   margin-bottom: .35em !important;
   }
   .section-header-text-about-page{
@@ -11997,14 +12067,14 @@ margin-top: .2em;
   font-weight: 600 !important;
   font-size: 1.5em;
   margin-bottom: .3em !important;
-  color: #375db6;
+  color: #c8af64 !important;
   }
   .section-header-projects-page{
     font-family: "Montserrat", sans-serif !important;
   font-weight: 600 !important;
   font-size: 1.5em;
   margin-bottom: .6em !important;
-  color: #375db6;
+  color: #c8af64 !important;
   }
   .contact-page-header{
     font-family: "Montserrat", sans-serif !important;
@@ -12012,14 +12082,14 @@ margin-top: .2em;
     font-size: 1.5em;
     margin-top: -1.25em;
     margin-bottom: .55em !important;
-    color: #375db6;
+    color: #c8af64 !important;
   }
   .section-header-text-projects{
     font-family: 'Montserrat', sans-serif;
   font-weight: 600 !important;
   margin-bottom: .65em !important;
   font-size: 1.5em;
-  color: #365bb3 !important;
+  color: #c8af64 !important;
   }
   .about1{
     margin-top: -1.5em;
@@ -12092,11 +12162,11 @@ margin-left: -7px;
     .body-text{
       font-family: "Lato", sans-serif !important;
       font-weight: 400 !important;
-      font-size: 1.45em;
+      font-size: 1.4em;
       margin-top: .75em;
       margin-left: 0em;
       margin-bottom: .65em;
-      width: 95% !important;
+      width: 96% !important;
     }
   .py-23{
     padding: 0.23em 0em 0.1em 1.15em !important; 
@@ -12137,7 +12207,7 @@ margin-left: -7px;
     margin-bottom: -.75em !important;
   }
   .mt-custom-projects{
-    margin-top: -.8em !important ;
+    margin-top: -1em !important ;
   }
   .about-image-height{
     height: 330px !important;
@@ -12487,9 +12557,9 @@ margin-left: -7px;
     letter-spacing: .5px;
     font-weight: 500 !important;
       font-style: normal;
-      line-height: 1 !important;
-      font-size: 3.79em !important;
-      margin-top: -.85em;
+      line-height: 1;
+      font-size: 3.75em !important;
+      margin-top: -.3em;
   }
   
   .page-header {
@@ -12939,12 +13009,12 @@ margin-left: -7px;
       z-index: -1; /* Ensure it is behind the image */
     }
     
-  .logo {
-    width: 8.2em !important;
-    margin-right: 0.5em;
-    margin-bottom: 0em !important;
-    margin-left: -1.2em;
-    }
+    .logo {
+      width: 9.25em !important;
+      margin-right: 0.5em;
+      margin-bottom: 0.4em !important;
+      margin-left: -1.2em !important;
+      }
     .navbar .navbar-brand::after {
       position: absolute;
       content: "";
@@ -12954,13 +13024,33 @@ margin-left: -7px;
       right: 0px;
       }  
    
-    .navbar-toggler{
-      margin-right: -.35em !important;
-      margin-bottom: -1em;
-    }
+      .navbar-toggler{
+        margin-right: -.95em !important;
+        margin-bottom: -.75em;
+      }
   }
 /* Media query for screens between 410px and 425 */
 @media (min-width: 700px) and (max-width: 800px) {
+  .logo {
+    width: 9.25em !important; 
+    margin-right: 0.5em;
+    margin-bottom: 1.3em !important;
+    margin-left: -.5em;
+    }
+  .desktop-none{
+    display: block !important;
+  }
+  .underline {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 0px !important; /* Adjust padding as needed to create space for the underline */
+  }
+  
+  .underline::after {
+
+    background-image: none; /* Image path */
+
+  }
   .reviews-section-sub-head{
 
   margin-bottom: .9em !important;
@@ -13415,15 +13505,10 @@ margin-left: -7px;
     margin-left: auto !important;
     margin-right: auto !important;
 }
-  .logo {
-    width: 8.7em;
-    margin-right: 0.5em;
-    margin-bottom: .7em !important;
-    margin-left: -.75em;
-    }
+
     .border-left{
       border-left: white solid 2px;
-      margin-top: 6em !important;
+      margin-top: 5em !important;
       right: 110% !important;
     height: 400px;
       margin-left: .5em !important;
@@ -13678,7 +13763,7 @@ margin-left: -7px;
     font-style: normal;
     color: #fff;
     text-align: left !important;
-
+    line-height: 1.1;
     font-size: 3.85em;
   }
 
@@ -13948,7 +14033,7 @@ text-align: left !important;
   }
 
   .star {
-      margin-left: -.37em;
+      margin-left: -1.5em;
   }
 
   .testimonial-top {
@@ -14138,7 +14223,7 @@ padding: 0em 0em !important;
     font-weight: 500 !important;
       font-style: normal;
       color: #ffffff;
-      font-size: 2.45em;
+      font-size: 2.95em;
   }
   .navbar .navbar-nav .nav-link {
     margin-left: 17px;
@@ -14669,17 +14754,31 @@ margin-left: -7px;
     margin-left: auto !important;
     margin-right: auto !important;
 }
-  .logo {
-    width: 8.7em;
-    margin-right: 0.5em;
-    margin-bottom: .7em !important;
-    margin-left: -.75em;
-    }
+.logo {
+  width: 9.25em !important; 
+  margin-right: 0.5em;
+  margin-bottom: 1.3em !important;
+  margin-left: -.5em;
+  }
+.desktop-none{
+  display: block !important;
+}
+.underline {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 0px !important; /* Adjust padding as needed to create space for the underline */
+}
+
+.underline::after {
+
+  background-image: none; /* Image path */
+
+}
     .border-left{
       border-left: white solid 2px;
-      margin-top: 6.5em !important;
+      margin-top: 5.3em !important;
       right: 110% !important;
-    height: 400px;
+    height: 395px;
       margin-left: .5em !important;
     }
   .navbar-toggler{
@@ -14932,7 +15031,7 @@ margin-left: -7px;
     font-style: normal;
     color: #fff;
     text-align: left !important;
-
+    line-height: 1.1;
     font-size: 3.85em;
   }
 
@@ -15202,7 +15301,7 @@ text-align: left !important;
   }
 
   .star {
-      margin-left: -.37em;
+      margin-left: -1.5em;
   }
 
   .testimonial-top {
@@ -15392,7 +15491,7 @@ padding: 0em 0em !important;
     font-weight: 500 !important;
       font-style: normal;
       color: #ffffff;
-      font-size: 2.65em;
+      font-size: 3em;
   }
   .navbar .navbar-nav .nav-link {
     margin-left: 17px;
@@ -15551,7 +15650,36 @@ padding: 0em 0em !important;
 /* IPAD STYLES */
 
 @media (min-width: 1000px) and (max-width: 1070px){
-   
+  .user{
+    width: 3em !important;
+    margin-left: -1em !important;
+    }
+  .desktop-none{
+    display: block !important;
+  }
+
+  .underline {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 1px !important; /* Adjust padding as needed to create space for the underline */
+  }
+  
+  .underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2px;
+    height: 7px; /* Adjust height based on the image size */
+    background-image: url('../img/underline.png'); /* Image path */
+    background-size: contain;
+    background-repeat: repeat;
+        background-color: transparent; /* Ensure the background is transparent */
+        background-size: 100% 100%; /* Adjust width percentage to make the underline longer */
+  
+    background-position: center bottom;
+    pointer-events: none; /* Ensure the image doesn't interfere with text selection */
+  }
   .mt-small{
     margin-top: 3.5em !important;
   }
@@ -15673,7 +15801,7 @@ padding: 0em 0em !important;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600 !important;
   font-size: 1.35em;
-  color: #365bb3;
+  color: #c8af64 !important;
   margin-bottom: .35em ;
   }
   .section-header-text-about-page{
@@ -15681,28 +15809,28 @@ padding: 0em 0em !important;
   font-weight: 600 !important;
   font-size: 1.5em;
   margin-bottom: .3em ;
-  color: #375db6;
+  color: #c8af64 !important;
   }
   .section-header-projects-page{
     font-family: "Montserrat", sans-serif !important;
   font-weight: 600 !important;
   font-size: 1.4em;
   margin-bottom: .6em ;
-  color: #375db6;
+  color: #c8af64 !important;
   }
   .contact-page-header{
     font-family: "Montserrat", sans-serif !important;
     font-weight: 600 !important;
     font-size: 1.4em;
     margin-bottom: .65em ;
-    color: #375db6;
+    color: #c8af64 !important;
   }
   .section-header-text-projects{
     font-family: 'Montserrat', sans-serif;
   font-weight: 600 !important;
-  margin-bottom: .65em ;
-  font-size: 1.5em;
-  color: #365bb3 !important;
+  margin-bottom: .6em ;
+  font-size: 1.4em;
+  color: #c8af64 !important;
   }
   .border-left{
     border-left: white solid 2px;
@@ -15779,7 +15907,7 @@ padding: 0em 0em !important;
     }
   .topbar-text3{
     white-space: nowrap;
-    margin-left: 4em !important ;
+    margin-left: 3.5em !important ;
     font-family: "Montserrat", sans-serif;
       border: none;
       padding-top: 1.54em !important ;
@@ -15979,7 +16107,7 @@ padding: 0em 0em !important;
 
   .topbar-text2{
     white-space: nowrap;
-    margin-left: 4em !important;
+    margin-left: 3.2em !important;
     font-family: "Montserrat", sans-serif;
       border: none;
       padding-top: 1.52em !important;
@@ -16057,6 +16185,7 @@ background-size: contain !important;  }
     font-weight: 500 !important; 
     font-style: normal;
     color: #fff;
+    line-height: 1.02 !important;
     margin-bottom: -0.02em;
     margin-top: .15em;
     font-size: 4em;
@@ -16075,8 +16204,6 @@ background-size: contain !important;  }
   }
   .btn-nav{
    margin-right: -1em !important;
-background: #253030;
-background: linear-gradient(0deg, #253030, #080808); 
 border-radius: 15px ;
 font-size: 16px;
     font-family: "Montserrat", sans-serif;
@@ -16084,7 +16211,7 @@ font-size: 16px;
     font-weight: 600;
     margin-bottom: 1em;
     text-transform: uppercase;
-    color: #fff !important;
+    color: #24292a !important;
     letter-spacing: .3px;
     font-optical-sizing: auto;
     font-style: normal;
@@ -16333,7 +16460,7 @@ text-align: center;
     color: #ffffff;
     line-height: 1 !important;
 
-    font-size: 3em !important;
+    font-size: 3.5em !important;
 }
 .appointment p{
   font-size: .91em !important;
@@ -16341,7 +16468,7 @@ text-align: center;
 .about-img{
   background-image: url(../img/about-page-image.jpg);
   background-size: cover;
-  height: 852px;
+  height: 822px;
   width: 400px;
   margin-left: 2em;
   object-fit: cover;
@@ -16485,6 +16612,36 @@ margin-top: .2em;
 }
 }
 @media (min-width: 1070px) and (max-width: 1100px){
+  .user{
+    width: 3em !important;
+    margin-left: -1em !important;
+    }
+  .desktop-none{
+    display: block !important;
+  }
+
+  .underline {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 1px !important; /* Adjust padding as needed to create space for the underline */
+  }
+  
+  .underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2px;
+    height: 7px; /* Adjust height based on the image size */
+    background-image: url('../img/underline.png'); /* Image path */
+    background-size: contain;
+    background-repeat: repeat;
+        background-color: transparent; /* Ensure the background is transparent */
+        background-size: 100% 100%; /* Adjust width percentage to make the underline longer */
+  
+    background-position: center bottom;
+    pointer-events: none; /* Ensure the image doesn't interfere with text selection */
+  }
   .carousel-control-prev,
 .carousel-control-next {
   width: 11.5%;
@@ -16661,8 +16818,8 @@ margin-top: .2em;
     font-family: 'Montserrat', sans-serif;
   font-weight: 600 !important;
   margin-bottom: .65em ;
-  font-size: 1.5em;
-  color: #365bb3 !important;
+  font-size: 1.4em;
+  color: #c8af64 !important;
   }
   .border-left{
     border-left: white solid 2px;
@@ -16736,7 +16893,7 @@ margin-top: .2em;
     }
   .topbar-text3{
     white-space: nowrap;
-    margin-left: 5em !important ;
+    margin-left: 4em !important ;
     font-family: "Montserrat", sans-serif;
       border: none;
       padding-top: 1.54em !important ;
@@ -16898,10 +17055,10 @@ margin-top: .2em;
     padding: 0em 0em !important; 
     }
     .logo {
-      width: 8.5em !important;
-      margin-right: .8em;
+      width: 9em !important;
+      margin-right: 1em;
       margin-bottom: 3.93em;
-      margin-left: 1.75em;
+      margin-left: 1.95em;
       margin-top: 1.65em;
       }
   .contact-info {
@@ -16928,7 +17085,7 @@ margin-top: .2em;
   .clipping-mask4 {
     position: absolute;
     top: -80px;
-    left: -90px;
+    left: -100px;
     width: 184px; /* Adjust width as needed */
     height: 200%; /* Adjust height to match the logo container height */
     background: linear-gradient(to right, #324d99, #253056);    clip-path: polygon(83% 0, 59% 54%, 81% 100%, 0% 100%, 0 59%, 0% 0%);  z-index: 0; /* Ensure clipping mask is below the logo */
@@ -16936,7 +17093,7 @@ margin-top: .2em;
 
   .topbar-text2{
     white-space: nowrap;
-    margin-left: 4em !important;
+    margin-left: 3.5em !important;
     font-family: "Montserrat", sans-serif;
       border: none;
       padding-top: 1.52em !important;
@@ -17014,6 +17171,7 @@ background-size: contain !important;  }
     font-weight: 500 !important; 
     font-style: normal;
     color: #fff;
+    line-height: 1.02;
     margin-bottom: -0.02em;
     margin-top: .15em;
     font-size: 4em;
@@ -17032,16 +17190,15 @@ background-size: contain !important;  }
   }
   .btn-nav{
    margin-right: -1em !important;
-background: #253030;
-background: linear-gradient(0deg, #253030, #080808); 
+
 border-radius: 15px ;
 font-size: 16px;
     font-family: "Montserrat", sans-serif;
     border: none;
-    font-weight: 600;
+    font-weight: 600 !important;
     margin-bottom: 1em;
     text-transform: uppercase;
-    color: #fff !important;
+    color: #24292a !important;
     letter-spacing: .3px;
     font-optical-sizing: auto;
     font-style: normal;
@@ -17290,7 +17447,7 @@ text-align: center;
     line-height: 1 !important;
 
     color: #ffffff;
-    font-size: 3.01em !important;
+    font-size: 3.2em !important;
 }
 .appointment p{
   font-size: .91em !important;
@@ -17432,6 +17589,36 @@ z-index: -1; /* Ensure it is behind the image */
 }
 }
 @media (min-width: 1100px) and (max-width: 1170px){
+  .user{
+    width: 3em !important;
+    margin-left: -1em !important;
+    }
+  .desktop-none{
+    display: block !important;
+  }
+
+  .underline {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 1px !important; /* Adjust padding as needed to create space for the underline */
+  }
+  
+  .underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2.5px;
+    height: 7px; /* Adjust height based on the image size */
+    background-image: url('../img/underline.png'); /* Image path */
+    background-size: contain;
+    background-repeat: repeat;
+        background-color: transparent; /* Ensure the background is transparent */
+        background-size: 100% 100%; /* Adjust width percentage to make the underline longer */
+  
+    background-position: center bottom;
+    pointer-events: none; /* Ensure the image doesn't interfere with text selection */
+  }
   .carousel-control-prev,
   .carousel-control-next {
     width: 11%;
@@ -17580,7 +17767,7 @@ z-index: -1; /* Ensure it is behind the image */
       font-family: 'Montserrat', sans-serif;
       font-weight: 600 !important;
     font-size: 1.35em;
-    color: #365bb3;
+    color: #c8af64 !important;
     margin-bottom: .35em ;
     }
     .section-header-text-about-page{
@@ -17588,29 +17775,29 @@ z-index: -1; /* Ensure it is behind the image */
     font-weight: 600 !important;
     font-size: 1.5em;
     margin-bottom: .3em ;
-    color: #375db6;
-    }
+    color: #c8af64 !important;
+  }
     .section-header-projects-page{
       font-family: "Montserrat", sans-serif !important;
     font-weight: 600 !important;
     font-size: 1.4em;
     margin-bottom: .6em ;
-    color: #375db6;
-    }
+    color: #c8af64 !important;
+  }
     .contact-page-header{
       font-family: "Montserrat", sans-serif !important;
       font-weight: 600 !important;
       font-size: 1.4em;
       margin-bottom: .65em ;
-      color: #375db6;
+      color: #c8af64 !important;
     }
     .section-header-text-projects{
       font-family: 'Montserrat', sans-serif;
     font-weight: 600 !important;
     margin-bottom: .65em ;
-    font-size: 1.5em;
-    color: #365bb3 !important;
-    }
+    font-size: 1.4em;
+    color: #c8af64 !important;
+  }
     .border-left{
       border-left: white solid 2px;
       margin-top: 8em !important;
@@ -17683,7 +17870,7 @@ z-index: -1; /* Ensure it is behind the image */
       }
     .topbar-text3{
       white-space: nowrap;
-      margin-left: 6em !important ;
+      margin-left: 5em !important ;
       font-family: "Montserrat", sans-serif;
         border: none;
         padding-top: 1.54em !important ;
@@ -17830,7 +18017,7 @@ z-index: -1; /* Ensure it is behind the image */
       font-weight: 400 !important;
         font-style: normal;
         text-shadow: 1px 6px 2px rgba(0, 0, 0, 0.05); /* Adjust the values as needed */
-        font-size: 3.5em !important;
+        font-size: 3.65em !important;
       }
     .about-section-font{
       color: #121212   ;
@@ -17845,10 +18032,10 @@ z-index: -1; /* Ensure it is behind the image */
       padding: 0em 0em !important; 
       }
       .logo {
-        width: 8.5em !important;
-        margin-right: 1em;
+        width: 9em !important;
+        margin-right: .9em;
         margin-bottom: 3.93em;
-        margin-left: 2.5em;
+        margin-left: 2.1em;
         margin-top: 1.65em;
         }
     .contact-info {
@@ -17860,7 +18047,7 @@ z-index: -1; /* Ensure it is behind the image */
     }
     .topbar-text1{
       white-space: nowrap;
-      margin-left: 8em !important;
+      margin-left: 7em !important;
       font-family: "Montserrat", sans-serif;
         border: none;
         letter-spacing: .3px;    font-weight: 600 !important;
@@ -17875,7 +18062,7 @@ z-index: -1; /* Ensure it is behind the image */
     .clipping-mask4 {
       position: absolute;
       top: -80px;
-      left: -80px;
+      left: -90px;
       width: 184px; /* Adjust width as needed */
       height: 200%; /* Adjust height to match the logo container height */
       background: linear-gradient(to right, #324d99, #253056);    clip-path: polygon(83% 0, 59% 54%, 81% 100%, 0% 100%, 0 59%, 0% 0%);  z-index: 0; /* Ensure clipping mask is below the logo */
@@ -17883,7 +18070,7 @@ z-index: -1; /* Ensure it is behind the image */
   
     .topbar-text2{
       white-space: nowrap;
-      margin-left: 4em !important;
+      margin-left: 3.5em !important;
       font-family: "Montserrat", sans-serif;
         border: none;
         padding-top: 1.52em !important;
@@ -17961,6 +18148,7 @@ z-index: -1; /* Ensure it is behind the image */
       font-weight: 500 !important; 
       font-style: normal;
       color: #fff;
+      line-height: 1;
       margin-bottom: -0.02em;
       margin-top: .15em;
       font-size: 4.4em;
@@ -17988,7 +18176,7 @@ z-index: -1; /* Ensure it is behind the image */
       font-weight: 600;
       margin-bottom: 1em;
       text-transform: uppercase;
-      color: #fff !important;
+      color: #24292a !important;
       letter-spacing: .3px;
       font-optical-sizing: auto;
       font-style: normal;
@@ -18237,7 +18425,7 @@ z-index: -1; /* Ensure it is behind the image */
 
       font-style: normal;
       color: #ffffff;
-      font-size: 3.01em !important;
+      font-size: 3.41em !important;
   }
   .appointment p{
     font-size: .91em !important;
@@ -18380,6 +18568,36 @@ z-index: -1; /* Ensure it is behind the image */
 
 }
 @media (min-width: 1170px) and (max-width: 1270px){
+  .user{
+    width: 3em !important;
+    margin-left: -1em !important;
+    }
+  .desktop-none{
+    display: block !important;
+  }
+
+  .underline {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 1px !important; /* Adjust padding as needed to create space for the underline */
+  }
+  
+  .underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 1.5px;
+    height: 8px; /* Adjust height based on the image size */
+    background-image: url('../img/underline.png'); /* Image path */
+    background-size: contain;
+    background-repeat: repeat;
+        background-color: transparent; /* Ensure the background is transparent */
+        background-size: 100% 100%; /* Adjust width percentage to make the underline longer */
+  
+    background-position: center bottom;
+    pointer-events: none; /* Ensure the image doesn't interfere with text selection */
+  }
   .about-section-content{
     padding-right: 2em;
     margin-left: -2em;
@@ -18561,9 +18779,9 @@ z-index: -1; /* Ensure it is behind the image */
       font-family: 'Montserrat', sans-serif;
     font-weight: 600 !important;
     margin-bottom: .65em ;
-    font-size: 1.5em;
-    color: #365bb3 !important;
-    }
+    font-size: 1.4em;
+    color: #c8af64 !important;
+  }
     .border-left{
       border-left: white solid 2px;
       margin-top: 8em !important;
@@ -18636,7 +18854,7 @@ z-index: -1; /* Ensure it is behind the image */
       }
     .topbar-text3{
       white-space: nowrap;
-      margin-left: 6em !important ;
+      margin-left: 5.5em !important ;
       font-family: "Montserrat", sans-serif;
         border: none;
         padding-top: 1.54em !important ;
@@ -18783,7 +19001,7 @@ z-index: -1; /* Ensure it is behind the image */
       font-weight: 400 !important;
         font-style: normal;
         text-shadow: 1px 6px 2px rgba(0, 0, 0, 0.05); /* Adjust the values as needed */
-        font-size: 3.7em !important;
+        font-size: 3.8em !important;
       }
     .about-section-font{
       color: #121212   ;
@@ -18813,7 +19031,7 @@ z-index: -1; /* Ensure it is behind the image */
     }
     .topbar-text1{
       white-space: nowrap;
-      margin-left: 9.75em !important;
+      margin-left: 9em !important;
       font-family: "Montserrat", sans-serif;
         border: none;
         letter-spacing: .3px;    font-weight: 600 !important;
@@ -18828,7 +19046,7 @@ z-index: -1; /* Ensure it is behind the image */
     .clipping-mask4 {
       position: absolute;
       top: -80px;
-      left: -80px;
+      left: -84px;
       width: 184px; /* Adjust width as needed */
       height: 200%; /* Adjust height to match the logo container height */
       background: linear-gradient(to right, #324d99, #253056);    clip-path: polygon(83% 0, 59% 54%, 81% 100%, 0% 100%, 0 59%, 0% 0%);  z-index: 0; /* Ensure clipping mask is below the logo */
@@ -18914,6 +19132,7 @@ z-index: -1; /* Ensure it is behind the image */
       font-weight: 500 !important; 
       font-style: normal;
       color: #fff;
+      line-height: 1;
       margin-bottom: -0.02em;
       margin-top: .15em;
       font-size: 4.4em;
@@ -18942,7 +19161,7 @@ z-index: -1; /* Ensure it is behind the image */
       font-weight: 600;
       margin-bottom: .8em;
       text-transform: uppercase;
-      color: #fff !important;
+      color: #24292a !important;
       letter-spacing: .3px;
       font-optical-sizing: auto;
       font-style: normal;
@@ -19191,7 +19410,7 @@ z-index: -1; /* Ensure it is behind the image */
       line-height: 1 !important;
 
       color: #ffffff;
-      font-size: 3.01em !important;
+      font-size: 3.5em !important;
   }
   .appointment p{
     font-size: .91em !important;
@@ -19334,6 +19553,36 @@ z-index: -1; /* Ensure it is behind the image */
 
 }
 @media (min-width: 1270px) and (max-width: 1360px){
+  .user{
+    width: 3em !important;
+    margin-left: -1em !important;
+    }
+  .desktop-none{
+    display: block !important;
+  }
+
+  .underline {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 1px !important; /* Adjust padding as needed to create space for the underline */
+  }
+  
+  .underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 3px;
+    height: 8px; /* Adjust height based on the image size */
+    background-image: url('../img/underline.png'); /* Image path */
+    background-size: contain;
+    background-repeat: repeat;
+        background-color: transparent; /* Ensure the background is transparent */
+        background-size: 100% 100%; /* Adjust width percentage to make the underline longer */
+  
+    background-position: center bottom;
+    pointer-events: none; /* Ensure the image doesn't interfere with text selection */
+  }
   .about-section-content{
     padding-right: 2em;
     margin-left: -2em;
@@ -19516,7 +19765,7 @@ z-index: -1; /* Ensure it is behind the image */
     font-weight: 600 !important;
     margin-bottom: .65em ;
     font-size: 1.5em;
-    color: #365bb3 !important;
+    color: #c8af64 !important;
     }
     .border-left{
       border-left: white solid 2px;
@@ -19590,7 +19839,7 @@ z-index: -1; /* Ensure it is behind the image */
       }
     .topbar-text3{
       white-space: nowrap;
-      margin-left: 8em !important ;
+      margin-left: 6.5em !important ;
       font-family: "Montserrat", sans-serif;
         border: none;
         padding-top: 1.54em !important ;
@@ -19646,7 +19895,7 @@ z-index: -1; /* Ensure it is behind the image */
       font-weight: 400 !important;
       line-height: 1.1em;
       color:  #000 !important;
-      font-size: 3.3em !important;
+      font-size: 3.5em !important;
         font-style: normal;
     }
     .google-logo {
@@ -19736,8 +19985,9 @@ z-index: -1; /* Ensure it is behind the image */
       font-family: "Bebas Neue", sans-serif;
       font-weight: 400 !important;
         font-style: normal;
+        padding-right: .2em;
         text-shadow: 1px 6px 2px rgba(0, 0, 0, 0.05); /* Adjust the values as needed */
-        font-size: 3.8em !important;
+        font-size: 4em !important;
       }
     .about-section-font{
       color: #121212   ;
@@ -19746,16 +19996,16 @@ z-index: -1; /* Ensure it is behind the image */
         font-style: normal;
         text-shadow: 1px 6px 2px rgba(0, 0, 0, 0.05); /* Adjust the values as needed */
       
-      font-size: 3.8em;
+      font-size: 4em;
       }
     .py-23{
       padding: 0em 0em !important; 
       }
       .logo {
-        width: 9.25em !important;
-        margin-right: 1.4em;
+        width: 9.75em !important;
+        margin-right: 1.3em;
         margin-bottom: 3.93em;
-        margin-left: 3.3em;
+        margin-left: 3.2em;
         margin-top: 1.65em;
         }
     .contact-info {
@@ -19782,7 +20032,7 @@ z-index: -1; /* Ensure it is behind the image */
     .clipping-mask4 {
       position: absolute;
       top: -80px;
-      left: -70px;
+      left: -78px;
       width: 184px; /* Adjust width as needed */
       height: 189%; /* Adjust height to match the logo container height */
       background: linear-gradient(to right, #324d99, #253056);    clip-path: polygon(83% 0, 59% 54%, 81% 100%, 0% 100%, 0 59%, 0% 0%);  z-index: 0; /* Ensure clipping mask is below the logo */
@@ -19868,6 +20118,8 @@ z-index: -1; /* Ensure it is behind the image */
       font-weight: 500 !important; 
       font-style: normal;
       color: #fff;
+      line-height: 1;
+
       margin-bottom: -0.02em;
       margin-top: .15em;
       font-size: 4.4em;
@@ -19886,7 +20138,6 @@ z-index: -1; /* Ensure it is behind the image */
     }
     .btn-nav{
      margin-right: -1em !important;
-  background: #253030;
   border-radius: 15px ;
 
   background: linear-gradient(0deg, #253030, #080808); 
@@ -19896,7 +20147,7 @@ z-index: -1; /* Ensure it is behind the image */
       font-weight: 600;
       margin-bottom: .8em;
       text-transform: uppercase;
-      color: #fff !important;
+      color: #24292a !important;
       letter-spacing: .3px;
       font-optical-sizing: auto;
       font-style: normal;
@@ -20111,15 +20362,15 @@ z-index: -1; /* Ensure it is behind the image */
       color: #ffffff;
       line-height: 1 !important;
 
-      font-size: 3.51em !important;
+      font-size: 3.5em !important;
   }
   .appointment p{
-    font-size: .91em !important;
+    font-size: .95em !important;
   }
   .about-img{
     background-image: url(../img/about-page-image.jpg);
     background-size: cover;
-    height: 744px !important;
+    height: 764px !important;
     width: 530px;
     margin-left: 2em;
     object-fit: cover;
@@ -20254,6 +20505,36 @@ z-index: -1; /* Ensure it is behind the image */
 
 }
 @media (min-width: 1360px) and (max-width: 1400px){
+  .user{
+    width: 3em !important;
+    margin-left: -1em !important;
+    }
+  .desktop-none{
+    display: block !important;
+  }
+
+  .underline {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 1px !important; /* Adjust padding as needed to create space for the underline */
+  }
+  
+  .underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2px;
+    height: 8px; /* Adjust height based on the image size */
+    background-image: url('../img/underline.png'); /* Image path */
+    background-size: contain;
+    background-repeat: repeat;
+        background-color: transparent; /* Ensure the background is transparent */
+        background-size: 100% 100%; /* Adjust width percentage to make the underline longer */
+  
+    background-position: center bottom;
+    pointer-events: none; /* Ensure the image doesn't interfere with text selection */
+  }
   .about-section-content{
     padding-right: 2em;
     margin-left: -2em;
@@ -20436,7 +20717,7 @@ z-index: -1; /* Ensure it is behind the image */
     font-weight: 600 !important;
     margin-bottom: .65em ;
     font-size: 1.5em;
-    color: #365bb3 !important;
+    color: #c8af64 !important;
     }
     .border-left{
       border-left: white solid 2px;
@@ -20510,7 +20791,7 @@ z-index: -1; /* Ensure it is behind the image */
       }
     .topbar-text3{
       white-space: nowrap;
-      margin-left: 11em !important ;
+      margin-left: 9em !important ;
       font-family: "Montserrat", sans-serif;
         border: none;
         padding-top: 1.54em !important ;
@@ -20656,8 +20937,9 @@ z-index: -1; /* Ensure it is behind the image */
       font-family: "Bebas Neue", sans-serif;
       font-weight: 400 !important;
         font-style: normal;
+        padding-right: .43em;
         text-shadow: 1px 6px 2px rgba(0, 0, 0, 0.05); /* Adjust the values as needed */
-        font-size: 3.8em !important;
+        font-size: 4.2em !important;
       }
     .about-section-font{
       color: #121212   ;
@@ -20666,16 +20948,16 @@ z-index: -1; /* Ensure it is behind the image */
         font-style: normal;
         text-shadow: 1px 6px 2px rgba(0, 0, 0, 0.05); /* Adjust the values as needed */
       
-      font-size: 3.8em;
+      font-size: 4em;
       }
     .py-23{
       padding: 0em 0em !important; 
       }
       .logo {
         width: 10.2em !important;
-        margin-right: 1.84em;
+        margin-right: 1.97em;
         margin-bottom: 3.93em;
-        margin-left: 3.6em;
+        margin-left: 3.5em;
         margin-top: 1.7em;
         }
     .contact-info {
@@ -20702,7 +20984,7 @@ z-index: -1; /* Ensure it is behind the image */
     .clipping-mask4 {
       position: absolute;
       top: -80px;
-      left: -70px;
+      left: -73px;
       width: 184px; /* Adjust width as needed */
       height: 189%; /* Adjust height to match the logo container height */
       background: linear-gradient(to right, #324d99, #253056);    clip-path: polygon(83% 0, 59% 54%, 81% 100%, 0% 100%, 0 59%, 0% 0%);  z-index: 0; /* Ensure clipping mask is below the logo */
@@ -20710,7 +20992,7 @@ z-index: -1; /* Ensure it is behind the image */
   
     .topbar-text2{
       white-space: nowrap;
-      margin-left: 5.5em !important;
+      margin-left: 5em !important;
       font-family: "Montserrat", sans-serif;
         border: none;
         padding-top: 1.52em !important;
@@ -20788,6 +21070,7 @@ z-index: -1; /* Ensure it is behind the image */
       font-weight: 500 !important; 
       font-style: normal;
       color: #fff;
+      line-height: 1;
       margin-bottom: -0.02em;
       margin-top: .15em;
       font-size: 4.5em;
@@ -20810,13 +21093,13 @@ z-index: -1; /* Ensure it is behind the image */
   border-radius: 15px ;
 
   background: linear-gradient(0deg, #253030, #080808); 
-      font-size: 19px;
+      font-size: 20px;
       font-family: "Montserrat", sans-serif;
       border: none;
       font-weight: 600;
       margin-bottom: .8em;
       text-transform: uppercase;
-      color: #fff !important;
+      color: #24292a !important;
       letter-spacing: .3px;
       font-optical-sizing: auto;
       font-style: normal;
@@ -21039,7 +21322,7 @@ z-index: -1; /* Ensure it is behind the image */
   .about-img{
     background-image: url(../img/about-page-image.jpg);
     background-size: cover;
-    height: 744px !important;
+    height: 760px !important;
     width: 530px;
     margin-left: 2em;
     object-fit: cover;
@@ -21173,11 +21456,40 @@ z-index: -1; /* Ensure it is behind the image */
   }
 }
 @media (min-width: 1400px) and (max-width: 1500px){
+  .user{
+    width: 3em !important;
+    margin-left: -1em !important;
+    }
+  .desktop-none{
+    display: block !important;
+  }
+
+  .underline {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 1px !important; /* Adjust padding as needed to create space for the underline */
+  }
   
+  .underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 3px;
+    height: 8px; /* Adjust height based on the image size */
+    background-image: url('../img/underline.png'); /* Image path */
+    background-size: contain;
+    background-repeat: repeat;
+        background-color: transparent; /* Ensure the background is transparent */
+        background-size: 100% 100%; /* Adjust width percentage to make the underline longer */
+  
+    background-position: center bottom;
+    pointer-events: none; /* Ensure the image doesn't interfere with text selection */
+  }
   .font-type-service-header{
     text-align: center;
     text-transform: capitalize;
-    font-size: 1.72em;
+    font-size: 1.82em;
     color: #070707;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400 !important;
@@ -21366,7 +21678,7 @@ z-index: -1; /* Ensure it is behind the image */
     font-weight: 600 !important;
     margin-bottom: .65em ;
     font-size: 1.5em;
-    color: #365bb3 !important;
+    color: #c8af64 !important;
     }
     .border-left{
       border-left: white solid 2px;
@@ -21440,7 +21752,7 @@ z-index: -1; /* Ensure it is behind the image */
       }
     .topbar-text3{
       white-space: nowrap;
-      margin-left: 11em !important ;
+      margin-left: 10em !important ;
       font-family: "Montserrat", sans-serif;
         border: none;
         padding-top: 1.54em !important ;
@@ -21561,7 +21873,7 @@ z-index: -1; /* Ensure it is behind the image */
       font-family: "Bebas Neue", sans-serif;
       font-weight: 400 !important;
         font-style: normal;
-        font-size: 4em !important;
+        font-size: 4.2em !important;
       }
     .roofing2 {
       color: #fff ;
@@ -21587,7 +21899,7 @@ z-index: -1; /* Ensure it is behind the image */
       font-weight: 400 !important;
         font-style: normal;
         text-shadow: 1px 6px 2px rgba(0, 0, 0, 0.05); /* Adjust the values as needed */
-        font-size: 3.9em !important;
+        font-size: 4.2em !important;
       }
     .about-section-font{
       color: #121212   ;
@@ -21595,13 +21907,14 @@ z-index: -1; /* Ensure it is behind the image */
       font-weight: 400 !important;
         font-style: normal;
         text-shadow: 1px 6px 2px rgba(0, 0, 0, 0.05); /* Adjust the values as needed */
-      font-size: 4.27em;
+      font-size: 4.2em;
+      padding-right: 0em;
       }
     .py-23{
       padding: 0em 0em !important; 
       }
       .logo {
-        width: 10.2em !important;
+        width: 10.3em !important;
         margin-right: 2.15em;
         margin-bottom: 3.93em;
         margin-left: 3.9em;
@@ -21631,7 +21944,7 @@ z-index: -1; /* Ensure it is behind the image */
     .clipping-mask4 {
       position: absolute;
       top: -80px;
-      left: -65px;
+      left: -68px;
       width: 184px; /* Adjust width as needed */
       height: 189%; /* Adjust height to match the logo container height */
       background: linear-gradient(to right, #324d99, #253056);    clip-path: polygon(83% 0, 59% 54%, 81% 100%, 0% 100%, 0 59%, 0% 0%);  z-index: 0; /* Ensure clipping mask is below the logo */
@@ -21746,7 +22059,7 @@ z-index: -1; /* Ensure it is behind the image */
       font-weight: 600;
       margin-bottom: .8em;
       text-transform: uppercase;
-      color: #fff !important;
+      color: #24292a !important;
       letter-spacing: .3px;
       font-optical-sizing: auto;
       font-style: normal;
@@ -21880,7 +22193,7 @@ z-index: -1; /* Ensure it is behind the image */
   }
   
   .about-img-home{
-    height: 660px !important;
+    height: 580px !important;
     width: 540px;
     object-fit: cover;
     background-size: cover !important;
@@ -21969,7 +22282,7 @@ z-index: -1; /* Ensure it is behind the image */
   .about-img{
     background-image: url(../img/about-page-image.jpg);
     background-size: cover;
-    height: 710px !important;
+    height: 740px !important;
     width: 590px;
     margin-left: 2em;
     object-fit: cover;
@@ -22103,16 +22416,47 @@ z-index: -1; /* Ensure it is behind the image */
   }
 }
 @media (min-width: 1500px) and (max-width: 1599px){
+  .user{
+    width: 3em !important;
+    margin-left: -1em !important;
+    }
+  .desktop-none{
+    display: block !important;
+  }
+
+  .underline {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 1px !important; /* Adjust padding as needed to create space for the underline */
+  }
+  
+  .underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 3px;
+    height: 8px; /* Adjust height based on the image size */
+    background-image: url('../img/underline.png'); /* Image path */
+    background-size: contain;
+    background-repeat: repeat;
+        background-color: transparent; /* Ensure the background is transparent */
+        background-size: 100% 100%; /* Adjust width percentage to make the underline longer */
+  
+    background-position: center bottom;
+    pointer-events: none; /* Ensure the image doesn't interfere with text selection */
+  }
   .font-type-service-header{
     text-align: center;
     text-transform: capitalize;
-    font-size: 1.72em;
+    font-size: 1.82em;
     color: #070707;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400 !important;
     letter-spacing: .4px;
 
   }  
+
   .about-section-content{
     padding-right: 2em;
     margin-left: -2em;
@@ -22287,7 +22631,7 @@ z-index: -1; /* Ensure it is behind the image */
       font-family: "Montserrat", sans-serif !important;
       font-weight: 600 !important;
       font-size: 1.4em;
-      margin-bottom: .65em ;
+      margin-bottom: .4em ;
       color: #375db6;
     }
     .section-header-text-projects{
@@ -22295,7 +22639,7 @@ z-index: -1; /* Ensure it is behind the image */
     font-weight: 600 !important;
     margin-bottom: .65em ;
     font-size: 1.5em;
-    color: #365bb3 !important;
+    color: #c8af64 !important;
     }
     .border-left{
       border-left: white solid 2px;
@@ -22369,7 +22713,7 @@ z-index: -1; /* Ensure it is behind the image */
       }
     .topbar-text3{
       white-space: nowrap;
-      margin-left: 13em !important ;
+      margin-left: 11em !important ;
       font-family: "Montserrat", sans-serif;
         border: none;
         padding-top: 1.54em !important ;
@@ -22516,7 +22860,8 @@ z-index: -1; /* Ensure it is behind the image */
       font-weight: 400 !important;
         font-style: normal;
         text-shadow: 1px 6px 2px rgba(0, 0, 0, 0.05); /* Adjust the values as needed */
-        font-size: 3.9em !important;
+        font-size: 4.2em !important;
+        padding-right: .25em;
       }
     .about-section-font{
       color: #121212   ;
@@ -22530,11 +22875,11 @@ z-index: -1; /* Ensure it is behind the image */
       padding: 0em 0em !important; 
       }
       .logo {
-        width: 10.8em !important;
-        margin-right: 2.75em;
+        width: 10.5em !important;
+        margin-right: 3.2em;
         margin-bottom: 3.93em;
-        margin-left: 4.9em;
-        margin-top: 1.7em;
+        margin-left: 4.7em;
+        margin-top: 1.6em;
         }
     .contact-info {
       display: inline-flex;
@@ -22560,7 +22905,7 @@ z-index: -1; /* Ensure it is behind the image */
     .clipping-mask4 {
       position: absolute;
       top: -80px;
-      left: -48px;
+      left: -55px;
       width: 184px; /* Adjust width as needed */
       height: 189%; /* Adjust height to match the logo container height */
       background: linear-gradient(to right, #324d99, #253056);    clip-path: polygon(83% 0, 59% 54%, 81% 100%, 0% 100%, 0 59%, 0% 0%);  z-index: 0; /* Ensure clipping mask is below the logo */
@@ -22675,7 +23020,7 @@ z-index: -1; /* Ensure it is behind the image */
       font-weight: 600;
       margin-bottom: .75em;
       text-transform: uppercase;
-      color: #fff !important;
+      color: #24292a !important;
       letter-spacing: .3px;
       font-optical-sizing: auto;
       font-style: normal;
@@ -22809,7 +23154,7 @@ z-index: -1; /* Ensure it is behind the image */
   }
   
   .about-img-home{
-    height: 660px !important;
+    height: 580px !important;
     width: 540px;
     object-fit: cover;
     background-size: cover !important;
@@ -23032,16 +23377,47 @@ z-index: -1; /* Ensure it is behind the image */
 
 }
 @media (min-width: 1600px) and (max-width: 1679px){
+  .user{
+    width: 3em !important;
+    margin-left: -1em !important;
+    }
+  .desktop-none{
+    display: block !important;
+  }
+
+  .underline {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 1px !important; /* Adjust padding as needed to create space for the underline */
+  }
+  
+  .underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2.5px;
+    height: 8px; /* Adjust height based on the image size */
+    background-image: url('../img/underline.png'); /* Image path */
+    background-size: contain;
+    background-repeat: repeat;
+        background-color: transparent; /* Ensure the background is transparent */
+        background-size: 100% 100%; /* Adjust width percentage to make the underline longer */
+  
+    background-position: center bottom;
+    pointer-events: none; /* Ensure the image doesn't interfere with text selection */
+  }
   .font-type-service-header{
     text-align: center;
     text-transform: capitalize;
-    font-size: 1.72em;
+    font-size: 1.82em;
     color: #070707;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400 !important;
     letter-spacing: .4px;
 
   }  
+
   .about-section-content{
     padding-right: 2em;
     margin-left: -2em;
@@ -23216,7 +23592,7 @@ z-index: -1; /* Ensure it is behind the image */
       font-family: "Montserrat", sans-serif !important;
       font-weight: 600 !important;
       font-size: 1.4em;
-      margin-bottom: .65em ;
+      margin-bottom: .5em ;
       color: #375db6;
     }
     .section-header-text-projects{
@@ -23224,7 +23600,7 @@ z-index: -1; /* Ensure it is behind the image */
     font-weight: 600 !important;
     margin-bottom: .65em ;
     font-size: 1.5em;
-    color: #365bb3 !important;
+    color: #c8af64 !important;
     }
     .border-left{
       border-left: white solid 2px;
@@ -23298,7 +23674,7 @@ z-index: -1; /* Ensure it is behind the image */
       }
     .topbar-text3{
       white-space: nowrap;
-      margin-left: 15em !important ;
+      margin-left: 13em !important ;
       font-family: "Montserrat", sans-serif;
         border: none;
         padding-top: 1.54em !important ;
@@ -23445,7 +23821,7 @@ z-index: -1; /* Ensure it is behind the image */
       font-weight: 400 !important;
         font-style: normal;
         text-shadow: 1px 6px 2px rgba(0, 0, 0, 0.05); /* Adjust the values as needed */
-        font-size: 3.9em !important;
+        font-size: 4em !important;
       }
     .about-section-font{
       color: #121212   ;
@@ -23459,10 +23835,10 @@ z-index: -1; /* Ensure it is behind the image */
       padding: 0em 0em !important; 
       }
       .logo {
-        width: 11em !important;
-        margin-right: 2.75em;
+        width: 11.4em !important;
+        margin-right:3em;
         margin-bottom: 3.93em;
-        margin-left: 5.2em;
+        margin-left: 5em;
         margin-top: 1.7em;
         }
     .contact-info {
@@ -23489,7 +23865,7 @@ z-index: -1; /* Ensure it is behind the image */
     .clipping-mask4 {
       position: absolute;
       top: -80px;
-      left: -45px;
+      left: -50px;
       width: 184px; /* Adjust width as needed */
       height: 189%; /* Adjust height to match the logo container height */
       background: linear-gradient(to right, #324d99, #253056);    clip-path: polygon(83% 0, 59% 54%, 81% 100%, 0% 100%, 0 59%, 0% 0%);  z-index: 0; /* Ensure clipping mask is below the logo */
@@ -23604,7 +23980,7 @@ z-index: -1; /* Ensure it is behind the image */
       font-weight: 600;
       margin-bottom: .75em;
       text-transform: uppercase;
-      color: #fff !important;
+      color: #24292a !important;
       letter-spacing: .3px;
       font-optical-sizing: auto;
       font-style: normal;
@@ -23738,7 +24114,7 @@ z-index: -1; /* Ensure it is behind the image */
   }
   
   .about-img-home{
-    height: 660px !important;
+    height: 585px !important;
     width: 540px;
     object-fit: cover;
     background-size: cover !important;
@@ -23826,7 +24202,7 @@ z-index: -1; /* Ensure it is behind the image */
   .about-img{
     background-image: url(../img/about-page-image.jpg);
     background-size: cover;
-    height: 715px !important;
+    height: 735px !important;
     width: 590px;
     margin-left: 2em;
     object-fit: cover;
@@ -23960,16 +24336,48 @@ z-index: -1; /* Ensure it is behind the image */
   }
 }
 @media (min-width: 1679px) and (max-width: 1700px){
+  .user{
+    width: 3em !important;
+    margin-left: -1em !important;
+    }
+  .desktop-none{
+    display: block !important;
+  }
+
+  .underline {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 1px !important; /* Adjust padding as needed to create space for the underline */
+  }
+  
+  .underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2.5px;
+    height: 8px; /* Adjust height based on the image size */
+    background-image: url('../img/underline.png'); /* Image path */
+    background-size: contain;
+    background-repeat: repeat;
+        background-color: transparent; /* Ensure the background is transparent */
+        background-size: 100% 100%; /* Adjust width percentage to make the underline longer */
+  
+    background-position: center bottom;
+    pointer-events: none; /* Ensure the image doesn't interfere with text selection */
+  }
   .font-type-service-header{
     text-align: center;
     text-transform: capitalize;
-    font-size: 1.72em;
+    font-size: 1.82em;
     color: #070707;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400 !important;
     letter-spacing: .4px;
 
   }  
+
+
   .about-section-content{
     padding-right: 2em;
     margin-left: -2em;
@@ -24152,7 +24560,7 @@ z-index: -1; /* Ensure it is behind the image */
     font-weight: 600 !important;
     margin-bottom: .65em ;
     font-size: 1.5em;
-    color: #365bb3 !important;
+    color: #c8af64 !important;
     }
     .border-left{
       border-left: white solid 2px;
@@ -24226,7 +24634,7 @@ z-index: -1; /* Ensure it is behind the image */
       }
     .topbar-text3{
       white-space: nowrap;
-      margin-left: 18em !important ;
+      margin-left: 17em !important ;
       font-family: "Montserrat", sans-serif;
         border: none;
         padding-top: 1.54em !important ;
@@ -24375,7 +24783,7 @@ z-index: -1; /* Ensure it is behind the image */
       font-weight: 400 !important;
         font-style: normal;
         text-shadow: 1px 6px 2px rgba(0, 0, 0, 0.05); /* Adjust the values as needed */
-        font-size: 3.9em !important;
+        font-size: 4em !important;
       }
     .about-section-font{
       color: #121212   ;
@@ -24391,7 +24799,7 @@ z-index: -1; /* Ensure it is behind the image */
       .logo {
         width: 11.2em !important;
         margin-right: 3.75em;
-        margin-bottom: 3.93em;
+        margin-bottom: 4em;
         margin-left: 5.7em;
         margin-top: 1.7em;
         }
@@ -24534,7 +24942,7 @@ z-index: -1; /* Ensure it is behind the image */
       font-weight: 600;
       margin-bottom: .75em;
       text-transform: uppercase;
-      color: #fff !important;
+      color: #24292a !important;
       letter-spacing: .3px;
       font-optical-sizing: auto;
       font-style: normal;
@@ -24668,7 +25076,7 @@ z-index: -1; /* Ensure it is behind the image */
   }
   
   .about-img-home{
-    height: 660px !important;
+    height: 585px !important;
     width: 540px;
     object-fit: cover;
     background-size: cover !important;
@@ -24890,6 +25298,47 @@ z-index: -1; /* Ensure it is behind the image */
   }
 }
 @media (min-width: 1700px) and (max-width: 1800px){
+  .user{
+    width: 3em !important;
+    margin-left: -1em !important;
+    }
+  .desktop-none{
+    display: block !important;
+  }
+
+  .underline {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 1px !important; /* Adjust padding as needed to create space for the underline */
+  }
+  
+  .underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -6px;
+    height: 9px; /* Adjust height based on the image size */
+    background-image: url('../img/underline.png'); /* Image path */
+    background-size: contain;
+    background-repeat: repeat;
+        background-color: transparent; /* Ensure the background is transparent */
+        background-size: 100% 100%; /* Adjust width percentage to make the underline longer */
+  
+    background-position: center bottom;
+    pointer-events: none; /* Ensure the image doesn't interfere with text selection */
+  }
+  .font-type-service-header{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.82em;
+    color: #070707;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400 !important;
+    letter-spacing: .4px;
+
+  }  
+
   .contact-us-page-header{
     font-family: "Bebas Neue", sans-serif;
   color: #000;
@@ -24948,16 +25397,14 @@ z-index: -1; /* Ensure it is behind the image */
   color: #365bb3;
   margin-bottom: .45em !important;
   }
-  .pr-3{
-    padding-right: 2em;
-  }
+
   .choose-us-container .left-section {
     margin-right: 0px !important;
   }
   .border-left{
     border-left: white solid 2px;
-    margin-top: 10em !important;
-    height: 470px !important;
+    margin-top: 9em !important;
+    height: 480px !important;
   }
   .hero-reviews{
     margin-top: 0.75em;
@@ -25199,7 +25646,7 @@ margin-bottom: 1.3em;
         width: 11.8em !important;
         margin-right: 4.5em;
         margin-bottom: 4.25em;
-        margin-left: 5.75em;
+        margin-left: 5.8em;
         margin-top: 1.75em;
         }
     .contact-info {
@@ -25235,7 +25682,7 @@ margin-bottom: 1.3em;
   
     .topbar-text2{
       white-space: nowrap;
-      margin-left: 9em !important;
+      margin-left: 7em !important;
       font-family: "Montserrat", sans-serif;
         border: none;
         padding-top: 1.2em !important;
@@ -25246,7 +25693,7 @@ margin-bottom: 1.3em;
     }
     .topbar-text3{
       white-space: nowrap;
-      margin-left: 12em !important;
+      margin-left: 9em !important;
       font-family: "Montserrat", sans-serif;
         border: none;
         padding-top: 1.2em !important;
@@ -25301,7 +25748,7 @@ margin-bottom: 1.3em;
       justify-content: left;
       }
     .carousel-item{
-      height: 795px !important;
+      height: 775px !important;
     }
     .testimonial-content .user-info {
       display: flex;
@@ -25324,7 +25771,7 @@ margin-bottom: 1.3em;
       font-weight: 600 !important; 
       font-style: normal;
       color: #fff;
-      line-height: 1.1 !important;
+      line-height: 1.13 !important;
       font-size: 5em;
       margin-top: .1em !important; 
       margin-bottom: .1em !important; 
@@ -25354,7 +25801,7 @@ margin-bottom: 1.3em;
       margin-bottom: 0.5em;
       border-radius: 15px;
       text-transform: uppercase;
-      color: #fff !important;
+      color: #24292a !important;
       letter-spacing: .3px;
       font-optical-sizing: auto;
       font-style: normal;
@@ -25393,7 +25840,7 @@ margin-bottom: 1.3em;
     .navbar .navbar-nav .nav-link {
       margin-right: 46px;
       padding: 0px 0px 10px 0;
-      color: #081524 !important;
+      color: #fff !important;
       font-size: 24px ;
       font-weight: 600 !important;
       outline: none;
@@ -25536,7 +25983,6 @@ margin-bottom: 1.3em;
     left: 5px; /* Adjust the position as needed */
     width: 60%; /* Adjust the size as needed */
     height: 95%; /* Adjust the size as needed */
-    background: linear-gradient(to right, #324d99, #253056) !important;
     z-index: -1; /* Ensure it is behind the image */
   }
    .shadow-box-contact {
@@ -25550,7 +25996,7 @@ margin-bottom: 1.3em;
   }
   
   .about-img-home{
-    height: 658px;
+    height: 585px;
     width: 570px;
     object-fit: cover;
     background-size: cover !important;
@@ -25640,7 +26086,7 @@ margin-bottom: 1.3em;
   .about-img{
     background-image: url(../img/about-page-image.jpg);
     background-size: cover;
-    height: 735px !important  ;
+    height: 750px !important  ;
     width: 620px !important;
     margin-left: 1em;
     object-fit: cover;
@@ -25780,6 +26226,47 @@ margin-bottom: 1.3em;
   }
 }
 @media (min-width: 1800px) and (max-width: 1900px){
+  .user{
+    width: 3em !important;
+    margin-left: -1em !important;
+    }
+  .desktop-none{
+    display: block !important;
+  }
+
+  .underline {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 1px !important; /* Adjust padding as needed to create space for the underline */
+  }
+  
+  .underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -5px;
+    height: 9px; /* Adjust height based on the image size */
+    background-image: url('../img/underline.png'); /* Image path */
+    background-size: contain;
+    background-repeat: repeat;
+        background-color: transparent; /* Ensure the background is transparent */
+        background-size: 100% 100%; /* Adjust width percentage to make the underline longer */
+  
+    background-position: center bottom;
+    pointer-events: none; /* Ensure the image doesn't interfere with text selection */
+  }
+  .font-type-service-header{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.82em;
+    color: #070707;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400 !important;
+    letter-spacing: .4px;
+
+  }  
+
   .contact-us-page-header{
     font-family: "Bebas Neue", sans-serif;
   color: #000;
@@ -25839,7 +26326,7 @@ margin-bottom: 1.3em;
   margin-bottom: .45em !important;
   }
   .pr-3{
-    padding-right: 2em;
+    padding-right: 0em;
   }
   .choose-us-container .left-section {
     margin-right: 0px !important;
@@ -25847,7 +26334,7 @@ margin-bottom: 1.3em;
   .border-left{
     border-left: white solid 2px;
     margin-top: 10em !important;
-    height: 475px !important;
+    height: 480px !important;
   }
   .hero-reviews{
     margin-top: 0.75em;
@@ -26086,7 +26573,7 @@ margin-bottom: 1.3em;
       padding: 0em 0em; 
       }
       .logo {
-        width: 11.8em !important;
+        width: 11.6em !important;
         margin-right: 4.5em;
         margin-bottom: 4.25em;
         margin-left: 6.65em;
@@ -26136,7 +26623,7 @@ margin-bottom: 1.3em;
     }
     .topbar-text3{
       white-space: nowrap;
-      margin-left: 12em !important;
+      margin-left: 11em !important;
       font-family: "Montserrat", sans-serif;
         border: none;
         padding-top: 1.2em !important;
@@ -26214,7 +26701,7 @@ margin-bottom: 1.3em;
       font-weight: 600 !important; 
       font-style: normal;
       color: #fff;
-      line-height: 1.1 !important;
+      line-height: 1.13 !important;
       font-size: 5em;
       margin-top: .1em !important; 
       margin-bottom: .1em !important; 
@@ -26235,7 +26722,7 @@ margin-bottom: 1.3em;
     .btn-nav{
       background: linear-gradient(90deg, #1c3f94 0%, #2050c5 100%);
       margin-left: .4em;
-      font-size: 22px;
+      font-size: 23px;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   
       font-family: "Montserrat", sans-serif;
@@ -26244,7 +26731,7 @@ margin-bottom: 1.3em;
       margin-bottom: 0.5em;
       border-radius: 15px;
       text-transform: uppercase;
-      color: #fff !important;
+      color: #24292a !important;
       letter-spacing: .3px;
       font-optical-sizing: auto;
       font-style: normal;
@@ -26283,7 +26770,7 @@ margin-bottom: 1.3em;
     .navbar .navbar-nav .nav-link {
       margin-right: 55px;
       padding: 0px 0px 10px 0;
-      color: #081524 !important;
+      color: #fff !important;
       font-size: 25.2px ;
       font-weight: 600 !important;
       outline: none;
@@ -26426,7 +26913,6 @@ margin-bottom: 1.3em;
     left: 5px; /* Adjust the position as needed */
     width: 60%; /* Adjust the size as needed */
     height: 95%; /* Adjust the size as needed */
-    background: linear-gradient(to right, #324d99, #253056) !important;
     z-index: -1; /* Ensure it is behind the image */
   }
    .shadow-box-contact {
@@ -26440,7 +26926,7 @@ margin-bottom: 1.3em;
   }
   
   .about-img-home{
-    height: 658px;
+    height: 588px;
     width: 570px;
     object-fit: cover;
     background-size: cover !important;
@@ -26530,7 +27016,7 @@ margin-bottom: 1.3em;
   .about-img{
     background-image: url(../img/about-page-image.jpg);
     background-size: cover;
-    height: 735px !important  ;
+    height: 755px !important  ;
     width: 620px !important;
     margin-left: 1em;
     object-fit: cover;
@@ -26856,7 +27342,7 @@ margin-bottom: 1.3em;
     font-weight: 600 !important;
     margin-bottom: .65em ;
     font-size: 1.5em;
-    color: #365bb3 !important;
+    color: #c8af64 !important;
     }
     .border-left{
       border-left: white solid 2px;
@@ -27236,7 +27722,7 @@ margin-bottom: 1.3em;
       font-weight: 600;
       margin-bottom: .8em;
       text-transform: uppercase;
-      color: #fff !important;
+      color: #24292a !important;
       letter-spacing: .3px;
       font-optical-sizing: auto;
       font-style: normal;
@@ -28040,15 +28526,9 @@ margin-left: 3.55em;
 
 @media (min-width: 1000px) and (max-width: 1029px){
   .topbar-left-clip {
-    position: absolute;
-    top: 0;
-    left: 0;
-  margin-left: 3.55em;
-    width: 210px; /* Adjust the width of the clipping mask */
     height: 72%; /* Set to match the height of the top bar */
-    background-color: #252f30; /* Background color of the clipping mask */
-    clip-path: polygon(100% 0, 71% 0, 100% 100%);
-    z-index: 1; /* Ensure the clipping mask is behind other content */
+
+  margin-left: 3.5em;
   }
 }
 @media (min-width: 1029px) and (max-width: 1041px){
@@ -28452,7 +28932,7 @@ margin-left: 3.55em;
   .topbar-left-clip {
     height: 74%; /* Set to match the height of the top bar */
 
-  margin-left: 15.2em;
+  margin-left: 15em;
   
   }
 }
@@ -29318,7 +29798,7 @@ margin-right: 20px;
   width: 100%;
   margin-top: .2em;
   font-size: 4.5em ;
-  color: #000000 ;
+  color: #24292a !important   ;
 }
 .icon-png{
 width: 74px;
