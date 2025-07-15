@@ -19730,7 +19730,7 @@ z-index: -1; /* Ensure it is behind the image */
     .choose-us-container .right-section img {
       max-width: 100%;
       object-fit: cover;
-      height: 740px !important;
+      height: 770px !important;
     }
     .section-header-text-about{
       font-family: 'Montserrat', sans-serif;
