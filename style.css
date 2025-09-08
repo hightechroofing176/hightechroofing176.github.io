@@ -11681,4 +11681,7 @@ font-weight: 800 !important ;
   background-position: right 12px center;
   background-size: 16px 16px;
   box-shadow: none;
+}a[href^="tel"] {
+  color: inherit;
+  text-decoration: none;
 }
