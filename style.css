@@ -618,6 +618,9 @@ font-weight: 800 !important ;
   color: #374151 !important;
   margin-bottom: 10px;
 }
+.same-colour{
+  color: #374151 !important;
+}
 
 .contact-details i {
   color: #d72626;
