@@ -620,6 +620,7 @@ font-weight: 800 !important ;
 }
 .same-colour{
   color: #374151 !important;
+  text-decoration: none !important;
 }
 
 .contact-details i {
