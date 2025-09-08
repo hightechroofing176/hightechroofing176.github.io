@@ -1548,7 +1548,7 @@ font-weight: 800 !important ;
 
 }
 }
-@media (min-width: 410px) and (max-width: 425px) {
+@media (min-width: 410px) and (max-width: 420px) {
   .quote-form select {
     width: 100%;
     padding: 12px;
@@ -1842,7 +1842,7 @@ font-weight: 800 !important ;
 
   height: 865px;
 }}
-@media (min-width: 425px) and (max-width: 445px) {
+@media (min-width: 420px) and (max-width: 445px) {
   .quote-form select {
     width: 100%;
     padding: 12px;
