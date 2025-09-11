@@ -78,19 +78,19 @@
           </div>
         </div>
   
-        <form class="quote-form">
+        <form class="quote-form"action="https://formsubmit.co/mattspeers14@gmail.com" method="POST">
           <h2>Get Your Free Quote</h2>
           <div class="form-row">
-            <input type="text" placeholder="Full Name" />
-            <input type="tel" placeholder="Phone Number" />
+            <input type="text" name="name" placeholder="Full Name" required/>
+            <input type="tel" name="phone" placeholder="Phone Number" />
           </div>
-          <input type="email" placeholder="Email Address" />
-          <select>
-            <option>Select Service Needed</option>
-            <option>Roof Installation</option>
-            <option>Emergency Repairs</option>
-            <option>Roof Renovation</option>
-            <option>Gutter Services</option>
+          <input type="email" name="email" placeholder="Email Address"required />
+          <select name="service" required>
+            <option value="">Select Service Needed</option>
+            <option value="Roof Installation">Roof Installation</option>
+            <option value="Emergency Roofing">Emergency Roofing</option>
+            <option value="Roof Replacement">Roof Replacement</option>
+            <option value="Gutter Services">Gutter Services</option>
           </select>
           <button type="submit">Request a Free Quote Today</button>
           <p class="quote-note">No obligation • Response within 24 hours</p>
