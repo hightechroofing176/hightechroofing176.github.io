@@ -18,8 +18,8 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: .7rem 2rem;
-  background-color: #fff;
-  border-bottom: 1px solid #eee;
+  background-color: #25292c !important;
+  border-bottom: 4px solid #f99f50 !important;
 }
 
 .logo-container {
@@ -52,7 +52,7 @@ margin-right: .5em;
 }
 
 .call-btn {
-  background-color: #d72626;
+  background-color: #df7c38;
   color: white;
   border: none;
   font-size: 1.5em ;
@@ -70,7 +70,7 @@ margin-right: .5em;
   align-items: flex-start;
   gap: 2rem ;
   height: 840px;
-  background: linear-gradient(to right, rgba(0,0,0,0.85), rgba(0,0,0,0.65)), url('img/background.jpg') no-repeat center center / cover;
+  background: linear-gradient(to right, rgba(0,0,0,0.85), rgba(0,0,0,0.65)), url('img/background2.jpg') no-repeat center center / cover;
   padding: 7rem 2rem;
   color: white;
 }
@@ -95,7 +95,7 @@ margin-right: .5em;
 }
 
 .highlight {
-  color: #d72626;
+  color: #df7c38 !important;
 }
 
 .subheading {
@@ -165,7 +165,7 @@ margin-right: .5em;
 /* ========== Top Bar ========== */
 /* ========== Top Bar ========== */
 .top-bar {
-  background-color: #02245b;
+  background-color: #df7c38 !important;
   color: white;
   font-size: 1rem;
   padding: 0.85rem 0;
@@ -213,7 +213,7 @@ margin-right: .5em;
 }
 
 .quote-form button {
-  background-color: #d72626;
+  background-color: #df7c38;
   color: white;
   border: none;
   padding: 1rem;
@@ -341,13 +341,13 @@ align-items: center;
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
 }
 .colour-change{
-  color: #d72626;
+  color: #df7c38 !important;
 }
 .years-badge {
   position: absolute;
   bottom: -1.5rem;
   left: -1.5rem;
-  background-color: #d72626;
+  background-color: #25292c !important;
   color: white;
   padding: 1rem;
   border-radius: 1rem;
@@ -449,13 +449,11 @@ font-weight: 800 !important ;
   
   .solutions-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Flexible cards */
-    gap: 2rem; /* More space between cards */
-    padding: 0 2rem; /* Adds margin from sides */
+    gap: 2rem;
+    padding: 0 2rem;
     max-width: 1550px;
     margin: 0 auto;
   }
-  
   
   .solution-card {
     background-color: white;
@@ -624,7 +622,7 @@ font-weight: 800 !important ;
 }
 
 .contact-details i {
-  color: #d72626;
+  color: #df7c38 !important;
   margin-right: 10px;
 }
 
@@ -673,7 +671,7 @@ font-weight: 800 !important ;
   font-size: 1rem;
   font-weight: bold;
   color: white;
-  background-color: #d72626;
+  background-color: #df7c38 !important;
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -681,7 +679,7 @@ font-weight: 800 !important ;
 }
 
 .contact-form-alt button:hover {
-  background-color: #be123c;
+  background-color: #df7c38 !important;
 }
 
 @media (max-width: 768px) {
@@ -752,18 +750,25 @@ font-weight: 800 !important ;
   display: none;
 }
   .site-logo {
-    height: 5.6em;
+    height: 7.6em;
     padding: .5em 0em .2em 0em;
-    margin-left: -.2em !important;
+    margin-left: -.5em !important;
     object-fit: contain;
   }
-
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .2rem 2rem;
+    background-color: #25292c !important;
+    border-bottom: 4px solid #f99f50 !important;
+  }
   .phone-number {
     font-size: 0.95rem;
   }
 
   .call-btn {
-    background-color: #d72626;
+    background-color: #df7c38;
     color: white;
     border: none;
     margin-right: -.5em !important;
@@ -860,7 +865,7 @@ font-weight: 800 !important ;
   }
   .mobile-top-bar {
     display: flex;
-    background-color: #0d2c5b;
+    background-color: #df7c38 !important;
     color: #fff;
     padding: 0.6rem 1rem;
     font-size: 0.95rem;
@@ -881,7 +886,7 @@ font-weight: 800 !important ;
     color: #fff;
   }
   .mobile-top-left i{
-    color: #d72626;
+    color: #fff;
     margin-right: 0.5rem;
     font-size: 1rem;
 
@@ -980,6 +985,7 @@ font-weight: 800 !important ;
   margin-bottom: 5px !important;
 
 }
+
 }
 /* === MEDIA QUERIES: MOBILE (up to 600px) === */
 @media (min-width: 100px) and (max-width: 370px) {
@@ -1040,7 +1046,7 @@ font-weight: 800 !important ;
   }
 
   .call-btn {
-    background-color: #d72626;
+    background-color: #df7c38;
     color: white;
     border: none;
     margin-right: -.75em !important;
@@ -1137,7 +1143,7 @@ font-weight: 800 !important ;
   }
   .mobile-top-bar {
     display: flex;
-    background-color: #0d2c5b;
+    background-color: #df7c38;
     color: #fff;
     padding: 0.6rem 1rem;
     font-size: 0.95rem;
@@ -1158,7 +1164,7 @@ font-weight: 800 !important ;
     color: #fff;
   }
   .mobile-top-left i{
-    color: #d72626;
+    color: #fff;
     margin-right: 0.5rem;
     font-size: 1rem;
 
@@ -1319,10 +1325,19 @@ font-weight: 800 !important ;
   display: none;
 }
   .site-logo {
-    height: 5.6em;
+    height: 7.6em;
     padding: .5em 0em .2em 0em;
-    margin-left: -.2em !important;
+    margin-left: -.5em !important;
     object-fit: contain;
+  }
+ 
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .2rem 2rem;
+    background-color: #25292c !important;
+    border-bottom: 4px solid #f99f50 !important;
   }
 
   .phone-number {
@@ -1330,7 +1345,7 @@ font-weight: 800 !important ;
   }
 
   .call-btn {
-    background-color: #d72626;
+    background-color: #df7c38;
     color: white;
     border: none;
     margin-right: -.5em !important;
@@ -1427,7 +1442,7 @@ font-weight: 800 !important ;
   }
   .mobile-top-bar {
     display: flex;
-    background-color: #0d2c5b;
+    background-color: #df7c38;
     color: #fff;
     padding: 0.6rem 1rem;
     font-size: 0.95rem;
@@ -1448,7 +1463,7 @@ font-weight: 800 !important ;
     color: #fff;
   }
   .mobile-top-left i{
-    color: #d72626;
+    color: #fff;
     margin-right: 0.5rem;
     font-size: 1rem;
 
@@ -1619,7 +1634,7 @@ font-weight: 800 !important ;
   }
 
   .call-btn {
-    background-color: #d72626;
+    background-color: #df7c38;
     color: white;
     border: none;
     margin-right: -.5em !important;
@@ -1716,7 +1731,7 @@ font-weight: 800 !important ;
   }
   .mobile-top-bar {
     display: flex;
-    background-color: #0d2c5b;
+    background-color: #df7c38;
     color: #fff;
     padding: 0.6rem 1rem;
     font-size: 0.95rem;
@@ -1737,7 +1752,7 @@ font-weight: 800 !important ;
     color: #fff;
   }
   .mobile-top-left i{
-    color: #d72626;
+    color: #fff;
     margin-right: 0.5rem;
     font-size: 1rem;
 
@@ -1913,7 +1928,7 @@ font-weight: 800 !important ;
   }
 
   .call-btn {
-    background-color: #d72626;
+    background-color: #df7c38;
     color: white;
     border: none;
     margin-right: -.5em !important;
@@ -2010,7 +2025,7 @@ font-weight: 800 !important ;
   }
   .mobile-top-bar {
     display: flex;
-    background-color: #0d2c5b;
+    background-color: #df7c38;
     color: #fff;
     padding: 0.6rem 1rem;
     font-size: 0.95rem;
@@ -2031,7 +2046,7 @@ font-weight: 800 !important ;
     color: #fff;
   }
   .mobile-top-left i{
-    color: #d72626;
+    color: #fff;
     margin-right: 0.5rem;
     font-size: 1rem;
 
@@ -2207,7 +2222,7 @@ font-weight: 800 !important ;
   }
 
   .call-btn {
-    background-color: #d72626;
+    background-color: #df7c38;
     color: white;
     border: none;
     margin-right: -.5em !important;
@@ -2304,7 +2319,7 @@ font-weight: 800 !important ;
   }
   .mobile-top-bar {
     display: flex;
-    background-color: #0d2c5b;
+    background-color: #df7c38;
     color: #fff;
     padding: 0.6rem 1rem;
     font-size: 0.95rem;
@@ -2325,7 +2340,7 @@ font-weight: 800 !important ;
     color: #fff;
   }
   .mobile-top-left i{
-    color: #d72626;
+    color: #fff;
     margin-right: 0.5rem;
     font-size: 1rem;
 
@@ -2501,7 +2516,7 @@ font-weight: 800 !important ;
   }
 
   .call-btn {
-    background-color: #d72626;
+    background-color: #df7c38;
     color: white;
     border: none;
     margin-right: -.5em !important;
@@ -2598,7 +2613,7 @@ font-weight: 800 !important ;
   }
   .mobile-top-bar {
     display: flex;
-    background-color: #0d2c5b;
+    background-color: #df7c38;
     color: #fff;
     padding: 0.6rem 1rem;
     font-size: 0.95rem;
@@ -2619,7 +2634,7 @@ font-weight: 800 !important ;
     color: #fff;
   }
   .mobile-top-left i{
-    color: #d72626;
+    color: #fff;
     margin-right: 0.5rem;
     font-size: 1rem;
 
@@ -2805,7 +2820,7 @@ font-weight: 800 !important ;
   }
 
   .call-btn {
-    background-color: #d72626;
+    background-color: #df7c38;
     color: white;
     border: none;
     margin-right: .75em !important;
@@ -2904,7 +2919,7 @@ font-weight: 800 !important ;
   }
   .mobile-top-bar {
     display: flex;
-    background-color: #0d2c5b;
+    background-color: #df7c38;
     color: #fff;
     padding: 0.6rem 1rem;
     font-size: 0.95rem;
@@ -2925,7 +2940,7 @@ font-weight: 800 !important ;
     color: #fff;
   }
   .mobile-top-left i{
-    color: #d72626;
+    color: #fff;
     margin-right: 0.5rem;
     font-size: 1rem;
 
@@ -3113,7 +3128,7 @@ font-weight: 800 !important ;
   }
 
   .call-btn {
-    background-color: #d72626;
+    background-color: #df7c38;
     color: white;
     border: none;
     margin-right: -.2em !important;
@@ -3211,7 +3226,7 @@ font-weight: 800 !important ;
   }
   .mobile-top-bar {
     display: flex;
-    background-color: #0d2c5b;
+    background-color: #df7c38;
     color: #fff;
     padding: 0.6rem 1rem;
     font-size: 0.95rem;
@@ -3232,7 +3247,7 @@ font-weight: 800 !important ;
     color: #fff;
   }
   .mobile-top-left i{
-    color: #d72626;
+    color: #fff;
     margin-right: 0.5rem;
     font-size: 1rem;
 
@@ -3386,7 +3401,7 @@ margin-right: .5em;
 }
 
 .call-btn {
-  background-color: #d72626;
+  background-color: #df7c38;
   color: white;
   border: none;
   font-size: 1.3em ;
@@ -4029,7 +4044,7 @@ margin-right: .5em;
 }
 
 .call-btn {
-  background-color: #d72626;
+  background-color: #df7c38;
   color: white;
   border: none;
   font-size: 1.3em ;
@@ -4673,7 +4688,7 @@ margin-right: .5em;
 }
 
 .call-btn {
-  background-color: #d72626;
+  background-color: #df7c38;
   color: white;
   border: none;
   font-size: 1.3em ;
@@ -5317,7 +5332,7 @@ margin-right: .5em;
 }
 
 .call-btn {
-  background-color: #d72626;
+  background-color: #df7c38;
   color: white;
   border: none;
   font-size: 1.3em ;
@@ -5956,7 +5971,7 @@ margin-right: .5em;
 }
 
 .call-btn {
-  background-color: #d72626;
+  background-color: #df7c38;
   color: white;
   border: none;
   font-size: 1.3em ;
@@ -6595,7 +6610,7 @@ margin-right: .5em;
 }
 
 .call-btn {
-  background-color: #d72626;
+  background-color: #df7c38;
   color: white;
   border: none;
   font-size: 1.3em ;
@@ -7234,7 +7249,7 @@ margin-right: .5em;
 }
 
 .call-btn {
-  background-color: #d72626;
+  background-color: #df7c38;
   color: white;
   border: none;
   font-size: 1.3em ;
@@ -7873,7 +7888,7 @@ margin-right: .5em;
 }
 
 .call-btn {
-  background-color: #d72626;
+  background-color: #df7c38;
   color: white;
   border: none;
   font-size: 1.3em ;
@@ -8512,7 +8527,7 @@ margin-right: .5em;
 }
 
 .call-btn {
-  background-color: #d72626;
+  background-color: #df7c38;
   color: white;
   border: none;
   font-size: 1.3em ;
@@ -9151,7 +9166,7 @@ margin-right: .5em;
 }
 
 .call-btn {
-  background-color: #d72626;
+  background-color: #df7c38;
   color: white;
   border: none;
   font-size: 1.3em ;
@@ -9755,7 +9770,7 @@ font-weight: 800 !important ;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: .7rem 2rem;
+  padding: .2rem 2rem;
   background-color: #fff;
   border-bottom: 1px solid #eee;
 }
@@ -9771,8 +9786,8 @@ margin-right: .5em;
 }
 
 .site-logo {
-  height: 7.2em;
-  padding: .5em 0em .2em 0em;
+  height: 9.2em;
+  padding: .5em 0em .2em 0em !important;
   margin-left: 6em;
   object-fit: contain;
 }
@@ -9786,11 +9801,11 @@ margin-right: .5em;
   display: flex;
   align-items: center;
   gap: 2rem;
-  margin-left: 6em;
+  margin-left: 6em
 }
 
 .call-btn {
-  background-color: #d72626;
+  background-color: #df7c38;
   color: white;
   border: none;
   font-size: 1.3em ;
@@ -9857,12 +9872,12 @@ margin-right: .5em;
   align-items: center;
   gap: 0.5rem;
   font-size: 1.35em !important;
-  
+  color: #fff !important;
   font-weight: 500;
 }
 
 .phone-number i {
-  color: #d72626; /* Matches the red button */
+  color: #df7c38; /* Matches the red button */
   transform: rotate(105deg);
 }
 
@@ -10159,12 +10174,13 @@ font-weight: 800 !important ;
   
   .solutions-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Flexible cards */
-    gap: 2rem; /* More space between cards */
-    padding: 0 2rem; /* Adds margin from sides */
-    max-width: 1550px;
+    grid-template-columns: repeat(3, 1fr); /* Always 3 cards per row */
+    gap: 2rem;
+    padding: 0 2rem;
+    max-width: 1250px;
     margin: 0 auto;
   }
+  
   
   
   .solution-card {
@@ -10429,7 +10445,7 @@ margin-right: .5em;
 }
 
 .call-btn {
-  background-color: #d72626;
+  background-color: #df7c38;
   color: white;
   border: none;
   font-size: 1.3em ;
@@ -11033,7 +11049,7 @@ font-weight: 800 !important ;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: .7rem 2rem;
+  padding: .20rem 2rem !important;
   background-color: #fff;
   border-bottom: 1px solid #eee;
 }
@@ -11049,8 +11065,8 @@ margin-right: .5em;
 }
 
 .site-logo {
-  height: 7.2em;
-  padding: .5em 0em .2em 0em;
+  height: 10.5em;
+  padding: .1em 0em .1em 0em !important;
   margin-left: 6em;
   object-fit: contain;
 }
@@ -11068,7 +11084,7 @@ margin-right: .5em;
 }
 
 .call-btn {
-  background-color: #d72626;
+  background-color: #df7c38;
   color: white;
   border: none;
   font-size: 1.3em ;
@@ -11137,12 +11153,12 @@ margin-right: .5em;
   align-items: center;
   gap: 0.5rem;
   font-size: 1.35em !important;
-  
+    color: #fff !important;
   font-weight: 500;
 }
 
 .phone-number i {
-  color: #d72626; /* Matches the red button */
+  color: #df7c38; /* Matches the red button */
   transform: rotate(105deg);
 }
 
@@ -11439,9 +11455,9 @@ font-weight: 800 !important ;
   
   .solutions-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Flexible cards */
-    gap: 2rem; /* More space between cards */
-    padding: 0 2rem; /* Adds margin from sides */
+    grid-template-columns: repeat(3, 1fr) !important; /* Always 3 cards per row */
+    gap: 2rem;
+    padding: 0 2rem;
     max-width: 1550px;
     margin: 0 auto;
   }
@@ -11685,4 +11701,10 @@ font-weight: 800 !important ;
   background-position: right 12px center;
   background-size: 16px 16px;
   box-shadow: none;
+}
+.no-rotate{
+ 
+    transform: rotate(0deg) !important;
+
+  
 }
